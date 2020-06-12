@@ -1,0 +1,609 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT B
+AU Briscoe, G
+   De Wilde, P
+AF Briscoe, Gerard
+   De Wilde, Philippe
+GP IEEE
+TI Digital ecosystems: Evolving service-orientated Architectures
+SO 2006 1ST BIO-INSPIRED MODELS OF NETWORK, INFORMATION AND COMPUTING
+   SYSTEMS
+LA English
+DT Proceedings Paper
+CT 1st International Conference on Bio-Inspired Models of Network,
+   Information and Computing Systems
+CY DEC 11-13, 2006
+CL Madonna di Campiglio, ITALY
+AB A novel optimisation technique inspired by natural ecosystems is presented, where the optimisation works at two levels: a first optimisation, migration of services which are distributed in a decentralised peer-to-peer network, operating continuously in time; this process feeds a second optimisation based on evolutionary computing that operates locally on single peers and is aimed at finding solutions to satisfy locally relevant constraints. Through this twofold process, the local search is accelerated and will yield better local optima, because the distributed optimisation already provides a good sampling of the search space by making use of computations already performed in other peers with similar constraints. We call this new distributed optimisation architecture a Digital Ecosystem, an Ecosystem-Orientated Architecture (EOA) created by extending a Service-Oriented Architecture (SOA) with Distributed Evolutionary Computing (DEC). The Digital Ecosystem will allow services to recombine and evolve over time, constantly seeking to improve their effectiveness for the user base. Individuals within our Digital Ecosystem will be applications (groups of services), created in response to user requests by using evolutionary optimisation to aggregate the services. These individuals will migrate through the Digital Ecosystem and adapt to find niches where they are useful in fulfilling other user requests.
+C1 [Briscoe, Gerard] Univ London Imperial Coll Sci Technol & Med, Dept Elect & Elect Engn, Intelligent Syst & Networks Grp, London SW7 2BT, England.
+   [De Wilde, Philippe] Heriot Watt Univ, Sch Math & Comp Sci, Intelligent Syst Lab, Edinburgh EH14 4AS, Midlothian, Scotland.
+RP Briscoe, G (reprint author), Univ London Imperial Coll Sci Technol & Med, Dept Elect & Elect Engn, Intelligent Syst & Networks Grp, London SW7 2BT, England.
+EM gerard.biiscoe@ic.ac.uk; pdw@macs.hw.ac.uk
+RI De Wilde, Philippe/C-2256-2009
+OI De Wilde, Philippe/0000-0002-4332-1715
+FU EU project Digital Business Ecosystems [507953[1].]
+FX This work is supported by the European Commission under the EU project
+   Digital Business Ecosystems (contract number 507953[1].
+CR [Anonymous], 2005, DIGITAL BUSINESS ECO
+   Beck W. S., 1991, LIFE INTRO BIOL
+   BEGON M, 1996, [No title captured]
+   Bossardt M, 2003, LECT NOTES COMPUT SC, V2982, P163
+   BRISCOE G, 2006, DIGITAL BUSINESS ECO
+   BRISCOE G, 2006, JAVAONE C
+   Erl T, 2005, SERVICE ORIENTED ARC
+   Goldberg D. E., 1989, GENETIC ALGORITHMS S
+   HALE WG, 1995, DICT BIOL
+   HEISTRAHER T, 2004, ECOOP 1 INT WORKSH C
+   MASUCH C, EVOLUTIONARY ENV NET
+   McIlraith SA, 2001, IEEE INTELL SYST APP, V16, P46, DOI 10.1109/5254.920599
+   Milanovic N, 2004, IEEE INTERNET COMPUT, V8, P51, DOI 10.1109/MIC.2004.58
+   NACHIRA F, 2002, [No title captured]
+   Newman MEJ, 1999, PHYS REV E, V60, P7332, DOI 10.1103/PhysRevE.60.7332
+   NORFOLK D, AVOIDING SOA STANDAR
+   PROJECT FI, DIGITAL BUSINESS ECO
+   Rao JH, 2005, LECT NOTES COMPUT SC, V3387, P43
+   REDMORE A, 1994, LONGMAN REFERENCE GU
+   SLEEPER B, DEFINING WEB SERVICE
+   TOMMASI MD, 2005, DIGITAL BUSINESS ECO
+   *W3C, 2004, [No title captured]
+   WARD M, LIFE OFFERS LESSONS
+   Watts DJ, 1998, NATURE, V393, P440, DOI 10.1038/30918
+   Yang XS, 2001, PHYS REV E, V63, part. no., DOI 10.1103/PhysRevE.63.046206
+   DIGITAL BUSINESS ECO
+NR 26
+TC 0
+Z9 0
+U1 0
+U2 2
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-1-4244-0538-1
+PY 2006
+BP 155
+EP +
+PG 2
+WC Computer Science, Artificial Intelligence; Computer Science, Information
+   Systems; Computer Science, Theory & Methods; Telecommunications
+SC Computer Science; Telecommunications
+GA BGJ00
+UT WOS:000247372300028
+DA 2020-05-26
+ER
+
+PT B
+AU Briscoe, G
+   De Wilde, P
+AF Briscoe, Gerard
+   De Wilde, Philippe
+GP IEEE
+TI Evolving service-orientated architectures
+SO 2006 FIRST INTERNATIONAL CONFERENCE ON COMMUNICATIONS AND NETWORKING IN
+   CHINA
+LA English
+DT Proceedings Paper
+CT 1st International Conference on Communications and Networking in China
+CY OCT 25-27, 2006
+CL Beijing, PEOPLES R CHINA
+SP IEEE
+AB A novel optimisation technique inspired by natural ecosystems is presented, where the optimisation works at two levels: a first optimisation, migration of services which are distributed in a decentralised peer-to-peer network, operating continuously in time; this process feeds a second optimisation based on evolutionary computing that operates locally on single peers and is aimed at finding solutions to satisfy locally relevant constraints. Through this twofold process, the local search is accelerated and will yield better local optima, because the distributed optimisation already provides a good sampling of the search space by making use of computations already performed in other peers with similar constraints. We call this new distributed optimisation architecture a Digital Ecosystem, an Ecosystem-Orientated Architecture (EOA) created by extending a Service-Oriented Architecture (SOA) with Distributed Evolutionary Computing (DEC). The Digital Ecosystem will allow services to recombine and evolve over time, constantly seeking to improve their effectiveness for the user base. Individuals within our Digital Ecosystem will be applications (groups of services), created in response to user requests by using evolutionary optimisation to aggregate the services. These individuals will migrate through the Digital Ecosystem and adapt to find niches where they are useful in fulfilling other user requests.
+C1 [Briscoe, Gerard] Imperial Coll London, Intelligent Syst & Networks Grp, London SW7 2BT, England.
+   [De Wilde, Philippe] Heriot Watt Univ, Sch Math & Comp Sci, Intelligent Syst Lab, Edinburgh EH14 4AS, Midlothian, Scotland.
+RP Briscoe, G (reprint author), Imperial Coll London, Intelligent Syst & Networks Grp, London SW7 2BT, England.
+EM gerard.briscoe@ic.ac.uk; pdw@macs.hw.ac.uk
+RI De Wilde, Philippe/C-2256-2009
+OI De Wilde, Philippe/0000-0002-4332-1715
+FU European Commission under the EU project Digital Business Ecosystems
+   [507953 [1]]
+FX This work is supported by the European Commission under the EU project
+   Digital Business Ecosystems (contract number 507953 [1])
+CR Beck W. S., 1991, LIFE INTRO BIOL
+   BEGON M, 1996, [No title captured]
+   Bossardt M, 2003, LECT NOTES COMPUT SC, V2982, P163
+   BRISCOE G, 2006, DIGITAL BUSINESS ECO
+   BRISCOE G, 2006, JAVAONE C
+   *DIG BUS EC PROJ, EX ENV
+   *DIG BUS ECOS PROJ, 2005, DEL 27 1 TERR SOC CA
+   Erl T, 2005, SERVICE ORIENTED ARC
+   *EUR COMM, 2003, SMES COOPERATION
+   Goldberg D. E., 1989, GENETIC ALGORITHMS S
+   HALE WG, 1995, DICT BIOL
+   HEISTRACHER T, 2004, ECOOP 1 INT WORKSH C
+   McIlraith SA, 2001, IEEE INTELL SYST APP, V16, P46, DOI 10.1109/5254.920599
+   Milanovic N, 2004, IEEE INTERNET COMPUT, V8, P51, DOI 10.1109/MIC.2004.58
+   NACHIRA F, 2002, [No title captured]
+   Newman MEJ, 1999, PHYS REV E, V60, P7332, DOI 10.1103/PhysRevE.60.7332
+   NORFOLK D, AVOIDING SOA STANDAR
+   PROJECT FI, DIGITAL BUSINESS ECO
+   Rao JH, 2005, LECT NOTES COMPUT SC, V3387, P43
+   REDMORE A, 1994, LONGMAN REFERENCE GU
+   SLEEPER B, DEFINING WEB SERVICE
+   TOMMASI MD, 2005, DIGITAL BUSINESS ECO
+   *W3C, 2004, [No title captured]
+   WARD M, LIFE OFFERS LESSONS
+   Watts DJ, 1998, NATURE, V393, P440, DOI 10.1038/30918
+   YANG X, 2001, PHYS REV E, V63
+NR 26
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-1-4244-0462-9
+PY 2006
+BP 183
+EP +
+PG 2
+WC Telecommunications
+SC Telecommunications
+GA BGE30
+UT WOS:000246296800031
+DA 2020-05-26
+ER
+
+PT B
+AU Heistracher, T
+   Kurz, T
+   Marcon, G
+   Masuch, C
+AF Heistracher, Thomas
+   Kurz, Thomas
+   Marcon, Giulio
+   Masuch, Claudius
+GP IEEE COMPUTER SOC
+TI Collaborative software engineering with a digital ecosystem
+SO 2006 IEEE INTERNATIONAL CONFERENCE ON GLOBAL SOFTWARE ENGINEERING,
+   PROCEEDINGS
+LA English
+DT Proceedings Paper
+CT IEEE International Conference on Global Software Engineering
+CY OCT 16-19, 2006
+CL Florianopolis, BRAZIL
+SP IEEE, SIEMENS, DELL, Fundacao Certi, FINEP
+AB Adaptation to changing requirements is one of the predominant challenges in distributed development. Software projects exceeding certain scales cannot be addressed by small-sized companies because of the incapability of meeting the financial guarantees and also because of staffing problems. In spite of their advantage of being more flexible, small companies when teaming up are usually overextended due to the overhead of communication and synchronization costs. A need emerges here for an infrastructure endorsing decomposability of software specifications and semi-automatic re-composition of the implemented components to satisfy the original requirements. This infrastructure facilitates a more efficient risk management due to the more finely grained specification. Such an infrastructure is presented here as a result of an ongoing research and implementation activity including real-world testing spanning several European countries and regions.
+C1 [Heistracher, Thomas; Kurz, Thomas; Marcon, Giulio; Masuch, Claudius] Salzburg Univ, Urstein Sud 1, A-5412 Salzburg, Austria.
+RP Heistracher, T (reprint author), Salzburg Univ, Urstein Sud 1, A-5412 Salzburg, Austria.
+EM thomas.heistracher@fh-salzburg.ac.at; thomas.kurz@fh-salzburg.ac.at;
+   giulio.marcon@fh-salzburg.ac.at; claudius.masuch@fh-salzburg.ac.at
+CR AMBLER S, 2002, [No title captured]
+   *DTSCH GES QUAL EV, 2001, FMEA FEHL EINFL, V2
+   Erl T, 2005, SERVICE ORIENTED ARC
+   Frankel D S, 2003, MODEL DRIVEN ARCHITE
+   HARTKOPF S, 2004, P 2 C INT PROJ MAN 2, P259
+   HEISTRACHER T, 2004, COMPUTING RES REPOSI, P71
+   KURZ T, 2005, P MAN GLOB TRENDS CH
+   KURZ T, 2004, P INT C SOFTW PROC I
+   *OMG, 2005, SEM BUS VOC BUS RUL
+   *OMG, 2005, SEM FDN SUBS EX UML
+   REICHLE J, 2003, SUDDEUTSCHE ZEITUNG, V209, P2
+   SANZ SC, 2006, IX MAGAZIN PROFE APR
+NR 12
+TC 0
+Z9 0
+U1 0
+U2 1
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
+BN 0-7695-2663-2
+PY 2006
+BP 119
+EP +
+DI 10.1109/ICGSE.2006.261224
+PG 2
+WC Computer Science, Software Engineering
+SC Computer Science
+GA BFK63
+UT WOS:000242500600014
+DA 2020-05-26
+ER
+
+PT B
+AU Fu, HG
+AF Fu, Huaiguo
+BE Wani, A
+   Li, T
+   Kurgan, L
+   Ye, J
+   Liu, Y
+TI Formal Concept Analysis for digital ecosystem
+SO ICMLA 2006: 5th International Conference on Machine Learning and
+   Applications, Proceedings
+LA English
+DT Proceedings Paper
+CT 5th International Conference on Machine Learning and Applications
+CY DEC 14-16, 2006
+CL Orlando, FL
+SP Assoc Machine Learning & Applicat, Calif State Univ Bakersfield, Armstrong Atlantic State Univ, Florida Int Univ, IEEE, Univ Louisville
+ID ASSOCIATION RULES; ALGORITHM; LATTICES
+AB Formal Concept Analysis (FCA) is an effective tool for data analysis and knowledge discovery. Concept lattice, which is derived from mathematical order theory and lattice theory is the core of FCA. Man); research works of various areas show that concept lattices structures is an effective platform for data mining, machine learning, information retrieval, software engineer etc. This paper offers a brief overview of FCA and proposes to apply FCA as a tool for analysis and visualization of data in Digital ecosystem, and also discusses the applications of data mining for Digital ecosystem.
+C1 Waterford Inst Technol, Telecommun Software & Syst Grp, Waterford, Ireland.
+RP Fu, HG (reprint author), Waterford Inst Technol, Telecommun Software & Syst Grp, Waterford, Ireland.
+CR AGRAWAL R, 1996, [No title captured], P307, DOI DOI 10.1007/978-3-319-31750-2.
+   Bhat PB, 2003, J PARALLEL DISTR COM, V63, P251, DOI 10.1016/S0743-7315(03)00008-X
+   BIRKHOFF G, 1967, [No title captured]
+   Birkhoff G., 1973, AM MATH SOC C PUBLIC, V25
+   BORDAT J, 1986, [No title captured], V24, P31
+   CHEIN M, 1969, B MATH RS, V13
+   CHERVENAK A, 1999, DATA GRID ARCHITECTU
+   FU H, 2004, P 2004 INT C MACH LE
+   Fu HG, 2003, PROC INT C TOOLS ART, P537, DOI 10.1109/TAI.2003.1250237
+   GANTER B, 1984, [No title captured]
+   Ganter B, 1999, FORMAL CONCEPT ANAL
+   GODIN R, 1995, REV INTELLIGENCE ART, P105
+   NGUIFO EM, 2002, J EXPT THEORETICAL A
+   NORRIS EM, 1978, [No title captured], V23, P243
+   Nourine L, 1999, INFORM PROCESS LETT, V71, P199, DOI 10.1016/S0020-0190(99)00108-8
+   Pasquier N, 1999, INFORM SYST, V24, P25, DOI 10.1016/S0306-4379(99)00003-4
+   Pasquier N, 1999, LECT NOTES COMPUT SC, V1540, P398
+   Pei J., 2000, ACM SIGMOD WORKSH RE, P21
+   Provost F, 2000, ADV DISTRIBUTED DATA
+   VALTCHEV P, 2002, J EXPT THEORETICAL A
+   Wille  R., 1982, S ORD SETS, P445
+   WILLE R, CONCEPTUAL LANDSCAPE
+   Wolff R., 2003, 3 IEEE INT C DAT MIN
+   ZAKI MJ, 1999, [No title captured]
+NR 24
+TC 2
+Z9 2
+U1 0
+U2 2
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
+BN 978-0-7695-2735-2
+PY 2006
+BP 143
+EP 148
+PG 6
+WC Computer Science, Artificial Intelligence
+SC Computer Science
+GA BFT06
+UT WOS:000244477800022
+DA 2020-05-26
+ER
+
+PT B
+AU Delina, R
+   Lavrin, A
+   Mihok, P
+AF Delina, Radoslav
+   Lavrin, Anton
+   Mihok, Peter
+BE Christoph, H
+   Gerhard, C
+TI EUROPEAN IST PROJECTS WITH IMPACT ON E-COMMERCE DEVELOPMENT IN SMES
+SO IDIMT-2006
+SE Schriftenreihe Informatik
+LA English
+DT Proceedings Paper
+CT 14th Conference on Interdisciplinary Information Management Talks
+CY SEP 13-15, 2006
+CL Budweis, CZECH REPUBLIC
+SP Austrian Minist Educ, Sci & Culture, Johannes Kepler Univ Linz, Prague Univ Econ, RaiffeisenBank
+AB In order to stay competitive, European Union has started to support wide information technologies adoption in business and collaborative environment within the European market. Within FP6 IST several interesting and important domains were focused, e.g. interoperabilitiy Ebusiness digital ecosystem or ambient intelligence technologies. Within these domains we present in this paper three European projects solving innovative problems emerged mainly in B2B area and support knowledge transfer into NMS.
+C1 [Delina, Radoslav; Lavrin, Anton; Mihok, Peter] Tech Univ Kosice, Kosice, Slovakia.
+EM radoslav.delina@tuke.sk
+RI Delina, Radoslav/L-6141-2015
+OI Delina, Radoslav/0000-0003-0412-9840
+CR *FLUID WIN FIN, LOG PROD INT DOM WEB
+   GUL A, 2004, TURKEY INFORM TECHNO, V3, P133
+   *SEAMLESS, FP6ISTSTREP26476 SEA
+   *VEGA, 1122204 VEGA
+   ABILITIES APPL BUS I
+NR 5
+TC 3
+Z9 3
+U1 0
+U2 2
+PU UNIVERSITATSVERLAG RUDOLF TRAUNER
+PI LINZ
+PA KOGLSTR 14, 4020 LINZ, AUSTRIA
+BN 978-3-85499-049-9
+J9 SCHRIFTEN INFORMATIK
+PY 2006
+VL 19
+BP 331
+EP 342
+PG 12
+WC Business; Computer Science, Information Systems; Computer Science,
+   Software Engineering; Computer Science, Theory & Methods; Education &
+   Educational Research; Management
+SC Business & Economics; Computer Science; Education & Educational Research
+GA BJF54
+UT WOS:000265436100027
+DA 2020-05-26
+ER
+
+PT S
+AU Cisternino, V
+   Corallo, A
+   Solazzo, G
+AF Cisternino, Virginia
+   Corallo, Angelo
+   Solazzo, Gianluca
+BE Gabrys, B
+   Howlett, RJ
+   Jain, LC
+TI A legal architecture for digital ecosystems
+SO KNOWLEDGE-BASED INTELLIGENT INFORMATION AND ENGINEERING SYSTEMS, PT 3,
+   PROCEEDINGS
+SE Lecture Notes in Artificial Intelligence
+LA English
+DT Article; Proceedings Paper
+CT 10th International Conference on Knowledge-Based and Intelligent
+   Information and Engineering Systems
+CY OCT 09-11, 2006
+CL Bournemouth, ENGLAND
+AB This work approaches the problem of the lack of competence, certainty in the reciprocal trading and awareness of regulatory issues for Small and Medium Enterprises that cooperate to dynamically exchange resources, applications, services and knowledge in an e-business context. It is presented the approach adopted in the DBE project(1), in which it is fundamental to promote and boost trust relations between the DBE-adopters and the potential ones, supporting the creation of services and transactions that will occur respecting local regulatory requirement. In this paper we will show how we addresses the previous requirements to design a legal architecture for digital ecosystems, model the knowledge related to contracts, agreement and regulatory issues, grant effectiveness to the general model by designing and implementing a process for the capture, modification and extension of this knowledge.
+C1 Univ Lecce, ISUFI, Ebusiness Management Sect, I-73100 Lecce, Italy.
+RP Cisternino, V (reprint author), Univ Lecce, ISUFI, Ebusiness Management Sect, Via Monteroni SN, I-73100 Lecce, Italy.
+EM virginia.cisternino@ebms.unile.it; angelo.corallo@ebms.unile.it;
+   gianluca.solazzo@ebms.unile.it
+RI Corallo, Angelo/N-6611-2015
+OI Corallo, Angelo/0000-0001-5216-5366
+CR BOER A, 2002, METALEX LEGISLATION
+   Castells Manuel, 1996, RISE NETWORK SOC
+   De Tommasi M, 2005, LECT NOTES ARTIF INT, V3681, P134
+   Dini P, 2005, DIGITAL ECOSYSTEMS R
+   GIOLDASIS N, 2004, DELOS WORKSH DIG LIB, P93
+   GOW G, 2005, GENERIC LAYER KNOWLE
+   MILOSEVIC Z, 1995, SUPPORTING BUSINESS
+   POWELL WW, 1990, RES ORGAN BEHAV, V12, P295
+NR 8
+TC 0
+Z9 0
+U1 0
+U2 1
+PU SPRINGER-VERLAG BERLIN
+PI BERLIN
+PA HEIDELBERGER PLATZ 3, D-14197 BERLIN, GERMANY
+SN 0302-9743
+BN 3-540-46542-1
+J9 LECT NOTES ARTIF INT
+PY 2006
+VL 4253
+BP 1102
+EP 1110
+PG 9
+WC Computer Science, Artificial Intelligence; Computer Science, Information
+   Systems
+SC Computer Science
+GA BFI90
+UT WOS:000242123100139
+DA 2020-05-26
+ER
+
+PT J
+AU Smith, JM
+   Cohon, JL
+AF Smith, JM
+   Cohon, JL
+TI Managing the digital ecosystem
+SO ISSUES IN SCIENCE AND TECHNOLOGY
+LA English
+DT Article
+C1 Carnegie Mellon Univ, Pittsburgh, PA 15213 USA.
+RP Smith, JM (reprint author), Carnegie Mellon Univ, Pittsburgh, PA 15213 USA.
+EM joelms@andrew.cmu.edu
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU NATL ACAD SCIENCES
+PI WASHINGTON
+PA 2101 CONSTITUTION AVE NW, WASHINGTON, DC 20418 USA
+SN 0748-5492
+EI 1938-1557
+J9 ISSUES SCI TECHNOL
+JI Issues Sci. Technol.
+PD FAL
+PY 2005
+VL 22
+IS 1
+BP 56
+EP 62
+PG 7
+WC Engineering, Multidisciplinary; Engineering, Industrial;
+   Multidisciplinary Sciences; Social Issues
+SC Engineering; Science & Technology - Other Topics; Social Issues
+GA 969KL
+UT WOS:000232232900028
+DA 2020-05-26
+ER
+
+PT B
+AU Lavrin, A
+   Zelko, M
+AF Lavrin, Anton
+   Zelko, Miroslav
+BE Christoph, H
+   Gerhard, C
+TI KNOWLEDGE SHARING IN DIGITAL ECOSYSTEMS FOR SMALL AND MEDIUM ENTERPRISES
+SO IDIMT-2005
+SE Schriftenreihe Informatik
+LA English
+DT Proceedings Paper
+CT 13th Conference on Interdisciplinary Information Management Talks
+CY SEP 14-16, 2005
+CL Budweis, CZECH REPUBLIC
+SP Austrian Minist Educ, Sci & Culture, Act Austria Czech Republic, Comp Associates Austria, Johannes Kepler Univ Linz, Prague Univ Econ, Univ S Bohemia
+AB The knowledge-based networked business ecosystem represents geographical (or virtual) area where specific policy initiatives foster growth and improve innovation, productivity and social aspects through the optimal use local assets empowered by information and communication systems (ICT). Effective human interaction with ICT within such a digital ecosystem depends on the access methods, suitability and form of content and knowledge sharing. A network of digital ecosystems, as public common resource, offers to SMEs and to less developed areas opportunities of participation in the global economy.
+C1 [Lavrin, Anton] Tech Univ Kosice, Kosice 04200, Slovakia.
+EM anton.lavrin@tuke.sk; mzelko@sk.uss.com
+CR LAVRIN A, 2003, ICT TRENDS TECHNOLOG, V9, P275
+   Pupakova K, 2004, SCHRIFTEN INFORMATIK, V12, P269
+NR 2
+TC 1
+Z9 1
+U1 0
+U2 3
+PU TRAUNER VERLAG
+PI LINZ
+PA KOGLSTR 14, 4020 LINZ, AUSTRIA
+BN 978-3-85487-835-3
+J9 SCHRIFTEN INFORMATIK
+PY 2005
+VL 16
+BP 237
+EP 252
+PG 16
+WC Business; Computer Science, Information Systems; Computer Science,
+   Theory & Methods; Management
+SC Business & Economics; Computer Science
+GA BJF52
+UT WOS:000265435500017
+DA 2020-05-26
+ER
+
+PT S
+AU Azuaje, F
+AF Azuaje, F
+GP IEEE
+   IEEE
+   IEEE
+   IEEE
+TI Adaptation and reverse evolution in a digital ecosystem
+SO 2001 IEEE INTERNATIONAL CONFERENCE ON SYSTEMS, MAN, AND CYBERNETICS,
+   VOLS 1-5: E-SYSTEMS AND E-MAN FOR CYBERNETICS IN CYBERSPACE
+SE IEEE INTERNATIONAL CONFERENCE ON SYSTEMS, MAN, AND CYBERNETICS,
+   CONFERENCE PROCEEDINGS
+LA English
+DT Proceedings Paper
+CT IEEE International Conference on Systems, Man and Cybernetics (SMC)
+CY OCT 07-10, 2001
+CL TUCSON, AZ
+SP IEEE, Raytheon
+DE artificial life; genetic algorithms; reverse evolution
+AB Artificial life simulations represent an opportunity to study adaptation phenomena observed in living organisms. One such phenomenon is reverse evolution, which has been observed in microbes and some sexual populations. This paper shows how populations of digital organisms achieve reverse evolution using a genetic algorithm approach. Patterns of reverse evolution analysed among a number of phenotypic characters provide an insight into the complexity of this evolutionary process. Similarly this type of approaches may assist the modelling of evolutionary processes, whose outcomes would require many years to be tested on a natural environment.
+C1 Univ Dublin Trinity Coll, Artificial Intelligence Grp, Dublin 2, Ireland.
+RP Azuaje, F (reprint author), Univ Dublin Trinity Coll, Artificial Intelligence Grp, Dublin 2, Ireland.
+CR BULL JJ, 1985, EVOLUTION, V39, P1149, DOI [10.2307/2408742, 10.1111/j.1558-5646.1985.tb00455.x]
+   Crill WD, 2000, GENETICS, V154, P27
+   DUBITZKY W, 2000, SOLFT COMPUTING CASE, P115
+   FORBES N, 2000, IEEE INTELLIGENT NOV, P2
+   HOLLAND JH, 1995, COMPUTATION INTELLIG, P276
+   Rainey PB, 1998, NATURE, V394, P69, DOI 10.1038/27900
+   SERVICE PM, 1988, EVOLUTION, V42, P708, DOI 10.1111/j.1558-5646.1988.tb02489.x
+   Teotonio H, 2000, NATURE, V408, P463, DOI 10.1038/35044070
+NR 8
+TC 0
+Z9 0
+U1 1
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1062-922X
+BN 0-7803-7087-2
+J9 IEEE SYS MAN CYBERN
+PY 2002
+BP 1064
+EP 1068
+PG 5
+WC Computer Science, Artificial Intelligence; Computer Science,
+   Cybernetics; Computer Science, Information Systems; Engineering,
+   Electrical & Electronic
+SC Computer Science; Engineering
+GA BU92K
+UT WOS:000177404200184
+DA 2020-05-26
+ER
+
+PT J
+AU Cliff, D
+   Grand, S
+AF Cliff, D
+   Grand, S
+TI The Creatures global digital ecosystem
+SO ARTIFICIAL LIFE
+LA English
+DT Article
+DE digital organisms; artificial ecosystems; entertainment software
+ID NITRIC-OXIDE
+AB An artificial life entertainment-software product called Creatures was released in Europe in late 1996 and in the United States and Japan in mid-1997. When installed on a domestic computer (PC or Macintosh), each Creatures CD-ROM creates a virtual world in which autonomous software agents exist. The agents, known as "norns," interact with the human user, with each other, and with objects in their virtual world. Each norn coordinates perception and action via its own modular recurrent neural network: Each network has Hebbian learning, plus diffuse modulation of activity via a "hormonal" system that is part of that norn's "biochemistry." Details of each norn's neural network and biochemistry are genetically specified, and norns can breed via sexual reproduction. In the reproduction process, genetic material may be mutated and may also be subjected to "gene duplications" that enable potentially unlimited increases in complexity of the norns' design. Over 500,000 Creatures CD-ROMS have now been sold. As each installed copy of Creatures can support 5 to 10 simultaneously existing individual norns, it seems reasonable to estimate that there are up to 5 million norns existing in the "cyberspace" provided by the global Creatures user community. Continued growth of the global norn population, to figures measured in tens of millions, is quite likely. Although a commercial product, the Creatures digital ecosystem should be of interest to artificial life scientists: There are obvious parallels with Yaeger's PolyWorld and Ray's NetTierra systems. This article provides a detailed discussion of the links between the artificial life literature and the technology used in Creatures and includes anecdotal discussion of the "digital naturalism" witnessed on the many independent websites maintained by Creatures enthusiasts.
+C1 MIT, Artificial Intelligence Lab, Cambridge, MA 02139 USA.
+   CyberLife Technol Ltd Quayside, Cambridge CB5 8AB, England.
+RP Cliff, D (reprint author), MIT, Artificial Intelligence Lab, Cambridge, MA 02139 USA.
+CR BAGLEY RJ, 1992, [No title captured], V2, P141
+   BAGLEY RJ, 1992, [No title captured], V2, P93
+   Banzhaf W., 1994, ARTIF LIFE, P109
+   Batali J., 1994, Artificial Life IV. Proceedings of the Fourth International Workshop on the Synthesis and Simulation of Living Systems, P160
+   Beer R. D., 1995, ADAPT BEHAV, V3, P471
+   BEST ML, 1998, ARTIFICIAL LIFE, V3, P261
+   BLUMBERG B, 1994, [No title captured], V3, P108
+   Blumberg B. M., 1996, THESIS MIT MEDIA LAB
+   CLIFF D, 1995, [No title captured], P200
+   CODERRE B, 1988, ARTIF LIFE, P407
+   Edelman G.M., 1989, NEURAL DARWINISM
+   ELPHICK MR, 1995, J NEUROSCI, V15, P7653
+   Elphick MR, 1996, J EXP BIOL, V199, P2395
+   Epstein J. M., 1996, GROWING ARTIFICIAL S
+   FONTANA W, 1992, [No title captured], V2, P159
+   Grand S., 1997, Proceedings of the First International Conference on Autonomous Agents, P22, DOI 10.1145/267658.267663
+   Grand S., 1998, AUTON AGENT MULTI-AG, V1, P39
+   HARVEY J, 1992, PRACTICE AUTONOMOUS, P346
+   Hinton G. E., 1987, Complex Systems, V1, P495
+   KARAKOTSIOS K, 1992, SIMLIFE OFFICIAL STR
+   Kauffman S. A., 1993, ORIGINS ORDER SELF O
+   Koza J., 1992, GENETIC PROGRAMMING
+   MACLENNAN B, 1992, [No title captured], V2, P631
+   MACLENNAN BJ, 1994, [No title captured], V2, P161
+   MAES P, 1995, COMMUN ACM, V38, P108, DOI 10.1145/219717.219808
+   Mataric M, 1996, ROBOT AUTON SYST, V19, P67, DOI 10.1016/S0921-8890(96)00034-6
+   Mayley G, 1996, EVOL COMPUT, V4, P213, DOI 10.1162/evco.1996.4.3.213
+   MOROWITZ HJ, 1993, ARTIFICIAL LIFE, V3, P381
+   NOBLE J, 1996, ANIMALS ANIMATS, V4, P608
+   Nolfi S., 1995, HDB BRAIN THEORY NEU, P431
+   NOLFI S, 1995, ADV ARTIFICIAL LIFE, P351
+   PACKARD N, 1989, ARTIF LIFE, V6, P141
+   RAY T, 1992, [No title captured], V2, P371
+   Ray Thomas S., 1994, Artificial Life, V1, P179
+   RAY TS, 1998, CONTINUING REPORT NE
+   RAY TS, 1995, THR133 ATR
+   Ridley M, 1993, RED QUEEN SEX EVOLUT
+   Sharf BF, 1997, HEALTH COMMUN, V9, P1, DOI 10.1207/s15327027hc0901_1
+   SIMPSON T, 1998, CREATURES, V2
+   SIMS K, 1995, [No title captured], V1, P353
+   Sloman A., 1990, PHILOS ARTIFICIAL IN, P231
+   STORK D, 1992, ARTIF LIFE, V2, P409
+   Terzopoulos Demetri, 1994, Artificial Life, V1, P327, DOI 10.1162/artl.1994.1.4.327
+   Todd Peter M., 1993, Adaptive Behavior, V2, P5, DOI 10.1177/105971239300200102
+   TRAVERS M, 1988, ARTIF LIFE, P421
+   Van Valen L., 1973, EVOL THEORY, V1, P1, DOI [DOI 10.1038/344864A0, DOI 10.1017/CBO9781139173179]
+   WERNER GM, 1991, [No title captured], V2, P659
+   YAEGER L, 1993, ARTIF LIFE, V3, P263
+   ZAERA N, 1996, [No title captured], V4, P635
+NR 49
+TC 8
+Z9 9
+U1 0
+U2 0
+PU M I T PRESS
+PI CAMBRIDGE
+PA FIVE CAMBRIDGE CENTER, CAMBRIDGE, MA 02142 USA
+SN 1064-5462
+J9 ARTIF LIFE
+JI Artif. Life
+PD WIN
+PY 1999
+VL 5
+IS 1
+BP 77
+EP 93
+DI 10.1162/106454699568683
+PG 17
+WC Computer Science, Artificial Intelligence; Computer Science, Theory &
+   Methods
+SC Computer Science
+GA 231NU
+UT WOS:000082317300004
+PM 10421678
+DA 2020-05-26
+ER
+
+EF

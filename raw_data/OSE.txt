@@ -1,0 +1,2490 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Yim, KS
+   Malchev, I
+   Hsieh, A
+   Burke, D
+AF Yim, Keun Soo
+   Malchev, Iliyan
+   Hsieh, Andrew
+   Burke, Dave
+TI Treble: Fast Software Updates by Creating an Equilibrium in an Active
+   Software Ecosystem of Globally Distributed Stakeholders
+SO ACM TRANSACTIONS ON EMBEDDED COMPUTING SYSTEMS
+LA English
+DT Article; Proceedings Paper
+CT Embedded Systems Week / Int Conf on Compilers, Architecture, and
+   Synthesis for Embedded Systems (CASES) / International Conference on
+   Hardware/Software Codesign and System Synthesis (CODES+ISSS) / Int Conf
+   on Embedded Software (EMSOFT)
+CY OCT 13-18, 2019
+CL New York City, NY
+DE Open source ecosystem; software architecture; software update
+ID ARM
+AB This paper presents our experience with Treble, a two-year initiative to build the modular base in Android, a Java-based mobile platform running on the Linux kernel. Our Treble architecture splits the hardware independent core framework written in Java from the hardware dependent vendor implementations (e.g., user space device drivers, vendor native libraries, and kernel written in C/C++). Cross-layer communications between them are done via versioned, stable inter-process communication interfaces whose backward compatibility is tested by using two API compliance suites. Based on this architecture, we repackage the key Android software components that suffered from crucial post-launch security bugs as separate images. That not only enables separate ownerships but also independent updates of each image by interested ecosystem entities. We discuss our experience of delivering Treble architectural changes to silicon vendors and device makers using a yearly release model. Our experiments and industry rollouts support our hypothesis that giving more freedom to all ecosystem entities and creating an equilibrium are a transformation necessary to further scale the world largest open source ecosystem with over two billion active devices.
+C1 [Yim, Keun Soo; Malchev, Iliyan; Hsieh, Andrew; Burke, Dave] Google, 1600 Amphitheatre Pkwy, Mountain View, CA 94043 USA.
+RP Yim, KS (reprint author), Google, 1600 Amphitheatre Pkwy, Mountain View, CA 94043 USA.
+EM yim@android.com; malchev@google.com; andrewhsieh@google.com;
+   daveburke@google.com
+CR Acar Y, 2016, P IEEE S SECUR PRIV, P433, DOI 10.1109/SP.2016.33
+   Android Central, 2018, WHATS NEW ANDR P GOO
+   Andrus J, 2014, ACM SIGPLAN NOTICES, V49, P367, DOI 10.1145/2541940.2541972
+   Andrus J, 2011, SOSP 11: PROCEEDINGS OF THE TWENTY-THIRD ACM SYMPOSIUM ON OPERATING SYSTEMS PRINCIPLES, P173
+   AOSP (Android Open Source Project), AUD LOOPB DONGL
+   AOSP (Android Open Source Project), 2018, ANDR P BET DEV
+   AOSP (Android Open Source Project), ANDR COMP TEST SUIT
+   AOSP (Android Open Source Project), 2019, ANDR Q BET DEV
+   Arnold J, 2009, EUROSYS'09: PROCEEDINGS OF THE FOURTH EUROSYS CONFERENCE, P187
+   Baumann A, 2005, USENIX ASSOCIATION PROCEEDINGS OF THE GENERAL TRACK: 2005 UNENIX ANNUAL TECHNICAL CONFERENCE, P279
+   Burke D., 2017, INTRO ANDROID V8 0 O
+   Calciati P, 2018, IEEE WORK CONF MIN S, P142, DOI 10.1145/3196398.3196449
+   Chen WZ, 2015, IEEE T COMPUT, V64, P2741, DOI 10.1109/TC.2015.2389791
+   Dall C, 2014, ACM SIGPLAN NOTICES, V49, P333, DOI 10.1145/2541940.2541946
+   Derr E, 2017, CCS'17: PROCEEDINGS OF THE 2017 ACM SIGSAC CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY, P2187, DOI 10.1145/3133956.3134059
+   Elphinstone K, 2013, SOSP'13: PROCEEDINGS OF THE TWENTY-FOURTH ACM SYMPOSIUM ON OPERATING SYSTEMS PRINCIPLES, P133, DOI 10.1145/2517349.2522720
+   Hackborn D. K., 2014, MODERN OPERATING SYS, P815
+   Hwang JY, 2008, CONSUM COMM NETWORK, P257, DOI 10.1016/B978-012372531-8.50043-1
+   Li L, 2018, DEVICE CIRC SYST, P15
+   Mahmoudi M, 2018, IEEE WORK CONF MIN S, P220, DOI 10.1145/3196398.3196434
+   McDonnell T, 2013, PROC IEEE INT CONF S, P70, DOI 10.1109/ICSM.2013.18
+   Mens T, 2002, IEEE T SOFTWARE ENG, V28, P449, DOI 10.1109/TSE.2002.1000449
+   Mulliner Collin, 2013, P 29 ANN COMP SEC AP, P259
+   Wu L., 2013, P 2013 ACM SIGSAC C, P623, DOI DOI 10.1145/2508859.2516728
+   Zhou XY, 2014, P IEEE S SECUR PRIV, P409, DOI 10.1109/SP.2014.33
+NR 25
+TC 0
+Z9 0
+U1 4
+U2 4
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 2 PENN PLAZA, STE 701, NEW YORK, NY 10121-0701 USA
+SN 1539-9087
+EI 1558-3465
+J9 ACM T EMBED COMPUT S
+JI ACM Trans. Embed. Comput. Syst.
+PD OCT
+PY 2019
+VL 18
+IS 5
+SU S
+SI SI
+AR 104
+DI 10.1145/3358237
+PG 23
+WC Computer Science, Hardware & Architecture; Computer Science, Software
+   Engineering
+SC Computer Science
+GA JF2TP
+UT WOS:000491238700060
+DA 2020-05-26
+ER
+
+PT J
+AU Liao, ZF
+   Yi, MJ
+   Wang, Y
+   Liu, SZ
+   Liu, H
+   Zhang, Y
+   Zhou, Y
+AF Liao, Zhifang
+   Yi, Mengjie
+   Wang, Yan
+   Liu, Shengzong
+   Liu, Hui
+   Zhang, Yan
+   Zhou, Yun
+TI Healthy or Not: A Way to Predict Ecosystem Health in GitHub
+SO SYMMETRY-BASEL
+LA English
+DT Article
+DE open source software; GitHub; Symmetry; ecosystem health; evaluation
+   method
+ID SOURCE SOFTWARE ECOSYSTEMS
+AB With the development of open source community, through the interaction of developers, the collaborative development of software, and the sharing of software tools, the formation of open source software ecosystem has matured. Natural ecosystems provide ecological services on which human beings depend. Maintaining a healthy natural ecosystem is a necessity for the sustainable development of mankind. Similarly, maintaining a healthy ecosystem of open source software is also a prerequisite for the sustainable development of open source communities, such as GitHub. This paper takes GitHub as an example to analyze the health condition of open source ecosystem and, also, it is a research area in Symmetry. Firstly, the paper presents the healthy definition of GitHub open source ecosystem health and, then, according to the main components of natural ecosystem health, the paper proposes the health indicators and health indicators evaluation method. Based on the above, the GitHub ecosystem health prediction method is proposed. By analyzing the projects and data collected in GitHub, it is found that, using the proposed evaluation indicators and method, we can analyze the healthy development trend of the GitHub ecosystem and contribute to the stability of ecosystem development.
+C1 [Liao, Zhifang; Yi, Mengjie; Wang, Yan; Zhou, Yun] Cent S Univ, Sch Software, Changsha 410075, Hunan, Peoples R China.
+   [Liu, Shengzong] Hunan Univ Finance & Econ, Dept Informat Management, Changsha 410075, Hunan, Peoples R China.
+   [Liu, Hui] Missouri State Univ, Dept Comp Sci, Springfield, MO 65897 USA.
+   [Zhang, Yan] Glasgow Caledonian Univ, Dept Comp, Sch Comp Engn & Built Environm, Glasgow G4 0BA, Lanark, Scotland.
+RP Liu, SZ (reprint author), Hunan Univ Finance & Econ, Dept Informat Management, Changsha 410075, Hunan, Peoples R China.
+EM zfliao@csu.edu.cn; mengjie_yi@csu.edu.cn; wang_yan@csu.edu.cn;
+   lshz179@163.com; huiliu@missouristate.edu; yan.zhang@gcu.ac.uk;
+   zhouyun@hufu.edu.cn
+OI Liao, zhifang/0000-0002-5525-904X
+FU NSFNational Science Foundation (NSF) [61876190, 61802120]; Hunan
+   Provincial Key Laboratory of Finance & Economics Big Data Science and
+   Technology (Hunan University of Finance and Economics) [2017TP1025];
+   Hunan Provincial Education DepartmentHunan Provincial Education
+   Department [13C095]; Fundamental Research Funds for the Central
+   Universities of Central South University [2018zzts623]; HNNSF
+   [2018JJ2535]
+FX The works that are described in this paper are supported by NSF 61876190
+   and NSF 61802120, Hunan Provincial Key Laboratory of Finance & Economics
+   Big Data Science and Technology (Hunan University of Finance and
+   Economics) 2017TP1025 and HNNSF 2018JJ2535, The scientific research
+   project of Hunan Provincial Education Department No.: 13C095, The
+   Fundamental Research Funds for the Central Universities of Central South
+   University with No. 2018zzts623.
+CR Bosch J., 2010, P SOFTW ARCH 4 EUR C
+   Bosch J, 2010, J SYST SOFTWARE, V83, P67, DOI 10.1016/j.jss.2009.06.051
+   Campbell P.R.J., 2010, P SOFTW ARCH 4 EUR C
+   Capiluppi A., 2003, P EUR C SOFTW MAINT
+   Franco-Bedoya O, 2017, INFORM SOFTWARE TECH, V91, P160, DOI 10.1016/j.infsof.2017.07.007
+   Gousios G., 2009, P 4 MED C INF SYST A
+   Jansen S, 2014, INFORM SOFTWARE TECH, V56, P1508, DOI 10.1016/j.infsof.2014.04.006
+   Jin Zhi, 2016, Science & Technology Review, V34, P42, DOI 10.3981/j.issn.1000-7857.2016.14.005
+   Kuang L, 2018, SECUR COMMUN NETW, DOI 10.1155/2018/3486529
+   Kuang L, 2018, SENSORS-BASEL, V18, DOI 10.3390/s18051556
+   Liao ZF, 2019, MOBILE NETW APPL, V24, P1382, DOI 10.1007/s11036-018-0993-3
+   Liao ZF, 2018, SYMMETRY-BASEL, V10, DOI 10.3390/sym10120747
+   Liao ZF, 2018, IEEE ACCESS, V6, P24003, DOI 10.1109/ACCESS.2018.2810295
+   Manikas K., 2013, CEUR WORKSHOP P, V987, P26
+   Manikas K, 2013, J SYST SOFTWARE, V86, P1294, DOI 10.1016/j.jss.2012.12.026
+   Matragkas N., 2014, P MSR 2014 HYD IND 3
+   Mei H., 2016, COMMUN CHINA COMPUT, V12, P22
+   Messerschmitt D.G., 2003, SOFTWARE ECOSYSTEM U
+   Plakidas K., 2016, P SPLC 16 BEIJ CHIN
+   Qi FM, 2017, INFORM SOFTWARE TECH, V92, P145, DOI 10.1016/j.infsof.2017.07.015
+   Santos R.P.D., 2014, P ICSE COMP 14 HYD I
+   Wang C.H., 2013, STUDIES FACTORS AFFE
+   Zhang Deguang, 2015, Computer Engineering, V41, P106, DOI 10.3969/j.issn.1000-3428.2015.11.019
+NR 23
+TC 1
+Z9 1
+U1 1
+U2 13
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 2073-8994
+J9 SYMMETRY-BASEL
+JI Symmetry-Basel
+PD FEB
+PY 2019
+VL 11
+IS 2
+AR 144
+DI 10.3390/sym11020144
+PG 16
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA HO2SV
+UT WOS:000460767300022
+OA DOAJ Gold, Green Published
+DA 2020-05-26
+ER
+
+PT J
+AU Liao, ZF
+   Wang, NW
+   Liu, SZ
+   Zhang, Y
+   Liu, H
+   Zhang, Q
+AF Liao, Zhifang
+   Wang, Ningwei
+   Liu, Shengzong
+   Zhang, Yan
+   Liu, Hui
+   Zhang, Qi
+TI Identification-Method Research for Open-Source Software Ecosystems
+SO SYMMETRY-BASEL
+LA English
+DT Article
+DE software engineering; symmetry; open-source-software ecosystems;
+   identification; similarity
+ID COMMUNITY STRUCTURE; MODULARITY
+AB In recent years, open-source software (OSS) development has grown, with many developers around the world working on different OSS projects. A variety of open-source software ecosystems have emerged, for instance, GitHub, StackOverflow, and SourceForge. One of the most typical social-programming and code-hosting sites, GitHub, has amassed numerous open-source-software projects and developers in the same virtual collaboration platform. Since GitHub itself is a large open-source community, it hosts a collection of software projects that are developed together and coevolve. The great challenge here is how to identify the relationship between these projects, i.e., project relevance. Software-ecosystem identification is the basis of other studies in the ecosystem. Therefore, how to extract useful information in GitHub and identify software ecosystems is particularly important, and it is also a research area in symmetry. In this paper, a Topic-based Project Knowledge Metrics Framework (TPKMF) is proposed. By collecting the multisource dataset of an open-source ecosystem, project-relevance analysis of the open-source software is carried out on the basis of software-ecosystem identification. Then, we used our Spectral Clustering algorithm based on Core Project (CP-SC) to identify software-ecosystem projects and further identify software ecosystems. We verified that most software ecosystems usually contain a core software project, and most other projects are associated with it. Furthermore, we analyzed the characteristics of the ecosystem, and we also found that interactive information has greater impact on project relevance. Finally, we summarize the Topic-based Project Knowledge Metrics Framework.
+C1 [Liao, Zhifang; Wang, Ningwei; Zhang, Qi] Cent S Univ, Sch Software, Changsha 410075, Hunan, Peoples R China.
+   [Liu, Shengzong] Hunan Univ Finance & Econ, Dept Informat Management, Changsha 410075, Hunan, Peoples R China.
+   [Zhang, Yan] Glasgow Caledonian Univ, Sch Comp Engn & Built Environm, Dept Comp, Glasgow G4 0BA, Lanark, Scotland.
+   [Liu, Hui] Missouri State Univ, Dept Comp Sci, Springfield, MO 65897 USA.
+RP Liu, SZ (reprint author), Hunan Univ Finance & Econ, Dept Informat Management, Changsha 410075, Hunan, Peoples R China.
+EM zfliao@csu.edu.cn; nwwang@csu.edu.cn; lshz179@163.com;
+   yan.zhang@gcu.ac.uk; huiliu@missouristate.edu; 184712009@csu.edu.cn
+OI Liao, zhifang/0000-0002-5525-904X
+FU NSFNational Science Foundation (NSF) [61876190]; Ministry of Science and
+   Technology: Key Research and Development Project [2018YFB003800]; Hunan
+   Provincial Key Laboratory of Finance and Economics Big Data Science and
+   Technology (Hunan University of Finance and Economics) [2017TP1025,
+   HNNSF 2018JJ2535]
+FX The works that are described in this paper are supported by NSF
+   61876190, Ministry of Science and Technology: Key Research and
+   Development Project (2018YFB003800, Hunan Provincial Key Laboratory of
+   Finance and Economics Big Data Science and Technology (Hunan University
+   of Finance and Economics), 2017TP1025 and HNNSF 2018JJ2535.
+CR Adler J, 2010, CYTOM PART A, V77A, P733, DOI 10.1002/cyto.a.20896
+   Barber MJ, 2009, PHYS REV E, V80, DOI 10.1103/PhysRevE.80.026129
+   Bavota G, 2015, EMPIR SOFTW ENG, V20, P1275, DOI 10.1007/s10664-014-9325-9
+   Blei DM, 2003, J MACH LEARN RES, V3, P993, DOI 10.1162/jmlr.2003.3.4-5.993
+   Blincoe K., 2015, P 2015 IEEE ACM 12 W
+   Blondel VD, 2008, J STAT MECH-THEORY E, DOI 10.1088/1742-5468/2008/10/P10008
+   Bosch J., 2010, SOFTWARES PRODUCT LI, P360
+   Businge J, 2012, 2012 28TH IEEE INTERNATIONAL CONFERENCE ON SOFTWARE MAINTENANCE (ICSM), P368, DOI 10.1109/ICSM.2012.6405295
+   Cai TT, 2015, ANN STAT, V43, P1027, DOI 10.1214/14-AOS1290
+   Chen Yutian, 2016, P 33 INT C MACH LEAR
+   Cosentino V, 2017, IEEE ACCESS, V5, P7173, DOI 10.1109/ACCESS.2017.2682323
+   Decan A, 2016, 2016 IEEE 23RD INTERNATIONAL CONFERENCE ON SOFTWARE ANALYSIS, EVOLUTION, AND REENGINEERING (SANER), VOL 1, P493, DOI 10.1109/SANER.2016.12
+   German DM, 2007, 14TH WORKING CONFERENCE ON REVERSE ENGINEERING, PROCEEDINGS, P140, DOI 10.1109/WCRE.2007.5
+   German DM, 2013, EUR CON SFTWR MTNCE, P243, DOI 10.1109/CSMR.2013.33
+   Girvan M, 2002, P NATL ACAD SCI USA, V99, P7821, DOI 10.1073/pnas.122653799
+   Gonzalez-Barahona JM, 2009, EMPIR SOFTW ENG, V14, P262, DOI 10.1007/s10664-008-9100-x
+   Jansen S, 2009, PROC INT CONF SOFTW, P187, DOI 10.1109/ICSE-COMPANION.2009.5070978
+   Jin Zhi, 2016, Science & Technology Review, V34, P42, DOI 10.3981/j.issn.1000-7857.2016.14.005
+   Kuncheva LI, 2004, IEEE SYS MAN CYBERN, P1214
+   Liao ZF, 2019, MOBILE NETW APPL, V24, P1382, DOI 10.1007/s11036-018-0993-3
+   Liao ZF, 2018, SYMMETRY-BASEL, V10, DOI 10.3390/sym10120747
+   Liao ZF, 2018, IEEE ACCESS, V6, P24003, DOI 10.1109/ACCESS.2018.2810295
+   Lungu M., 2010, ASE, P309, DOI DOI 10.1145/1858996.1859058
+   Lungu MM, 2009, THESIS
+   Lusseau D, 2003, P ROY SOC B-BIOL SCI, V270, pS186, DOI 10.1098/rsbl.2003.0057
+   Manikas K., 2013, P 5 INT WORKSH SOFTW
+   Matragkas N., 2014, P 11 WORK C MIN SOFT, P356
+   McDaid A. F., 2011, ARXIV11102515
+   Mockus A, 2009, 2009 6TH IEEE INTERNATIONAL WORKING CONFERENCE ON MINING SOFTWARE REPOSITORIES, P11, DOI 10.1109/MSR.2009.5069476
+   Newman MEJ, 2006, P NATL ACAD SCI USA, V103, P8577, DOI 10.1073/pnas.0601602103
+   Newman MEJ, 2015, PHYS REV LETT, V115, DOI 10.1103/PhysRevLett.115.088701
+   Ossher Joel, 2010, Proceedings of the 2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010), P130, DOI 10.1109/MSR.2010.5463346
+   Rachman Z.A., 2013, P 2013 INT C INF COM
+   Scacchi W, 2012, J SYST SOFTWARE, V85, P1479, DOI 10.1016/j.jss.2012.03.033
+   Taylor IW, 2009, NAT BIOTECHNOL, V27, P199, DOI 10.1038/nbt.1522
+   Thomas D.R., 2015, P 5 ANN ACM CCS WORK, P87, DOI [10.1145/2808117.2808118., DOI 10.1145/2808117.2808118]
+   Thung F, 2013, EUR CON SFTWR MTNCE, P323, DOI 10.1109/CSMR.2013.41
+   Viljainen M, 2011, LECT NOTES BUS INF P, V80, P32
+   Xiao Z., 2014, PHYS REV E, V91
+   Yin G., 2014, P 1 INT WORKSH CROWD, P31, DOI DOI 10.1145/2666539.2666571
+NR 40
+TC 1
+Z9 1
+U1 3
+U2 4
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+EI 2073-8994
+J9 SYMMETRY-BASEL
+JI Symmetry-Basel
+PD FEB
+PY 2019
+VL 11
+IS 2
+AR 182
+DI 10.3390/sym11020182
+PG 18
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA HO2SV
+UT WOS:000460767300060
+OA DOAJ Gold, Green Accepted
+DA 2020-05-26
+ER
+
+PT B
+AU Ferreira, I
+   Stewart, K
+   German, D
+   Adams, B
+AF Ferreira, Isabella
+   Stewart, Kate
+   German, Daniel
+   Adams, Bram
+GP ACM
+TI A Longitudinal Study on the Maintainers' Sentiment of a Large Scale Open
+   Source Ecosystem
+SO 2019 IEEE/ACM 4TH INTERNATIONAL WORKSHOP ON EMOTION AWARENESS IN
+   SOFTWARE ENGINEERING (SEMOTION 2019)
+LA English
+DT Proceedings Paper
+CT IEEE/ACM 4th International Workshop on Emotion Awareness in Software
+   Engineering (SEmotion)
+CY MAY 28, 2019
+CL Montreal, CANADA
+SP IEEE, Assoc Comp Machinery, IEEE Comp Soc
+AB Software development is a collaborative activity in which feelings and emotions can affect the developer's productivity, creativity, and contribution satisfaction. For example, the Linux Kernel Mailing List (LKML), which is used by subsystem maintainers to review patches sent by contributors, is known for its direct communication style, which is sometimes blamed as having a negative impact on contributors. In September 28, 2018, the kernel's lead maintainer, Linus Torvalds, announced that he would take a temporary break from the community, which led numerous members of the kernel community and observers from other communities to wonder to what extent this unexpected event could raise awareness about respectful interactions between community members. This paper performs an exploratory study in which we use an off-the-shelf sentiment mining tool to assess whether the maintainers' sentiment changed after Linus Torvalds' temporary break from his maintainer role. Based on the data available thus far, we did not find any high-level changes in maintainer sentiment. In future work, we will perform more fine-grained sentiment analysis.
+C1 [Ferreira, Isabella; Adams, Bram] Polytech Montreal, Montreal, PQ, Canada.
+   [Stewart, Kate] Linux Fdn, San Francisco, CA USA.
+   [German, Daniel] Univ Victoria, Victoria, BC, Canada.
+RP Ferreira, I (reprint author), Polytech Montreal, Montreal, PQ, Canada.
+EM isabella.ferreira@polymtl.ca; kstewart@linuxfoundation.org; dmg@uvic.ca;
+   bram.adams@polymtl.ca
+FU Linux Foundation
+FX The authors would like to thank the Linux Foundation for their support.
+CR Bettenburg N, 2009, PROC IEEE INT CONF S, P539, DOI 10.1109/ICSM.2009.5306383
+   Calefato F, 2018, EMPIR SOFTW ENG, V23, P1352, DOI 10.1007/s10664-017-9546-9
+   Cook TD, 2002, EXPT QUASIEXPERIMENT
+   Foundjem A, 2017, IEEE INT CONF SOFTW, P219, DOI 10.1109/ICST.2017.27
+   Guzman E., 2014, P 11 WORK C MIN SOFT, P352, DOI DOI 10.1145/2597073.2597118
+   Hertel G, 2003, RES POLICY, V32, P1159, DOI 10.1016/S0048-7333(03)00047-7
+   Imtiaz N, 2018, 2018 IEEE/ACM 3RD INTERNATIONAL WORKSHOP ON EMOTION AWARENESS IN SOFTWARE ENGINEERING (SEMOTION), P55, DOI 10.1145/3194932.3194938
+   Jiang Y., 2014, 2014 ACM IEEE INT S, P51
+   Jongeling R, 2017, EMPIR SOFTW ENG, V22, P2543, DOI 10.1007/s10664-016-9493-x
+   LIN JH, 1991, IEEE T INFORM THEORY, V37, P145, DOI 10.1109/18.61115
+   Murgia A, 2018, EMPIR SOFTW ENG, V23, P521, DOI 10.1007/s10664-017-9526-0
+   Novielli N, 2018, IEEE WORK CONF MIN S, P364, DOI 10.1145/3196398.3196403
+   Ortu M, 2015, 12TH WORKING CONFERENCE ON MINING SOFTWARE REPOSITORIES (MSR 2015), P303, DOI 10.1109/MSR.2015.35
+   Sinha V, 2016, 13TH WORKING CONFERENCE ON MINING SOFTWARE REPOSITORIES (MSR 2016), P520, DOI [10.1109/MSR.2016.069, 10.1145/2901739.2903501]
+   Tian Y, 2012, PROC INT CONF SOFTW, P386, DOI 10.1109/ICSE.2012.6227176
+   Tourani P., 2014, P 24 ANN INT C COMP, P34
+   Tourani P, 2017, 2017 IEEE 24TH INTERNATIONAL CONFERENCE ON SOFTWARE ANALYSIS, EVOLUTION, AND REENGINEERING (SANER), P24, DOI 10.1109/SANER.2017.7884606
+   Wohlin C, 2012, EXPT SOFTWARE ENG
+   Yujuan Jiang, 2013, 2013 10th IEEE Working Conference on Mining Software Repositories (MSR 2013), P101, DOI 10.1109/MSR.2013.6624016
+NR 19
+TC 1
+Z9 1
+U1 1
+U2 1
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1515 BROADWAY, NEW YORK, NY 10036-9998 USA
+BN 978-1-7281-2280-9
+PY 2019
+BP 17
+EP 22
+DI 10.1109/SEmotion.2019.00011
+PG 6
+WC Computer Science, Artificial Intelligence; Computer Science, Software
+   Engineering
+SC Computer Science
+GA BO2HL
+UT WOS:000505788500004
+DA 2020-05-26
+ER
+
+PT J
+AU Liao, ZF
+   Deng, LB
+   Fan, XP
+   Zhang, Y
+   Liu, H
+   Qi, XF
+   Zhou, Y
+AF Liao, Zhifang
+   Deng, Libing
+   Fan, Xiaoping
+   Zhang, Yan
+   Liu, Hui
+   Qi, Xiaofei
+   Zhou, Yun
+TI Empirical Research on the Evaluation Model and Method of Sustainability
+   of the Open Source Ecosystem
+SO SYMMETRY-BASEL
+LA English
+DT Article
+DE software engineering; symmetry; open source ecosystem; sustainability;
+   evaluation indicators system
+ID SOFTWARE ECOSYSTEMS; HEALTH
+AB The development of open source brings new thinking and production modes to software engineering and computer science, and establishes a software development method and ecological environment in which groups participate. Regardless of investors, developers, participants, and managers, they are most concerned about whether the Open Source Ecosystem can be sustainable to ensure that the ecosystem they choose will serve users for a long time. Moreover, the most important quality of the software ecosystem is sustainability, and it is also a research area in Symmetry. Therefore, it is significant to assess the sustainability of the Open Source Ecosystem. However, the current measurement of the sustainability of the Open Source Ecosystem lacks universal measurement indicators, as well as a method and a model. Therefore, this paper constructs an Evaluation Indicators System, which consists of three levels: The target level, the guideline level and the evaluation level, and takes openness, stability, activity, and extensibility as measurement indicators. On this basis, a weight calculation method, based on information contribution values and a Sustainability Assessment Model, is proposed. The models and methods are used to analyze the factors affecting the sustainability of Stack Overflow (SO) ecosystem. Through the analysis, we find that every indicator in the SO ecosystem is partaking in different development trends. The development trend of a single indicator does not represent the sustainable development trend of the whole ecosystem. It is necessary to consider all of the indicators to judge that ecosystem's sustainability. The research on the sustainability of the Open Source Ecosystem is helpful for judging software health, measuring development efficiency and adjusting organizational structure. It also provides a reference for researchers who study the sustainability of software engineering.
+C1 [Liao, Zhifang; Deng, Libing; Zhou, Yun] Cent S Univ, Sch Software, Changsha 410075, Hunan, Peoples R China.
+   [Fan, Xiaoping] Hunan Univ Finance & Econ, Dept Informat Management, Changsha 410075, Hunan, Peoples R China.
+   [Zhang, Yan] Glasgow Caledonian Univ, Dept Comp, Sch Comp Engn & Built Environm, Glasgow G4 0BA, Lanark, Scotland.
+   [Liu, Hui] Missouri State Univ, Dept Comp Sci, Springfield, MO 65897 USA.
+   [Qi, Xiaofei] Cent S Univ, Sch Informat Sci & Engn, Changsha 410075, Hunan, Peoples R China.
+RP Fan, XP (reprint author), Hunan Univ Finance & Econ, Dept Informat Management, Changsha 410075, Hunan, Peoples R China.
+EM zfliao@csu.edu.cn; libdeng@csu.edu.cn; xpfan@csu.edu.cn;
+   yan.zhang@gcu.ac.uk; huiliu@missouristate.edu; qixiaofei@csu.edu.cn;
+   zhouyun@hufe.edu.cn
+OI Fan, Xiaoping/0000-0003-0172-4070; Liao, zhifang/0000-0002-5525-904X
+FU NSFNational Science Foundation (NSF) [61876190]; Ministry of Science and
+   Technology: Key Research and Development Project [2018YFB003800]; Hunan
+   Provincial Key Laboratory of Finance & Economics Big Data Science and
+   Technology (Hunan University of Finance and Economics) [2017TP1025,
+   HNNSF 2018JJ2535]; scientific research project of the Hunan Provincial
+   Education Department [13C095]
+FX The works that are described in this paper are supported by NSF
+   61876190, Ministry of Science and Technology: Key Research and
+   Development Project (2018YFB003800, Hunan Provincial Key Laboratory of
+   Finance & Economics Big Data Science and Technology (Hunan University of
+   Finance and Economics) 2017TP1025 and HNNSF 2018JJ2535, The scientific
+   research project of the Hunan Provincial Education Department No.:
+   13C095.
+CR Aguilar BJ, 1999, ECOSYST HEALTH, V5, P36, DOI 10.1046/j.1526-0992.1999.09905.x
+   Ahkami AH, 2017, RHIZOSPHERE-NETH, V3, P233, DOI 10.1016/j.rhisph.2017.04.012
+   An L, 2017, 2017 IEEE 24TH INTERNATIONAL CONFERENCE ON SOFTWARE ANALYSIS, EVOLUTION, AND REENGINEERING (SANER), P283, DOI 10.1109/SANER.2017.7884629
+   Bader F, 2017, INT J INTERACT MULTI, V4, P48, DOI 10.9781/ijimai.2017.05.001
+   Bosch J, 2010, J SYST SOFTWARE, V83, P67, DOI 10.1016/j.jss.2009.06.051
+   De Kruijf HAM, 1998, ECOTOX ENVIRON SAFE, V40, P4, DOI 10.1006/eesa.1998.1635
+   Dhungana D., 2010, P 4 EUR C SOFTW ARCH, P96
+   Durdik Z, 2012, 2012 28TH IEEE INTERNATIONAL CONFERENCE ON SOFTWARE MAINTENANCE (ICSM), P517, DOI 10.1109/ICSM.2012.6405316
+   Forsius M, 2016, ECOL INDIC, V65, P66, DOI 10.1016/j.ecolind.2015.11.032
+   Fotrousi F, 2014, LECT NOTES BUS INF P, V182, P194
+   Gamalielsson J., 2017, P IFIP INT C OP SOUR, P29
+   Gamalielsson J, 2014, J SYST SOFTWARE, V89, P128, DOI 10.1016/j.jss.2013.11.1077
+   Guo T, 2012, ADV MATER RES-SWITZ, V391-392, P982, DOI 10.4028/www.scientific.net/AMR.391-392.982
+   Gwozdz-Lason M., 2017, IOP C SERIES EARTH E
+   Jansen S, 2014, INFORM SOFTWARE TECH, V56, P1508, DOI 10.1016/j.infsof.2014.04.006
+   Jin Zhi, 2016, Science & Technology Review, V34, P42, DOI 10.3981/j.issn.1000-7857.2016.14.005
+   Joo J., 2016, INT J BUS RES, DOI [10.18374/IJBR-16-1.8, DOI 10.18374/IJBR-16-1.8]
+   Kuang L, 2018, SENSORS-BASEL, V18, DOI 10.3390/s18051556
+   Lee C., 2013, MODEL SUSTAINABLE EC
+   Liao ZF, 2018, IEEE ACCESS, V6, P24003, DOI 10.1109/ACCESS.2018.2810295
+   Lima ED, 2008, COMPUT STAT DATA AN, V52, P1500, DOI 10.1016/j.csda.2007.04.014
+   Lu Yonglong, 2015, Ecosystem Health and Sustainability, V1, DOI 10.1890/EHS14-0013.1
+   Ma Wen-Jing, 2013, Chinese Journal of Plant Ecology, V37, P620, DOI 10.3724/SP.J.1258.2013.00064
+   Manikas K., 2013, CEUR WORKSHOP P, V987, P26
+   Matragkas N., 2014, P 11 WORK C MIN SOFT
+   Mohamad D, 2017, PERTANIKA J SCI TECH, V25, P561
+   Monteith JY, 2014, P 2014 EUR C SOFTW A, DOI 10.1145/2642803.2642812
+   [牛明香 Niu Mingxiang], 2017, [生态学报, Acta Ecologica Sinica], V37, P943
+   Nyman L, 2012, IFIP ADV INF COMMUN, V378, P274, DOI [10.1007/978-3-642-33442-9_21, DOI 10.1007/978-3-642-33442-9_21]
+   Oprime PC, 2017, INT J QUAL RELIAB MA, V34, P38, DOI 10.1108/IJQRM-08-2014-0103
+   Penzenstadler B., 2013, P 28 ANN ACM S APPL, P1183, DOI DOI 10.1145/2480362.2480585
+   Qiang F.U., 2017, STUD DIALECTICS NAT, P33, DOI [10.19484/j.cnki.1000-8934.2017.07.016, DOI 10.19484/J.CNKI.1000-8934.2017.07.016]
+   Ramirez-Carrillo E, 2018, PLOS ONE, V13, DOI 10.1371/journal.pone.0200382
+   SAHU TP, 2016, [No title captured], V9, pNI674, DOI DOI 10.1748/ijst/2016/v9i21/89198
+   Schrepp M, 2017, INT J INTERACT MULTI, V4, P40, DOI 10.9781/ijimai.2017.445
+   Sethanandha B.D., 2012, P TECHN MAN GLOB EC, P1
+   Srba I., 2011, INFORM SCI TECHNOLOG, V8, P1
+   Srba I, 2016, IEEE SOFTWARE, V33, P80, DOI 10.1109/MS.2016.34
+   Sun L., 2011, SHANXI U SCI TECHNOL, V29, P93
+   Wan Jiangping, 2009, SCI TECHNOL MANAG RE, V29, P130
+   Wang SP, 2016, ECOL LETT, V19, P510, DOI 10.1111/ele.12582
+   Zhang Deguang, 2015, Computer Engineering, V41, P106, DOI 10.3969/j.issn.1000-3428.2015.11.019
+NR 42
+TC 7
+Z9 7
+U1 1
+U2 7
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 2073-8994
+J9 SYMMETRY-BASEL
+JI Symmetry-Basel
+PD DEC
+PY 2018
+VL 10
+IS 12
+AR 747
+DI 10.3390/sym10120747
+PG 26
+WC Multidisciplinary Sciences
+SC Science & Technology - Other Topics
+GA HG1NS
+UT WOS:000454725100085
+OA DOAJ Gold, Green Accepted
+DA 2020-05-26
+ER
+
+PT J
+AU Li, YQ
+AF Li, YangQun
+TI An Integrated Platform for the Internet of Things Based on an Open
+   Source Ecosystem
+SO FUTURE INTERNET
+LA English
+DT Article
+DE IoT middleware; open source ecosystem; industrial IoT; integrated
+   development platform; performance evaluation
+ID DEPLOYMENT
+AB The Internet of Things (IoT) is increasingly part of daily life. However, the development of IoT applications still faces many problems, such as heterogeneity, complex management, and other difficulties. In this paper, first, the open source technologies of IoT are surveyed. We compare these technologies from the point of view of different levels of technical requirements, such as device management, data management, communication, intelligent data processing, security and privacy protection; we also look at requirements of application development and deployment. Second, an IoT integrated development platform architecture for IoT applications based on open source ecosystem is proposed and evaluated in an industrial setting. We applied P2P technology to distributed resource management and blockchain-based smart contract mechanics for resource billing management. The results show that the IoT gateway based on an open source ecosystem had a stable and reliable system performance with a certain data size and concurrency scale. These conditions satisfy the application requirements of the IoT in most sensing environments.
+C1 [Li, YangQun] Nanjing Univ Posts & Telecommun, Coll Internet Things, Nanjing 210003, Jiangsu, Peoples R China.
+RP Li, YQ (reprint author), Nanjing Univ Posts & Telecommun, Coll Internet Things, Nanjing 210003, Jiangsu, Peoples R China.
+EM yqli@njupt.edu.cn
+FU National Natural Science Foundation of ChinaNational Natural Science
+   Foundation of China [61502246]; Research Innovation Program for College
+   Graduates of Jiangsu Province [CXZZ12_0482]; Research Project of Nanjing
+   University of Posts and Telecommunications [XK0160915170]
+FX This work was funded by the National Natural Science Foundation of China
+   (No. 61502246), the Research Innovation Program for College Graduates of
+   Jiangsu Province (No. CXZZ12_0482), and the Research Project of Nanjing
+   University of Posts and Telecommunications (No. XK0160915170).
+CR Alavi S. A., 2018, P IEEE CAN C EL COMP
+   AshifuddinMondal Md, 2018, 2018 8th International Conference on Cloud Computing, Data Science & Engineering (Confluence), P625, DOI 10.1109/CONFLUENCE.2018.8442535
+   Babovic ZB, 2016, IEEE ACCESS, V4, P6974, DOI 10.1109/ACCESS.2016.2615181
+   Belli L, 2015, COMPUTER, V48, P32, DOI 10.1109/MC.2015.253
+   Blackstock M, 2014, 2014 INTERNATIONAL CONFERENCE ON THE INTERNET OF THINGS (IOT), P79, DOI 10.1109/IOT.2014.7030119
+   Bormann C, INTERNET ENG TASK FO
+   Costa D, 2016, 2016 IEEE 3RD WORLD FORUM ON INTERNET OF THINGS (WF-IOT), P395, DOI 10.1109/WF-IoT.2016.7845423
+   da Cruz MAA, 2018, IEEE INTERNET THINGS, V5, P871, DOI 10.1109/JIOT.2018.2796561
+   Esquiagola John, 2017, IoTBDS 2017. Proceedings of the 2nd International Conference on Internet of Things, Big Data and Security, P309
+   Fortino G, 2018, INTERNET THINGS-TECH, P199, DOI 10.1007/978-3-319-61300-0_10
+   Fortino G, 2017, IEEE INT CON AUTO SC, P825, DOI 10.1109/COASE.2017.8256205
+   Gyrard A, 2015, 2015 3RD INTERNATIONAL CONFERENCE ON FUTURE INTERNET OF THINGS AND CLOUD (FICLOUD) AND INTERNATIONAL CONFERENCE ON OPEN AND BIG (OBD), P9, DOI 10.1109/FiCloud.2015.10
+   Huacarpuma RC, 2017, SENSORS-BASEL, V17, DOI 10.3390/s17050977
+   Kim J, 2014, 2014 IEEE WORLD FORUM ON INTERNET OF THINGS (WF-IOT), P89, DOI 10.1109/WF-IoT.2014.6803126
+   Kodali R.K., 2018, P INT C COMP COMM IN, P1, DOI 10.1109/ICCCI.2018.8441423
+   Kodali RK, 2017, TENCON IEEE REGION, P712, DOI 10.1109/TENCON.2017.8227953
+   Kuang YC, 2014, INT CONF INSTR MEAS, P370, DOI 10.1109/IMCCC.2014.83
+   Lee JC, 2016, I C INF COMM TECH CO, P887, DOI 10.1109/ICTC.2016.7763322
+   Lyaskov M, 2017, P 2017 26 INT SCI C, P1
+   Mende S., 2017, P 12 IB C INF SYST T, P1
+   Palade A., 2017, P IEEE 18 INT S WORL, P1
+   Paolis L. T. D, 2018, P IEEE WORKSH ENV EN, P1
+   Pavel K, 2015, THESIS
+   Rao S, 2015, 2015 IEEE CONFERENCE ON WIRELESS SENSORS (ICWISE), P52, DOI 10.1109/ICWISE.2015.7380353
+   Raza U, 2017, IEEE COMMUN SURV TUT, V19, P855, DOI 10.1109/COMST.2017.2652320
+   Razzaque MA, 2016, IEEE INTERNET THINGS, V3, P70, DOI 10.1109/JIOT.2015.2498900
+   Sanchez-Casado L, 2013, COMM COM INF SC, V381, P1
+   Savaglio Claudio, 2018, 2018 IEEE International Conference on Cloud Engineering (IC2E). Proceedings, P317, DOI 10.1109/IC2E.2018.00062
+   Savaglio C, 2015, LECT NOTES COMPUT SC, V9258, P39, DOI 10.1007/978-3-319-23237-9_5
+   Schachinger D, 2017, IEEE INT C EMERG
+   Shen Subin, 2015, Journal of Nanjing University of Posts and Telecommunications, V35, P1, DOI 10.14132/j.cnki.1673-5439.2015.01.001
+   Shopov MP, 2016, 2016 39TH INTERNATIONAL CONVENTION ON INFORMATION AND COMMUNICATION TECHNOLOGY, ELECTRONICS AND MICROELECTRONICS (MIPRO), P1141, DOI 10.1109/MIPRO.2016.7522311
+   Sinha RS, 2017, ICT EXPRESS, V3, P14, DOI 10.1016/j.icte.2017.03.004
+   Sotres P, 2017, IEEE ACCESS, V5, P14309, DOI 10.1109/ACCESS.2017.2723659
+   Yoon C, 2017, I C INF COMM TECH CO, P32, DOI 10.1109/ICTC.2017.8190936
+NR 35
+TC 3
+Z9 3
+U1 1
+U2 5
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN 1999-5903
+J9 FUTURE INTERNET
+JI Future Internet
+PD NOV
+PY 2018
+VL 10
+IS 11
+AR 105
+DI 10.3390/fi10110105
+PG 27
+WC Computer Science, Information Systems
+SC Computer Science
+GA HG1OJ
+UT WOS:000454727200003
+OA DOAJ Gold
+DA 2020-05-26
+ER
+
+PT J
+AU van Kruijsdijk, C
+AF van Kruijsdijk, Cor
+TI Digital Twins as R&D Accelerators - The Case for an Open Source
+   Ecosystem
+SO ERCIM NEWS
+LA English
+DT Article
+AB Shell is using Digital Twin applications to improve operation, maintenance and safety, for example in chemical plants and offshore platforms.
+C1 [van Kruijsdijk, Cor] Shell Global Solut Int Bv, Rotterdam, Netherlands.
+RP van Kruijsdijk, C (reprint author), Shell Global Solut Int Bv, Rotterdam, Netherlands.
+EM Cor.vanKruijsdijk@shell.com
+CR Grieves M., 2014, CISC VIS NETW IND GL
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 5
+PU EUROPEAN RESEARCH CONSORTIUM INFORMATICS & MATHEMATICS
+PI SOPHIA ANTIPOLIS CEDEX
+PA 2004, ROUTE LUCIOLES, BP 93, SOPHIA ANTIPOLIS CEDEX, 06902, FRANCE
+SN 0926-4981
+EI 1564-0094
+J9 ERCIM NEWS
+JI ERCIM News
+PD OCT
+PY 2018
+IS 115
+BP 14
+EP 15
+PG 2
+WC Computer Science, Interdisciplinary Applications
+SC Computer Science
+GA GY0RS
+UT WOS:000448229900006
+DA 2020-05-26
+ER
+
+PT S
+AU Badreddin, O
+   Hamou-Lhadj, W
+   Abdelzad, V
+   Khandoker, R
+   Elassar, M
+AF Badreddin, Omar
+   Hamou-Lhadj, Wahab
+   Abdelzad, Vahdat
+   Khandoker, Rahad
+   Elassar, Maged
+BE Khendek, F
+   Gotzhein, R
+TI Collaborative Software Design and Modeling in Open Source Systems
+SO SYSTEM ANALYSIS AND MODELING: LANGUAGES, METHODS, AND TOOLS FOR SYSTEMS
+   ENGINEERING, SAM 2018
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 10th International Conference on System Analysis and Modeling (SAM)
+CY OCT 15-16, 2018
+CL Copenhagen, DENMARK
+SP SDL Forum Soc
+DE Model driven software development; Open source; Collaborative modeling;
+   Empirical investigation
+AB The Open source ecosystem creates new pathways for participation and collaboration from a broad and diverse community of developers. As a software system grows, the need to capture its design, often through models, becomes important in order to boost communication and collaboration. In this paper, we report on a study that assesses the open source community's adoption of modeling as a way to capture design and enable collaboration among development teams. The study includes a search of open source repositories to identify modeling artifacts, a survey, a questionnaire, and a set of interviews with open source contributors. Our findings show that there is a low number of modeling artifacts that are included in open source project repositories. However, the survey, the questionnaire, and the interviews suggest that capturing design in models is much more common than what can be inferred by searching the repositories alone. These models are created through collaborations, but often are not shared in the open source repositories. This is due to many factors including the lack of incentives to share modeling artifacts beyond the immediate circle of collaborators and limited collaboration support in modeling tools.
+C1 [Badreddin, Omar; Khandoker, Rahad] Univ Texas El Paso, El Paso, TX 79968 USA.
+   [Hamou-Lhadj, Wahab] Concordia Univ, Montreal, PQ, Canada.
+   [Abdelzad, Vahdat] Univ Ottawa, Ottawa, ON, Canada.
+   [Elassar, Maged] NASA, Jet Prop Lab, Pasadena, CA USA.
+RP Badreddin, O (reprint author), Univ Texas El Paso, El Paso, TX 79968 USA.
+EM obbadreddin@utep.edu; wahab.hamou-lhadj@concordia.ca;
+   vabde040@uottawa.ca; rahad.baten@yahoo.com; maged.e.elaasar@jpl.nasa.gov
+CR Alfayez R., 2018, DISCIPLINARY CONVERG, P113, DOI [10.1007/978-3-319-62217-0_9, DOI 10.1007/978-3-319-62217-0_9]
+   Badreddin O., 2010, 2010 32nd International Conference on Software Engineering (ICSE), P337, DOI 10.1145/1810295.1810381
+   Badreddin O., SOFTWARE MODELING SU
+   Badreddin O., 2013, OPEN SOURCE SOFTWARE, P127, DOI DOI 10.1007/978-3-642-38928-3_9
+   Beller M., 2014, P 11 WORK C MIN SOFT, P202, DOI DOI 10.1145/2597073.2597082
+   Franco-Bedoya O, 2017, INFORM SOFTWARE TECH, V91, P160, DOI 10.1016/j.infsof.2017.07.007
+   Gaar W, 2014, CONF SOFTW ENG EDUC, P158, DOI 10.1109/CSEET.2014.6816794
+   Khandoker Rahad, 2017, PROFESSIONAL CODING
+   Lethbridge T. C., 2010, P C2 M EEMDD
+   Madey Greg, 2002, AMCIS 2002 P, V2002
+   Nakagawa Elisa Yumi, 2008, 2008 IEEE 32nd International Computer Software and Applications Conference (COMPSAC), P1234, DOI 10.1109/COMPSAC.2008.171
+   QGIS D. T., 2011, QUANT GIS GEOGR INF, V45
+   Sack W., 2006, Computer Supported Cooperative Work: The Journal of Collaborative Computing, V15, P229, DOI 10.1007/s10606-006-9020-5
+   Ho-Quang T, 2017, 2017 IEEE/ACM 39TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING: SOFTWARE ENGINEERING IN PRACTICE TRACK (ICSE-SEIP 2017), P203, DOI 10.1109/ICSE-SEIP.2017.28
+   West J, 2006, R&D MANAGE, V36, P319, DOI 10.1111/j.1467-9310.2006.00436.x
+NR 15
+TC 0
+Z9 0
+U1 1
+U2 1
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+BN 978-3-030-01042-3; 978-3-030-01041-6
+J9 LECT NOTES COMPUT SC
+PY 2018
+VL 11150
+BP 219
+EP 228
+DI 10.1007/978-3-030-01042-3_13
+PG 10
+WC Computer Science, Theory & Methods
+SC Computer Science
+GA BN2UC
+UT WOS:000477756900013
+DA 2020-05-26
+ER
+
+PT S
+AU Gyori, A
+   Legunsen, O
+   Hariri, F
+   Marinov, D
+AF Gyori, Alex
+   Legunsen, Owolabi
+   Hariri, Farah
+   Marinov, Darko
+BE Ghosh, S
+   Natella, R
+   Cukic, B
+   Poston, R
+   Laranjeiro, N
+TI Evaluating Regression Test Selection Opportunities in a Very Large
+   Open-Source Ecosystem
+SO 2018 29TH IEEE INTERNATIONAL SYMPOSIUM ON SOFTWARE RELIABILITY
+   ENGINEERING (ISSRE)
+SE Proceedings International Symposium on Software Reliability Engineering
+LA English
+DT Proceedings Paper
+CT 29th IEEE International Symposium on Software Reliability Engineering
+   (ISSRE)
+CY OCT 15-18, 2018
+CL Memphis, TN
+SP IEEE, IEEE Comp Soc, FedEx, Google, Nokia Bell Labs, IEEE Reliabil Soc
+AB Regression testing in very large software ecosystems is notoriously costly, requiring computational resources that even large corporations struggle to cope with. Very large ecosystems contain thousands of rapidly evolving, interconnected projects where client projects transitively depend on library projects. Regression test selection (RTS) reduces regression testing costs by rerunning only tests whose pass/fail behavior may flip after code changes. For single projects, researchers showed that class-level RTS is more effective than lower method-or statement-level RTS. Meanwhile, several very large ecosystems in industry, e.g., at Facebook, Google, and Microsoft, perform project-level RTS, rerunning tests in a changed library and in all its transitive clients. However, there was no previous study of the comparative benefits of class-level and project-level RTS in such ecosystems.
+   We evaluate RTS opportunities in the MAVEN Central open-source ecosystem. There, some popular libraries have up to 924589 clients; in turn, clients can depend on up to 11190 libraries. We sampled 408 popular projects and found that 202 (almost half) cannot update to latest library versions without breaking compilation or tests. If developers want to detect these breakages earlier, they need to run very many tests. We compared four variants of class-level RTS with project-level RTS in MAVEN Central. The results showed that class-level RTS may be an order of magnitude less costly than project-level RTS in very large ecosystems. Specifically, various class-level RTS variants select, on average, 7.8%-17.4% of tests selected by project-level RTS.
+C1 [Gyori, Alex; Legunsen, Owolabi; Hariri, Farah; Marinov, Darko] Univ Illinois, Dept Comp Sci, Urbana, IL 61801 USA.
+RP Gyori, A (reprint author), Univ Illinois, Dept Comp Sci, Urbana, IL 61801 USA.
+EM gyori@illinois.edu; legunse2@illinois.edu; hariri2@illinois.edu;
+   marinov@illinois.edu
+FU NSFNational Science Foundation (NSF) [CCF-1409423, CCF-1421503,
+   CNS-1646305]
+FX We thank Milos Gligoric for his help with the Ekstazi tool, Stefan
+   Winter for excellent shepherding of this paper, and the anonymous
+   reviewers for feedback on a previous draft. This research was partially
+   supported by the NSF Grant Nos. CCF-1409423, CCF-1421503, and
+   CNS-1646305. We also acknowledge Google and Qualcomm gifts.
+CR Bavota G., 2015, TSE, V41
+   Bavota G., 2015, EMSE, V20
+   Bogart C., 2016, FSE
+   Briand L. C., 2009, IST, V51
+   Brindescu C., 2014, ICSE
+   Cossette B. E., 2012, FSE
+   de Souza C. R. B., 2008, ICSE
+   de Souza C. R. B., 2009, CSCW, V18
+   Dietrich J., 2014, CSMR WCRE
+   Dosinger S., 2012, ASE
+   Elbaum S., 2014, FSE
+   Engstrom E., 2008, ESEM
+   Esfahani H., 2016, ICSE SEIP
+   Gligoric M., 2015, ISSTA
+   Hao D., 2014, TOSEM, V24
+   Harrold M. J., 2001, OOPSLA
+   Hilton M., 2016, ASE
+   Holmes R., 2010, ICSE
+   Kalra S., 2016, FSE
+   Kung D. C., 1995, JOOP, V8
+   Legunsen O., 2016, FSE
+   Marinescu P. D., 2012, ICSE
+   McDonnell T., 2013, ICSM
+   Mezzetti G., 2018, ECOOP
+   Mitropoulos D., 2014, MSR
+   Orso A., 2004, FSE
+   Padhye R., 2014, ASE
+   Raemaekers S., 2013, MSR
+   Raemaekers S., 2014, TECH REP
+   Raemaekers S., 2012, ICSM
+   Rothermel G., 1997, TOSEM, V6
+   Shi A., 2015, ESEC FSE
+   Shi August, 2014, FSE
+   Tufano Michele, 2017, J SOFTWARE EVOLUTION, V29, P4
+   Vargas-Baldrich Santiago, 2015, ASE
+   Vasic M., 2017, FSE IND PAPERS
+   Wittern E., 2016, MSR
+   Xu G., 2007, ICSE
+   Yoo  S., 2012, J SOFTWARE TESTING V, V22, P2
+   Zhang L., 2018, ICSE
+   Zhang L., 2013, ICSE
+   Zhang L., 2011, ICSM
+   Zhou J., 2016, FSE
+NR 43
+TC 2
+Z9 2
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1071-9458
+BN 978-1-5386-8321-7
+J9 PROC INT SYMP SOFTW
+PY 2018
+BP 112
+EP 122
+DI 10.1109/ISSRE.2018.00022
+PG 11
+WC Computer Science, Software Engineering; Computer Science, Theory &
+   Methods; Engineering, Electrical & Electronic
+SC Computer Science; Engineering
+GA BM7JY
+UT WOS:000467991300011
+DA 2020-05-26
+ER
+
+PT S
+AU Moritz, M
+   Redlich, T
+   Wulfsberg, J
+AF Moritz, Manuel
+   Redlich, Tobias
+   Wulfsberg, Jens
+BE Rocha, A
+   Guarda, T
+TI Best Practices and Pitfalls in Open Source Hardware
+SO PROCEEDINGS OF THE INTERNATIONAL CONFERENCE ON INFORMATION TECHNOLOGY &
+   SYSTEMS (ICITS 2018)
+SE Advances in Intelligent Systems and Computing
+LA English
+DT Proceedings Paper
+CT International Conference on Information Technology and Systems (ICITS)
+CY JAN 10-13, 2018
+CL Univ Estatal Peninsula Santa Elena, Libertad, ECUADOR
+HO Univ Estatal Peninsula Santa Elena
+DE Open source hardware; Co-creation; Open production
+ID INNOVATION; USER
+AB Easy-to-use and affordable means of production (e.g. 3D printer), access to these technologies (e.g. in makerspaces) and powerful tools for online product design led to the emergence of open source hardware (OSH). Like in open source software, projects and online platforms have been evolving around physical products from various technologies where people jointly develop and freely share designs. We also find businesses that sell products made from these designs and offer complimentary services. This decentralized and collaborative model of value creation offers new opportunities for social, economic and ecological sustainability, but also calls for a different understanding beyond traditional notions. Results from an exploratory study on OSH projects and companies revealed that licensing is a critical issue, communities and partners play a key role in the open source ecosystem and modes of value creation are either centered around design or production in combination with a mix of complimentary services.
+C1 [Moritz, Manuel; Redlich, Tobias; Wulfsberg, Jens] Helmut Schmidt Univ, Inst Prod Engn, Holstenhofweg 85, D-22043 Hamburg, Germany.
+RP Moritz, M (reprint author), Helmut Schmidt Univ, Inst Prod Engn, Holstenhofweg 85, D-22043 Hamburg, Germany.
+EM manuel.moritz@hsu-hh.de; tobias.redlich@hsu-hh.de;
+   jens.wulfsberg@hsu-hh.de
+CR Ackerman J.R., 2008, U DAYTON LAW REV, V34, P183
+   Anderson C, 2013, MAKERS
+   Baldwin C, 2011, ORGAN SCI, V22, P1399, DOI 10.1287/orsc.1100.0618
+   Balka K, 2010, CREAT INNOV MANAG, V19, P248, DOI 10.1111/j.1467-8691.2010.00569.x
+   Benkler Y., 2006, WEALTH NETWORKS SOCI
+   Bonvoisin J, 2016, 1 INT K ZUK WERTSCH, P95
+   Edmondson AC, 2007, ACAD MANAGE REV, V32, P1155
+   Gibb A., 2014, BUILDING OPEN SOURCE
+   Moritz M., 2016, 2016 PORTL INT C MAN
+   Pearce JM., 2015, MOD EC, V06, P1, DOI [10.4236/me.2015.61001, DOI 10.4236/ME.2015.61001]
+   Pearce JM, 2012, SCIENCE, V337, P1303, DOI 10.1126/science.1228183
+   Pearce Joshua M., 2012, Environment Development and Sustainability, V14, P425, DOI 10.1007/s10668-012-9337-9
+   Raasch Christina, 2011, International Journal of Information and Decision Sciences, V3, P39, DOI 10.1504/IJIDS.2011.038840
+   Raasch C, 2009, R&D MANAGE, V39, P382, DOI 10.1111/j.1467-9310.2009.00567.x
+   Redlich T, 2010, OPEN PRODUCTION GEST
+   von Hippel E, 2001, MIT SLOAN MANAGE REV, V42, P82
+   Von Hippel E., 2005, J BETRIEBSWIRTSCHAFT, V55, P63, DOI DOI 10.1007/S11301-004-0002-8
+   WEBER S, 2004, [No title captured]
+   Wulfsberg JP, 2011, PROD ENG-RES DEV, V5, P127, DOI 10.1007/s11740-010-0286-6
+   Yin R. K., 2013, CASE STUDY RES DESIG
+NR 20
+TC 1
+Z9 1
+U1 0
+U2 2
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 2194-5357
+EI 2194-5365
+BN 978-3-319-73450-7; 978-3-319-73449-1
+J9 ADV INTELL SYST
+PY 2018
+VL 721
+BP 200
+EP 210
+DI 10.1007/978-3-319-73450-7_20
+PG 11
+WC Computer Science, Artificial Intelligence; Computer Science, Information
+   Systems; Computer Science, Theory & Methods
+SC Computer Science
+GA BM2EX
+UT WOS:000460957300020
+DA 2020-05-26
+ER
+
+PT B
+AU Amorim, SD
+   McGregor, JD
+   de Almeida, ES
+   Chavez, CVG
+AF Amorim, Simone da Silva
+   McGregor, John D.
+   de Almeida, Eduardo Santana
+   Chavez, Christina von Flach G.
+GP Assoc Comp Machinery
+TI Educating to Achieve Healthy Open Source Ecosystems
+SO ECSA 2018: PROCEEDINGS OF THE 12TH EUROPEAN CONFERENCE ON SOFTWARE
+   ARCHITECTURE: COMPANION PROCEEDINGS
+LA English
+DT Proceedings Paper
+CT 12th European Conference on Software Architecture (ECSA)
+CY SEP 24-28, 2018
+CL Madrid, SPAIN
+SP Univ Politecnica Madrid, Campus Excelencia Internac, Univ Politecnica Madrid, Escuela Tecnica Super Ingn Sistemas Informaticos
+DE Software Architecture; Software Practices; Software Ecosystems; Open
+   Source Systems
+ID SOFTWARE ECOSYSTEMS
+AB When developers contribute to an open source software ecosystem project, they follow practices defined by governing authorities, architects, maintainers, committers, and other stakeholders. Many of these practices are incorporated into training videos and guidelines for newcomers to guide the work of contributors, including architectural practices that influence the quality of the software product and the health of the open source ecosystem. This research is investigating architectural practices intended to orient and train newcomers during their first contacts with the ecosystem. This includes using the software architecture to trace a picture of how the education artifacts have been built to achieve a healthy ecosystem. This research identifies architectural practices spread by some training resources and analyzes how these practices contribute to achieving a healthy ecosystem. Our research method consisted of a qualitative study conducted with data obtained from various training sources. The findings show the connection between existing education for newcomers and their possible impact to achieve healthy open source ecosystems.
+C1 [Amorim, Simone da Silva] Fed Inst Educ Sci & Technol Bahia, BR-40110 Salvador, BA, Brazil.
+   [McGregor, John D.] Clemson Univ, Clemson, SC 29634 USA.
+   [de Almeida, Eduardo Santana; Chavez, Christina von Flach G.] Univ Fed Bahia, BR-40170 Salvador, BA, Brazil.
+RP Amorim, SD (reprint author), Fed Inst Educ Sci & Technol Bahia, BR-40110 Salvador, BA, Brazil.
+EM simone.amorim@ifba.edu.br; johnmc@clemson.edu; esa@dcc.ufba.br;
+   flach@dcc.ufba.br
+RI von Flach Garcia Chavez, Christina/G-2567-2012
+OI von Flach Garcia Chavez, Christina/0000-0001-5172-9641
+FU DPGI-IFBA-Campus Salvador
+FX The contribution by first author Simone Amorim was partially funded by
+   DPGI-IFBA-Campus Salvador.
+CR Amorim Simone da Silva, 2017, P 31 BRAZ S SOFTW EN
+   Aniche Mauricio, 2018, MODERN NEWS AGGREGAT
+   Bradford Laurence, 2018, OPEN SOURCE DEV IS D
+   FOGEL KF, 2005, [No title captured]
+   Franco-Bedoya Oscar, 2014, MEASURING QUALITY OP, P39, DOI 10.1007/978-3-319-25579-8_3
+   Iansiti M., 2002, KEYSTONES DOMINATORS
+   Jacobson I, 2007, J OBJECT TECHNOL, V6, P41, DOI 10.5381/jot.2007.6.6.c5
+   Jansen S, 2013, SOFTWARE ECOSYSTEMS: ANALYZING AND MANAGING BUSINESS NETWORKS IN THE SOFTWARE INDUSTRY, P1, DOI 10.4337/9781781955635
+   Jansen S, 2014, INFORM SOFTWARE TECH, V56, P1508, DOI 10.1016/j.infsof.2014.04.006
+   Jansen S, 2013, SOFTWARE ECOSYSTEMS: ANALYZING AND MANAGING BUSINESS NETWORKS IN THE SOFTWARE INDUSTRY, P1
+   Kozinets R., 2010, NETNOGRAPHY DOING ET
+   McGregor John D., 2017, P 5 INT WORKSH SOFTW
+   Morgan Becka, 2014, LESSONS LEARNED TEAC, P133
+   Open Hub, 2018, KDE OP SOURC PROJ OP
+   Park Yunrim, 2009, P 5 IEEE INT WORKSH
+   Pinto Gustavo Henrique Lima, 2017, TRAINING SOFTWARE EN
+   Pintscher Lydia, 2016, 20 YEARS KDE PRESENT
+   Sarma A, 2016, FSE'16: PROCEEDINGS OF THE 2016 24TH ACM SIGSOFT INTERNATIONAL SYMPOSIUM ON FOUNDATIONS OF SOFTWARE ENGINEERING, P932, DOI 10.1145/2950290.2983984
+   Singh V, 2012, PROCEEDINGS OF THE 17TH ACM INTERNATIONAL CONFERENCE ON SUPPORTING GROUP WORK, P65
+   Steinmacher I, 2019, IEEE SOFTWARE, V36, P41, DOI 10.1109/MS.2018.110162131
+   Steinmacher Igor, 2016, OVERCOMING OPEN SOUR
+   Wnuk K, 2014, LECT NOTES BUS INF P, V182, P212
+   Wohlin Claes, 2014, GUIDELINES SNOWBALLI, P321, DOI 10.1145/2601248.2601268
+NR 23
+TC 0
+Z9 0
+U1 0
+U2 1
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1515 BROADWAY, NEW YORK, NY 10036-9998 USA
+BN 978-1-4503-6483-6
+PY 2018
+DI 10.1145/3241403.3241433
+PG 7
+WC Computer Science, Software Engineering
+SC Computer Science
+GA BL7UU
+UT WOS:000455670400028
+DA 2020-05-26
+ER
+
+PT B
+AU German, DM
+   Robles, G
+   Poo-Caamano, G
+   Yang, X
+   Iida, H
+   Inoue, K
+AF German, Daniel M.
+   Robles, Gregorio
+   Poo-Caamano, German
+   Yang, Xin
+   Iida, Hajimu
+   Inoue, Katsuro
+GP IEEE
+TI "Was my contribution fairly reviewed?" A Framework to Study the
+   Perception of Fairness in Modern Code Reviews
+SO PROCEEDINGS 2018 IEEE/ACM 40TH INTERNATIONAL CONFERENCE ON SOFTWARE
+   ENGINEERING (ICSE)
+LA English
+DT Proceedings Paper
+CT 40th ACM/IEEE International Conference on Software Engineering (ICSE)
+CY MAY 27-JUN 03, 2018
+CL Gothenburg, SWEDEN
+SP IEEE, Assoc Comp Machinery, IEEE Comp Soc, Microsoft Res
+DE Fairness; Software Development; Modern Code Review; Open Source
+   Software; Human and Social Aspects; Transparency
+ID ORGANIZATIONAL JUSTICE; SOFTWARE; PARTICIPATION
+AB Modern code reviews improve the quality of software products. Although modern code reviews rely heavily on human interactions, little is known regarding whether they are performed fairly. Fairness plays a role in any process where decisions that affect others are made. When a system is perceived to be unfair, it affects negatively the productivity and motivation of its participants. In this paper, using fairness theory we create a framework that describes how fairness affects modern code reviews. To demonstrate its applicability, and the importance of fairness in code reviews, we conducted an empirical study that asked developers of a large industrial open source ecosystem (OpenStack) what their perceptions are regarding fairness in their code reviewing process. Our study shows that, in general, the code review process in OpenStack is perceived as fair; however, a significant portion of respondents perceive it as unfair. We also show that the variability in the way they prioritize code reviews signals a lack of consistency and the existence of bias (potentially increasing the perception of unfairness). The contributions of this paper are: (1) we propose a framework-based on fairness theory-for studying and managing social behaviour in modern code reviews, (2) we provide support for the framework through the results of a case study on a large industrial-backed open source project, (3) we present evidence that fairness is an issue in the code review process of a large open source ecosystem, and, (4) we present a set of guidelines for practitioners to address unfairness in modern code reviews.
+C1 [German, Daniel M.; Poo-Caamano, German] Univ Victoria, Victoria, BC, Canada.
+   [Robles, Gregorio] Univ Rey Juan Carlos, Madrid, Spain.
+   [Yang, Xin; Inoue, Katsuro] Osaka Univ, Suita, Osaka, Japan.
+   [Iida, Hajimu] Nara Inst Technol, Ikoma, Japan.
+RP German, DM (reprint author), Univ Victoria, Victoria, BC, Canada.
+EM dmg@uvic.ca; grex@gsyc.urjc.es; gpoo@uvic.ca; xinyang@ist.osaka-u.ac.jp;
+   iida@itc.naist.jp; inoue@ist.osaka-u.ac.jp
+RI Robles, Gregorio/I-2507-2012
+OI Robles, Gregorio/0000-0002-1442-6761
+FU Canada's Natural Science and Engineering Research CouncilNatural
+   Sciences and Engineering Research Council of Canada; Japan's JSPS
+   KAKENHI [JP25220003]; Spanish GovernmentSpanish Government
+   [TIN2014-59400-R]
+FX This work was supported by Canada's Natural Science and Engineering
+   Research Council, Japan's JSPS KAKENHI Grant Number JP25220003, and the
+   Spanish Government through project TIN2014-59400-R.
+CR Bacchelli A, 2013, PROCEEDINGS OF THE 35TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING (ICSE 2013), P712, DOI 10.1109/ICSE.2013.6606617
+   Balachandran V, 2013, PROCEEDINGS OF THE 35TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING (ICSE 2013), P931, DOI 10.1109/ICSE.2013.6606642
+   Basili VR, 1999, IEEE T SOFTWARE ENG, V25, P456, DOI 10.1109/32.799939
+   Bavota G, 2015, PROC IEEE INT CONF S, P81, DOI 10.1109/ICSM.2015.7332454
+   Baysal O, 2016, EMPIR SOFTW ENG, V21, P932, DOI 10.1007/s10664-015-9366-8
+   Baysal O, 2013, WORK CONF REVERSE EN, P122, DOI 10.1109/WCRE.2013.6671287
+   Begel A, 2014, 36TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING (ICSE 2014), P12, DOI 10.1145/2568225.2568233
+   Bies R. J., 1987, SOCIAL JUSTICE RES, V1, P199, DOI DOI 10.1007/BF01048016
+   Bies R.J., 1986, RES NEGOTIATION ORG, V1, P43, DOI DOI 10.1037/0021-9010.86.3.425
+   Bosu A., 2014, P 8 ACM IEEE INT S E, P33
+   Bosu A, 2015, 12TH WORKING CONFERENCE ON MINING SOFTWARE REPOSITORIES (MSR 2015), P146, DOI 10.1109/MSR.2015.21
+   Brodkin J., 2013, ARS TECHNICA
+   Chehab Mauro Carvalho, 2016, CODE OF CONFLICT
+   COHEN J, 1968, PSYCHOL BULL, V70, P213, DOI 10.1037/h0026256
+   Cohen R. L., 1987, SOCIAL JUSTICE RES, V1, P19, DOI DOI 10.1007/BF01049382
+   Colquitt JA, 2002, J MANAGE, V28, P591, DOI 10.1177/014920630202800502
+   Colquitt JA, 2001, J APPL PSYCHOL, V86, P425, DOI 10.1037//0021-9010.86.3.425
+   Colquitt JA, 2001, J APPL PSYCHOL, V86, P386, DOI 10.1037//0021-9010.86.3.386
+   Czerwonka J, 2015, 2015 IEEE/ACM 37TH IEEE INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING, VOL 2, P27, DOI 10.1109/ICSE.2015.131
+   Dabbish L, 2012, P ACM 2012 C COMP SU, P1277, DOI [DOI 10.1145/2145204.2145396, 10.1145/2145204.2145396]
+   Edmondson A., 1999, ADM SCI Q, V44, P2
+   Fisher CD, 2000, J ORGAN BEHAV, V21, P185, DOI 10.1002/(SICI)1099-1379(200003)21:2<185::AID-JOB34>3.0.CO;2-M
+   Flyvbjerg B, 2006, QUAL INQ, V12, P219, DOI 10.1177/1077800405284363
+   FOLGER R, 1979, J PERS SOC PSYCHOL, V37, P2253, DOI 10.1037/0022-3514.37.12.2253
+   Folger Robert, 1998, GEN THEORY FAIRNESS, P173
+   Folger Robert, 2001, FAIRN THEOR JUST ACC, P1
+   Gachechiladze D, 2017, 2017 IEEE/ACM 39TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING: NEW IDEAS AND EMERGING TECHNOLOGIES RESULTS TRACK (ICSE-NIER), P11, DOI 10.1109/ICSE-NIER.2017.18
+   GREENBERG J, 1987, ACAD MANAGE REV, V12, P9, DOI 10.2307/257990
+   Grover SL, 2014, HUM RELAT, V67, P27, DOI 10.1177/0018726713484944
+   Hamasaki Kazuki, 2013, 2013 10th IEEE Working Conference on Mining Software Repositories (MSR 2013), P49, DOI 10.1109/MSR.2013.6624003
+   Hann IH, 2013, INFORM SYST RES, V24, P520, DOI 10.1287/isre.2013.0474
+   Husted BW, 2004, ORGAN SCI, V15, P719, DOI 10.1287/orsc.1040.0088
+   Izquierdo-Cortazar D., 2017, P 21 INT C EV ASS SO, P214
+   Izquierdo-Cortazar D, 2016, 13TH WORKING CONFERENCE ON MINING SOFTWARE REPOSITORIES (MSR 2016), P386, DOI [10.1145/2901739.2901778, 10.1109/MSR.2016.046]
+   Jackson Joab, 2017, THE NEWS STACK
+   Kerner Sean Michael, 2016, OPENSTACK REVENUES A
+   Kononenko O, 2015, PROC IEEE INT CONF S, P111, DOI 10.1109/ICSM.2015.7332457
+   Kuper A., 1985, SOCIAL SCI ENCY
+   Lee A, 2017, PROC INT CONF SOFTW, P187, DOI 10.1109/ICSE.2017.25
+   Lethbridge TC, 2005, EMPIR SOFTW ENG, V10, P311, DOI 10.1007/s10664-005-1290-x
+   Leventhal G. S., 1976, ADV EXPT SOCIAL PSYC, V9, P91, DOI DOI 10.1016/S0065-2601(08)60059-3
+   LEVENTHAL GS, 1980, [No title captured]
+   Lynham S. A., 2002, ADV DEV HUMAN RESOUR, V4, P221, DOI DOI 10.1177/1523422302043002
+   McIntosh S, 2015, EMPIR SOFTW ENG, V20, P1587, DOI [10.1007/s10664-014-9324-x, 10.1007/s10664-015-9381-9]
+   Pletea D., 2014, P 11 WORK C MIN SOFT, P348, DOI DOI 10.1145/2597073.2597117
+   Punter T, 2003, 2003 INTERNATIONAL SYMPOSIUM ON EMPIRICAL SOFTWARE ENGINEERING, PROCEEDINGS, P80, DOI 10.1109/ISESE.2003.1237967
+   Raja U, 2012, IEEE T SOFTWARE ENG, V38, P163, DOI 10.1109/TSE.2011.39
+   Rigby PC, 2013, P 2013 9 JOINT M FDN, P202, DOI DOI 10.1145/2491411.2491444
+   Rigby PC, 2014, ACM T SOFTW ENG METH, V23, DOI 10.1145/2594458
+   Rigby PC, 2008, ICSE'08 PROCEEDINGS OF THE THIRTIETH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING, P541
+   Runeson P., 2012, CASE STUDY RES SOFTW
+   Runeson P, 2009, EMPIR SOFTW ENG, V14, P131, DOI 10.1007/s10664-008-9102-8
+   Schneider D, 2016, PROCEEDINGS OF THE 12TH INTERNATIONAL SYMPOSIUM ON OPEN COLLABORATION (OPENSYM), DOI 10.1145/2957792.2957801
+   Seaman CB, 1999, IEEE T SOFTWARE ENG, V25, P557, DOI 10.1109/32.799955
+   Sharp Sarah, 2015, CLOSING A DOOR
+   Singer J, 2008, GUIDE ADV EMPIRICAL, P9, DOI DOI 10.1007/978-1-84800-044-5_1
+   Squire M, 2015, P ANN HICSS, P5290, DOI 10.1109/HICSS.2015.623
+   Steinmacher I, 2015, INFORM SOFTWARE TECH, V59, P67, DOI 10.1016/j.infsof.2014.11.001
+   Tao Yida, 2012, P ACM SIGSOFT 20 INT, P51
+   The OpenStack Foundation, 2017, OPENSTACK COMM CONTR
+   The OpenStack Foundation, 2012, CO SUPP OPENSTACK FD
+   Thibaut J, 1975, PROCEDURAL JUSTICE P
+   Thongtanunam P, 2017, EMPIR SOFTW ENG, V22, P768, DOI 10.1007/s10664-016-9452-6
+   Thongtanunam P, 2016, PROC INT CONF SOFTW, P1039, DOI 10.1145/2884781.2884852
+   Tourani P, 2017, 2017 IEEE 24TH INTERNATIONAL CONFERENCE ON SOFTWARE ANALYSIS, EVOLUTION, AND REENGINEERING (SANER), P24, DOI 10.1109/SANER.2017.7884606
+   Tourani P, 2016, 2016 IEEE 23RD INTERNATIONAL CONFERENCE ON SOFTWARE ANALYSIS, EVOLUTION, AND REENGINEERING (SANER), VOL 1, P189, DOI 10.1109/SANER.2016.113
+   Tsay J, 2014, 22ND ACM SIGSOFT INTERNATIONAL SYMPOSIUM ON THE FOUNDATIONS OF SOFTWARE ENGINEERING (FSE 2014), P144, DOI 10.1145/2635868.2635882
+   TYLER TR, 1994, J PERS SOC PSYCHOL, V67, P850, DOI 10.1037/0022-3514.67.5.850
+   von Krogh G, 2003, RES POLICY, V32, P1217, DOI 10.1016/S0048-7333(03)00050-7
+   Wang J, 2015, INFORM SOFTWARE TECH, V67, P1, DOI 10.1016/j.infsof.2015.06.002
+   Weiss HM, 1996, RES ORGAN BEHAV, V18, P1
+   Wohlin C, 2012, EXPT SOFTWARE ENG
+   Xia X, 2015, PROC IEEE INT CONF S, P261, DOI 10.1109/ICSM.2015.7332472
+   Yang X, 2016, IEICE T INF SYST, VE99D, P661, DOI 10.1587/transinf.2015EDP7261
+   Yujuan Jiang, 2013, 2013 10th IEEE Working Conference on Mining Software Repositories (MSR 2013), P101, DOI 10.1109/MSR.2013.6624016
+   Zanjani MB, 2016, IEEE T SOFTWARE ENG, V42, P530, DOI 10.1109/TSE.2015.2500238
+NR 76
+TC 3
+Z9 3
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-1-4503-5638-1
+PY 2018
+BP 523
+EP 534
+DI 10.1145/3180155.3180217
+PG 12
+WC Computer Science, Software Engineering
+SC Computer Science
+GA BL7CS
+UT WOS:000454843300064
+DA 2020-05-26
+ER
+
+PT S
+AU Boshuis, S
+   Braam, TB
+   Marchena, AP
+   Jansen, S
+AF Boshuis, Susanne
+   Braam, Tim B.
+   Marchena, Alejandra Pedroza
+   Jansen, Slinger
+GP IEEE
+TI The Effect of Generic Strategies on Software Ecosystem Health: The Case
+   of Cryptocurrency Ecosystems
+SO PROCEEDINGS 2018 IEEE/ACM 1ST INTERNATIONAL WORKSHOP ON SOFTWARE HEALTH
+   (SOHEAL)
+SE International Workshop on Software Engineering in Health Care
+LA English
+DT Proceedings Paper
+CT 1st ACM/IEEE International Workshop on Software Health
+CY MAY 27-JUN 03, 2018
+CL Gothenburg, SWEDEN
+SP Assoc Comp Machinery, IEEE Comp Soc, SIGSOFT, IEEE Tech Council Software Engn
+DE Software Ecosystems Health; Cryptocurrencies; Business Strategies
+AB Thus far, no research has been done into the effect of business strategies on software ecosystem health. This research aims to fill that gap by combining the Open Source Ecosystem Health Operationalization (OSEHO) and generic strategies. These models are combined and tested on five cases of cryptocurrency ecosystems: Ripple, Ethereum, Litecoin, IOTA and zCash. Findings suggest that the generic strategy Focused Differentiation has the biggest positive impact on ecosystem health. Further research is necessary to see if this is also true for more mature and more stable ecosystems.
+C1 [Boshuis, Susanne; Braam, Tim B.; Marchena, Alejandra Pedroza; Jansen, Slinger] Univ Utrecht, Utrecht, Netherlands.
+RP Jansen, S (reprint author), Univ Utrecht, Utrecht, Netherlands.
+EM slinger.jansen@uu.nl
+RI Roijackers, Slinger/Y-4244-2019
+OI Roijackers, Slinger/0000-0003-3752-2868
+CR Bowe Sean, 2017, CISC VIS NETW IND GL
+   Buterin V., 2013, CISC VIS NETW IND GL
+   denHartigh E., 2006, P EUR NETW CHAOS COM, P1
+   Financial Action Task Force, 2014, COMMUN ACM, P6
+   Franco-Bedoya Oscar, 2014, Proceedings of the 9th International Conference on Software Engineering and Applications ICSOFT-EA 2014, P209
+   Greenberg Andy, 2011, CRYPTO CURRENCIES
+   Iansiti M, 2004, HARVARD BUS REV, V82, P68
+   Iansiti M., 2004, KEYSTONE ADVANTAGE W
+   Iwamura M, 2014, IS BITCOIN ONLY CRYP, DOI 10.2139/ssrn.2405790
+   Jansen S, 2013, SOFTWARE ECOSYSTEMS: ANALYZING AND MANAGING BUSINESS NETWORKS IN THE SOFTWARE INDUSTRY, P1, DOI 10.4337/9781781955635
+   Jansen S., 2009, P 1 INT WORKSH SOFTW, P34
+   Jansen S, 2014, INFORM SOFTWARE TECH, V56, P1508, DOI 10.1016/j.infsof.2014.04.006
+   Jansen Slinger, 2015, P 2015 EUR C SOFTW A, P44
+   Laurent A. M. S., 2004, UNDERSTANDING OPEN S
+   Nakamoto S, 2008, BITCOIN PEER TO PEER
+   Popov S., 2017, CISC VIS NETW IND GL
+   Porter M.E., 1998, COMPETITIVE ADVANTAG
+   Schwartz D, 2014, CISC VIS NETW IND GL
+   Yli-Huumo J, 2016, PLOS ONE, V11, DOI 10.1371/journal.pone.0163477
+NR 19
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2333-7400
+BN 978-1-4503-5730-2
+J9 INT WORK SOFTW
+PY 2018
+BP 10
+EP 17
+DI 10.1145/3194124.3194125
+PG 8
+WC Computer Science, Software Engineering; Health Care Sciences & Services;
+   Medical Informatics
+SC Computer Science; Health Care Sciences & Services; Medical Informatics
+GA BL6ZN
+UT WOS:000454782200003
+DA 2020-05-26
+ER
+
+PT J
+AU Ungar, D
+   Grove, D
+   Franke, H
+AF Ungar, David
+   Grove, David
+   Franke, Hubertus
+TI Dynamic Atomicity: Optimizing Swift Memory Management
+SO ACM SIGPLAN NOTICES
+LA English
+DT Proceedings Paper
+CT 13th ACM SIGPLAN International Symposium on Dynamic Languages (DLS)
+CY OCT 24, 2017
+CL Vancouver, CANADA
+SP Assoc Comp Machinery, ACM SIGPLAN, ACM SIGDA
+DE Swift; ARC; Reference Counting
+AB Swift is a modern multi-paradigm programming language with an extensive developer community and open source ecosystem. Swift 3's memory management strategy is based on Automatic Reference Counting (ARC) augmented with unsafe APIs for manually-managed memory. We have seen ARC consume as much as 80% of program execution time. A significant portion of ARC's direct performance cost can be attributed to its use of atomic machine instructions to protect reference count updates from data races. Consequently, we have designed and implemented dynamic atomicity, an optimization which safely replaces atomic reference-counting operations with nonatomic ones where feasible. The optimization introduces a store barrier to detect possibly intra-thread references, compiler-generated recursive reference-tracers to find all affected objects, and a bit of state in each reference count to encode its atomicity requirements.
+   Using a suite of 171 microbenchmarks, 9 programs from the Computer Language Benchmarks Game, and the Richards benchmark, we performed a limit study by unsafely making all reference counting operations nonatomic. We measured potential speedups of up to 220% on the microbenchmarks, 120% on the Benchmarks Game and 70% on Richards.
+   By automatically reducing ARC overhead, our optimization both improves Swift 3's performance and reduces the temptation for performance-oriented programmers to resort to unsafe manual memory management. Furthermore, the machinery implemented for dynamic atomicity could also be employed to obtain cheaper thread-safe Swift data structures, or to augment ARC with optional cycle detection or a backup tracing garbage collector.
+C1 [Ungar, David; Grove, David; Franke, Hubertus] IBM Res, San Jose, CA 95120 USA.
+RP Ungar, D (reprint author), IBM Res, San Jose, CA 95120 USA.
+EM ungar@mac.com; groved@us.ibm.com; frankeh@us.ibm.com
+CR Apple, 2016, SWIFT PROGR LANG
+   ARC, 2012, OBJ C AUT REF COUNT
+   Blackburn SM, 2003, ACM SIGPLAN NOTICES, V38, P344, DOI 10.1145/949343.949336
+   Cann D. C., 1988, CS88129 COL STAT U D
+   Daloze B, 2016, ACM SIGPLAN NOTICES, V51, P642, DOI 10.1145/3022671.2984001
+   DETREVILLE J, 1990, [No title captured]
+   DEUTSCH LP, 1976, COMMUN ACM, V19, P522, DOI 10.1145/360336.360345
+   DOMANI T, 2002, [No title captured], P76, DOI DOI 10.1145/512429.512439
+   GCD, 2017, DISP
+   JOISHA PG, 2006, [No title captured], P150
+   Jones R., 2011, GARBAGE COLLECTION H
+   Levanoni Joseph, 1999, TECHNICAL REPORT
+   Richards, 1999, RICHARDS BENCHMARK
+   Swift, 2017, SWIFT OWN MAN
+   UNGAR D, 1984, SIGPLAN NOTICES, V19, P157
+   Ungar David, 2017, SWIFT DYNAMIC ATOMIC
+   Ungar David, 2017, SWIFT RICHARDS BENCH
+   Ungar David, 2017, SWIFT COMPUTER LANGU
+NR 18
+TC 1
+Z9 1
+U1 0
+U2 0
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 2 PENN PLAZA, STE 701, NEW YORK, NY 10121-0701 USA
+SN 0362-1340
+EI 1558-1160
+J9 ACM SIGPLAN NOTICES
+JI ACM Sigplan Not.
+PD NOV
+PY 2017
+VL 52
+IS 11
+BP 15
+EP 26
+DI 10.1145/3170472.3133843
+PG 12
+WC Computer Science, Software Engineering
+SC Computer Science
+GA FO9KU
+UT WOS:000417207200004
+DA 2020-05-26
+ER
+
+PT J
+AU Lahti, L
+   Huovari, J
+   Kainu, M
+   Biecek, P
+AF Lahti, Leo
+   Huovari, Janne
+   Kainu, Markus
+   Biecek, Przemyslaw
+TI Retrieval and Analysis of Eurostat Open Data with the eurostat Package
+SO R JOURNAL
+LA English
+DT Article
+AB The increasing availability of open statistical data resources is providing novel opportunities for research and citizen science. Efficient algorithmic tools are needed to realize the full potential of the new information resources. We introduce the eurostat R package that provides a collection of custom tools for the Eurostat open data service, including functions to query, download, manipulate, and visualize these data sets in a smooth, automated and reproducible manner. The online documentation provides detailed examples on the analysis of these spatio-temporal data collections. This work provides substantial improvements over the previously available tools, and has been extensively tested by an active user community. The eurostat R package contributes to the growing open source ecosystem dedicated to reproducible research in computational social science and digital humanities.
+C1 [Lahti, Leo] Univ Turku, Dept Math & Stat, POB 20014, Turku, Finland.
+   [Huovari, Janne] Pellervo Econ Res PTT, Eerikinkatu 28 A, Helsinki 00180, Finland.
+   [Kainu, Markus] Social Insurance Inst Finland, Res Dept, POB 450, Helsinki 00101, Finland.
+   [Biecek, Przemyslaw] Warsaw Univ Technol, Fac Math & Informat Sci, Koszykowa 75, PL-00662 Warsaw, Poland.
+RP Lahti, L (reprint author), Univ Turku, Dept Math & Stat, POB 20014, Turku, Finland.
+EM leo.lahti@iki.fi; janne.huovari@ptt.fi; markus.kainu@kela.fi;
+   P.Biecek@mimuw.edu.pl
+RI ; Lahti, Leo/G-3170-2010
+OI Biecek, Przemyslaw/0000-0001-8423-1823; Lahti, Leo/0000-0001-5537-637X
+FU Academy of FinlandAcademy of Finland [295741, 307127]
+FX We are grateful to all package contributors, including Francois Briatte,
+   Joona Lehtomaki, Oliver Reiter, and Wietse Dol, and to Eurostat for
+   maintaining the open data service. This work is in no way officially
+   related to or endorsed by Eurostat. The work has been partially funded
+   by Academy of Finland (decisions 295741, 307127 to LL), and is part of
+   rOpenGov<SUP>9</SUP>.
+CR Arel-Bundock V., 2014, COUNTRYCODE CONVERT, P389
+   Arel-Bundock V., 2013, WDI WORLD DEV INDICA, P385
+   Biecek P., 2015, SMARTERPOLAND TOOLS, P385
+   Bivand R., 2015, RGEOS INTERFACE GEOM, P388
+   Bivand R., 2015, CLASSINT CHOOSE UNIV, P385
+   Bivand R., 2015, MAPTOOLS TOOLS READI, P388
+   Bivand R. S., 2013, CLASSES SPATIAL DATA, V10, P385
+   Blondel E., 2017, RSDMX TOOLS READING, P385
+   Boettiger C., 2015, J OPEN RES SOFTWARE, V3, P385
+   Eugster MJA, 2013, R J, V5, P53
+   Gagolewski M., 2015, R PACKAGE STRINGI CH, P385
+   Gandrud C., 2013, REPRODUCIBLE RES R R, P385
+   Kao M. C. J., 2015, FAOSTAT DOWNLOAD DAT, P385
+   Kenett D. R. S., 2016, INFORM QUALITY POTEN, P385
+   Lahti L., 2013, INT C MACH LEARN ICM, P385
+   Lahti L., 2013, STATFI R PACKAGE, P385
+   Lemon J., 2006, R NEWS, V6, P8
+   Magnusson M., 2014, PXWEB R TOOLS PX WEB, P385
+   McTaggart R., 2015, QUANDL API WRAPPER Q, P385
+   Ooms J., 2014, ARXIV14032805STATCO, P385
+   Perez-Riverol Y, 2016, PLOS COMPUT BIOL, V12, DOI 10.1371/journal.pcbi.1004947
+   Reinhart A., 2015, PDFETCH FETCH EC FIN, P385
+   Weinert K., 2014, DATAMART UNIFIED ACC, P385
+   Wickham H., 2015, READR READ TABULAR D, P385
+   Wickham H., 2016, HTTR TOOLS WORKING U, P385
+   Wickham H., 2016, TIBBLE SIMPLE DATA F, P385
+   Wickham H., 2015, SCALES SCALE FUNCTIO, P388
+   WICKHAM H, 2014, J STAT SOFTWARE, V59
+NR 28
+TC 5
+Z9 5
+U1 0
+U2 6
+PU R FOUNDATION STATISTICAL COMPUTING
+PI WIEN
+PA WIRTSCHAFTSUNIVERSITAT, INST STATISTICS & MATHEMATICS, AUGASSE 2-6,
+   WIEN, 1090, AUSTRIA
+SN 2073-4859
+J9 R J
+JI R Journal
+PD JUN
+PY 2017
+VL 9
+IS 1
+BP 385
+EP 392
+PG 8
+WC Computer Science, Interdisciplinary Applications; Statistics &
+   Probability
+SC Computer Science; Mathematics
+GA EZ5LB
+UT WOS:000404756200026
+DA 2020-05-26
+ER
+
+PT J
+AU Gupta, G
+   Nowatzki, T
+   Gangadhar, V
+   Sankaralingam, K
+AF Gupta, Gagan
+   Nowatzki, Tony
+   Gangadhar, Vinay
+   Sankaralingam, Karthikeyan
+TI Kickstarting Semiconductor Innovation with Open Source Hardware
+SO COMPUTER
+LA English
+DT Article
+AB Hardware innovation is slowing, yet software innovation is flourishing, in large part because of a thriving open source ecosystem. Open source can similarly boost hardware development, but the way forward will require industry, academia, and hardware enthusiasts to address five significant issues.
+C1 [Gupta, Gagan] Microsoft Res, W Lafayette, IN 47907 USA.
+   [Nowatzki, Tony; Sankaralingam, Karthikeyan] Univ Wisconsin, Dept Comp Sci, Madison, WI 53706 USA.
+   [Gangadhar, Vinay; Sankaralingam, Karthikeyan] Univ Wisconsin, Dept Elect & Comp Engn, Madison, WI 53706 USA.
+RP Gupta, G (reprint author), Microsoft Res, W Lafayette, IN 47907 USA.
+EM gagg@microsoft.com; tjn@cs.ucla.edu; vinay@cs.wisc.edu; karu@cs.wisc.edu
+RI Nowatzki, Tony/U-1173-2019
+OI Nowatzki, Tony/0000-0001-8483-3824
+CR Andersen-Gott M, 2012, INT J INFORM MANAGE, V32, P106, DOI 10.1016/j.ijinfomgt.2011.10.003
+   Balasubramanian R., 2014, P 45 ACM TECH S COMP, P235
+   Chant I, 2014, IEEE SPECTRUM, V51, P15, DOI 10.1109/MSPEC.2014.6934916
+   Greenbaum E., 2011, HARVARD J LAW TECHNO, V25, P131
+   Huang A, 2015, IEEE SPECTRUM, V52, P43, DOI 10.1109/MSPEC.2015.7065418
+   Kuon I, 2007, IEEE T COMPUT AID D, V26, P203, DOI 10.1109/TCAD.2006.884574
+   Lakhani K. C., 2005, PERSPECTIVES FREE OP, P3, DOI DOI 10.2139/SSRN.443040
+   Maxfield C., 2010, EE TIMES
+   Myers C. B., 2013, TNW NEWS
+   Noonen M., 2014, CAN LEAN INNOVATION
+   Or-Bach Zvi, 2014, EE TIMES
+   PriceWaterhouse Coopers, 2016, MONEYTREE REP, pQ3
+   Sethumadhavan S, 2015, COMMUN ACM, V58, P60, DOI 10.1145/2699412
+   Software & Information Industry Assoc, 2015, SOFTW IND REV GROWTH
+NR 14
+TC 4
+Z9 4
+U1 1
+U2 1
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA
+SN 0018-9162
+EI 1558-0814
+J9 COMPUTER
+JI Computer
+PD JUN
+PY 2017
+VL 50
+IS 6
+BP 50
+EP 59
+DI 10.1109/MC.2017.162
+PG 10
+WC Computer Science, Hardware & Architecture; Computer Science, Software
+   Engineering
+SC Computer Science
+GA EX7WU
+UT WOS:000403460900010
+DA 2020-05-26
+ER
+
+PT B
+AU Zhou, MH
+   Chen, QY
+   Mockus, A
+   Wu, FG
+AF Zhou, Minghui
+   Chen, Qingying
+   Mockus, Audris
+   Wu, Fengguang
+BE Bodden, E
+   Schafer, W
+   VanDeursen, A
+   Zisman, A
+TI On the Scalability of Linux Kernel Maintainers' Work
+SO ESEC/FSE 2017: PROCEEDINGS OF THE 2017 11TH JOINT MEETING ON FOUNDATIONS
+   OF SOFTWARE ENGINEERING
+LA English
+DT Proceedings Paper
+CT 11th Joint Meeting of European Software Engineering Conference (ESEC) /
+   ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE)
+CY SEP 04-08, 2017
+CL Paderborn, GERMANY
+SP Assoc Comp Machinery, ACM SIGSOFT
+DE Maintainer's workload; maintainer scalability; work distribution;
+   software evolution; Linux kernel; open source ecosystem
+ID SOURCE SOFTWARE-DEVELOPMENT; OPEN SOURCE PROJECTS; COMMUNITY; EVOLUTION;
+   SYSTEMS
+AB Open source software ecosystems evolve ways to balance the workload among groups of participants ranging from core groups to peripheral groups. As ecosystems grow, it is not clear whether the mechanisms that previously made them work will continue to be relevant or whether new mechanisms will need to evolve. The impact of failure for critical ecosystems such as Linux is enormous, yet the understanding of why they function and are effective is limited. We, therefore, aim to understand how the Linux kernel sustains its growth, how to characterize the workload of maintainers, and whether or not the existing mechanisms are scalable. We quantify maintainers' work through the files that are maintained, and the change activity and the numbers of contributors in those files. We find systematic differences among modules; these differences are stable over time, which suggests that certain architectural features, commercial interests, or module-specific practices lead to distinct sustainable equilibria. We find that most of the modules have not grown appreciably over the last decade; most growth has been absorbed by a few modules. We also find that the effort per maintainer does not increase, even though the community has hypothesized that required effort might increase. However, the distribution of work among maintainers is highly unbalanced, suggesting that a few maintainers may experience increasing workload. We find that the practice of assigning multiple maintainers to a file yields only a power of 1/2 increase in productivity. We expect that our proposed framework to quantify maintainer practices will help clarify the factors that allow rapidly growing ecosystems to be sustainable.
+C1 [Zhou, Minghui; Chen, Qingying] Peking Univ, Key Lab High Confidence Software Technol, Minist Educ, Beijing 100871, Peoples R China.
+   [Mockus, Audris] Univ Tennessee, Knoxville, TN 37996 USA.
+   [Wu, Fengguang] Intel Opensource Technol Ctr, Shanghai 200241, Peoples R China.
+RP Zhou, MH (reprint author), Peking Univ, Key Lab High Confidence Software Technol, Minist Educ, Beijing 100871, Peoples R China.
+EM zhmh@pku.edu.cn; qychen@pku.edu.cn; audris@utk.edu;
+   fengguang.wu@intel.com
+FU National Basic Research Program of ChinaNational Basic Research Program
+   of China [2015CB352200]; National Natural Science Foundation of
+   ChinaNational Natural Science Foundation of China [61432001, 61421091,
+   61690200]; National Science FoundationNational Science Foundation (NSF)
+   [1633437]
+FX This work is supported by the National Basic Research Program of China
+   Grant 2015CB352200, the National Natural Science Foundation of China
+   Grants 61432001, 61421091, and 61690200 and the National Science
+   Foundation Award 1633437.
+CR ALBRECHT AJ, 1983, IEEE T SOFTWARE ENG, V9, P639, DOI 10.1109/TSE.1983.235271
+   Anbalagan P, 2009, PROC IEEE INT CONF S, P523, DOI 10.1109/ICSM.2009.5306337
+   Avelino G., 2016, IEEE 24 INT C PROGR, P1
+   Bogart C, 2016, FSE'16: PROCEEDINGS OF THE 2016 24TH ACM SIGSOFT INTERNATIONAL SYMPOSIUM ON FOUNDATIONS OF SOFTWARE ENGINEERING, P109, DOI 10.1145/2950290.2950325
+   Bonaccorsi A, 2003, RES POLICY, V32, P1243, DOI 10.1016/S0048-7333(03)00051-9
+   Brooks F. P. J., 1975, HE MYTHICAL MAN MONT
+   Creswell J., 2009, RES DESIGN QUALITATI
+   Ducheneaut N., 2005, Computer Supported Cooperative Work: The Journal of Collaborative Computing, V14, P323, DOI 10.1007/s10606-005-9000-1
+   FINK M, 2003, [No title captured]
+   Fortuna MA, 2011, P NATL ACAD SCI USA, V108, P19985, DOI 10.1073/pnas.1115960108
+   German D. M., 2003, Software Process Improvement and Practice, V8, P201, DOI 10.1002/spip.189
+   German DM, 2016, EMPIR SOFTW ENG, V21, P260, DOI 10.1007/s10664-014-9356-2
+   German DM, 2013, EUR CON SFTWR MTNCE, P243, DOI 10.1109/CSMR.2013.33
+   Graves TL, 2001, TECHNOMETRICS, V43, P168, DOI 10.1198/004017001750386288
+   Hertel G, 2003, RES POLICY, V32, P1159, DOI 10.1016/S0048-7333(03)00047-7
+   Jialiang Xie, 2013, 2013 ACM / IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), P247, DOI 10.1109/ESEM.2013.62
+   Kraut RE, 2011, BUILDING SUCCESSFUL ONLINE COMMUNITIES: EVIDENCE-BASED SOCIAL DESIGN, P1
+   Kroah-Hartman Greg, 2008, LIN S MARCH 2008
+   Kroah-Hartman Greg, 2013, DONT WANT YOUR CODE
+   Lee GK, 2003, ORGAN SCI, V14, P633, DOI 10.1287/orsc.14.6.633.24866
+   Lehman MM, 1997, FOURTH INTERNATIONAL SOFTWARE METRICS SYMPOSIUM, PROCEEDINGS, P20, DOI 10.1109/METRIC.1997.637156
+   Liguo Yu, 2013, INT J SOFTWARE INFOR, V7, P469
+   Meneely A., 2009, P ACM 2009 C COMP CO
+   Mens T, 2014, EVOLVING SOFTWARE SY, P297, DOI DOI 10.1007/978-3-642-45398-4_10
+   Mockus A, 2000, BELL LABS TECH J, V5, P169, DOI 10.1002/bltj.2229
+   Mockus A., 2000, 22 INT C SOFTW ENG, P263
+   O'Mahony S, 2007, ACAD MANAGE J, V50, P1079
+   PARNAS DL, 1972, COMMUN ACM, V15, P1053, DOI 10.1145/361598.361623
+   Sharp Sarah, 2014, LINUX KERNEL INTRO
+   Song CM, 2005, NATURE, V433, P392, DOI 10.1038/nature03248
+   Steinmacher I, 2015, PROCEEDINGS OF THE 2015 ACM INTERNATIONAL CONFERENCE ON COMPUTER-SUPPORTED COOPERATIVE WORK AND SOCIAL COMPUTING (CSCW'15), P1379, DOI 10.1145/2675133.2675215
+   Stewart KJ, 2006, MIS QUART, V30, P291
+   Torvalds L, 1999, COMMUN ACM, V42, P38, DOI 10.1145/299157.299165
+   von Krogh G, 2003, RES POLICY, V32, P1217, DOI 10.1016/S0048-7333(03)00050-7
+   von Krogh G, 2003, RES POLICY, V32, P1149, DOI 10.1016/S0048-7333(03)00054-4
+   WERMELINGER M, 2008, [No title captured], P133
+   Wermelinger M, 2008, PROC IEEE INT CONF S, P396, DOI 10.1109/ICSM.2008.4658088
+   Yin R., 2009, CASE STUDY RES DESIG
+   Zhou M., 2010, P 18 ACM SIGSOFT INT, P137
+   Zhou MH, 2015, IEEE T SOFTWARE ENG, V41, P82, DOI 10.1109/TSE.2014.2349496
+   Zhu JX, 2016, 13TH WORKING CONFERENCE ON MINING SOFTWARE REPOSITORIES (MSR 2016), P472, DOI [10.1145/2901739.2903502, 10.1109/MSR.2016.057]
+NR 41
+TC 3
+Z9 3
+U1 0
+U2 2
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1515 BROADWAY, NEW YORK, NY 10036-9998 USA
+BN 978-1-4503-5105-8
+PY 2017
+BP 27
+EP 37
+DI 10.1145/3106237.3106287
+PG 11
+WC Computer Science, Software Engineering; Computer Science, Theory &
+   Methods
+SC Computer Science
+GA BI7IQ
+UT WOS:000414279300006
+DA 2020-05-26
+ER
+
+PT S
+AU Tahir, A
+   Licorish, SA
+   MacDonell, SG
+AF Tahir, Amjed
+   Licorish, Sherlock A.
+   MacDonell, Stephen G.
+BE Lv, J
+   Zhang, H
+   Hinchey, M
+   Liu, X
+TI Feature Evolution and Reuse - An Exploratory Study of Eclipse
+SO 2017 24TH ASIA-PACIFIC SOFTWARE ENGINEERING CONFERENCE (APSEC 2017)
+SE Asia-Pacific Software Engineering Conference
+LA English
+DT Proceedings Paper
+CT 24th Asia-Pacific Software Engineering Conference (APSEC)
+CY DEC 04-08, 2017
+CL Nanjing, PEOPLES R CHINA
+DE software reuse; software evolution; empirical study; Eclipse
+ID OPEN-SOURCE SOFTWARE; SYSTEMS
+AB One of the purported ways to increase productivity and reduce development time is to reuse existing features and modules. If reuse is adopted, logically then, it will have a direct impact on a system's evolution. However, the evidence in the literature is not clear on the extent to which reuse is practiced in real-world projects, nor how it is practiced. In this paper we report the results of an investigation of reuse and evolution of software features in one of the largest open-source ecosystems Eclipse. Eclipse provides a leading example of how a system can grow dramatically in size and number of features while maintaining its quality. Our results demonstrate the extent of feature reuse and evolution and also patterns of reuse across ten different Eclipse releases (from Europa to Neon).
+C1 [Tahir, Amjed] Massey Univ, Sch Engn & Adv Technol, Auckland, New Zealand.
+   [Licorish, Sherlock A.; MacDonell, Stephen G.] Univ Otago, Dept Informat Sci, Dunedin, New Zealand.
+RP Tahir, A (reprint author), Massey Univ, Sch Engn & Adv Technol, Auckland, New Zealand.
+EM a.tahir@massey.ac.nz; sherlock.licorish@otago.ac.nz;
+   stephen.macdonell@otago.ac.nz
+RI MacDonell, Stephen/AAI-1579-2019
+OI MacDonell, Stephen/0000-0002-2231-6941
+CR Anvik J, 2006, P 28 INT C SOFTW ENG, P361, DOI DOI 10.1145/1134285.1134336
+   Asaduzzaman M., 2012, 2012 9th IEEE Working Conference on Mining Software Repositories (MSR 2012), P116, DOI 10.1109/MSR.2012.6224267
+   Bakar NH, 2016, APPL SOFT COMPUT, V49, P1297, DOI 10.1016/j.asoc.2016.07.048
+   Basili VR, 1996, COMMUN ACM, V39, P104, DOI 10.1145/236156.236184
+   Bieman JM, 2003, PROG COMPREHEN, P44
+   Brown AW, 2002, LECT NOTES COMPUT SC, V2319, P123
+   Crowston K., 2003, 24 INT C INF SYST
+   Dig D, 2006, J SOFTW MAINT EVOL-R, V18, P83, DOI 10.1002/smr.328
+   Frakes WB, 1996, IEEE T SOFTWARE ENG, V22, P274, DOI 10.1109/32.491652
+   Haefliger S, 2008, MANAGE SCI, V54, P180, DOI 10.1287/mnsc.1070.0748
+   Herraiz I, 2009, PROC IEEE INT CONF S, P439, DOI 10.1109/ICSM.2009.5306299
+   Kang KC, 1990, TECH REP
+   Lehman M. M., 1980, Journal of Systems and Software, V1, P213, DOI 10.1016/0164-1212(79)90022-0
+   Licorish Sherlock A., 2016, Journal of Software, V11, P848, DOI 10.17706/jsw.11.9.848-869
+   Licorish S. A., 2013, 17 INT C EV ASS SOFT, P228
+   Licorish SA, 2014, INFORM SOFTWARE TECH, V56, P1578, DOI 10.1016/j.infsof.2014.02.004
+   Martinez J, 2016, LECT NOTES COMPUT SC, V9679, P267, DOI 10.1007/978-3-319-35122-3_18
+   Martinez Jabier, 2015, P 19 INT C SOFTW PRO, P101, DOI DOI 10.1145/2791060.2791086
+   Mockus Audris, 2007, 1 INT WORKSH EM TREN
+   Selby RW, 2005, IEEE T SOFTWARE ENG, V31, P495, DOI 10.1109/TSE.2005.69
+   Thomas SW, 2014, SCI COMPUT PROGRAM, V80, P457, DOI 10.1016/j.scico.2012.08.003
+   Zaidman A, 2011, EMPIR SOFTW ENG, V16, P325, DOI 10.1007/s10664-010-9143-7
+NR 22
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1530-1362
+BN 978-1-5386-3681-7
+J9 ASIA PAC SOFWR ENG
+PY 2017
+BP 582
+EP 587
+DI 10.1109/APSEC.2017.69
+PG 6
+WC Computer Science, Software Engineering; Engineering, Electrical &
+   Electronic
+SC Computer Science; Engineering
+GA BJ8RX
+UT WOS:000428733800062
+DA 2020-05-26
+ER
+
+PT J
+AU Quresh, NMF
+   Shin, DR
+   Siddiqui, IF
+   Chowdhry, BS
+AF Quresh, Nawab Muhammad Faseeh
+   Shin, Dong Ryeol
+   Siddiqui, Isma Farah
+   Chowdhry, Bhawani Shankar
+TI Storage-Tag-Aware Scheduler for Hadoop Cluster
+SO IEEE ACCESS
+LA English
+DT Article
+DE Hadoop; HDFS; scheduler; MapReduce; storage-tier
+ID MAPREDUCE
+AB Big data analytics has simplified the processing complexity of extremely large data sets through ecosystems, such as Hadoop, MapR, and Cloudera. Apache Hadoop is an open-source ecosystem that manages large data sets in a distributed environment. MapReduce is a programming model that processes massive amount of unstructured data sets over Hadoop cluster. Recently, Hadoop enhances its homogeneous storage function to heterogeneous storage and stores data sets into multiple storage media, i.e., SSD, RAM, and DISK. This development increases the performance of data block placement strategy and allows a client to store large data sets into multiple storage media efficiently than homogeneous storage. However, this evolution increases the consumption of computing capacity and memory usage over MapReduce job scheduling. The scheduler processes MapReduce job into homogeneous container having configuration of CPU, memory, DISK volume, and network I/O, and accesses, processes, and stores data sets over heterogeneous storage media. This produces a processing latency of locating and pairing source data set to MapReduce tasks and results an abnormal high consumption of computing capacity and memory usage in a Datanode. Similarly, when scheduler assigns MapReduce jobs to multiple Datanodes, the same processing latency can severely affect the performance of whole cluster. In this paper, we present Storage-Tag-Aware Scheduler (STAS) that reduces processing latency by scheduling MapReduce jobs into heterogeneous storage containers, i.e., SSD, DISK, and RAM container. STAS endorses job with a tag of storage media, such as JobSSD, JobDISK, and JobRAM and parses them into heterogeneous shared-queues, which assign processing configuration to enlist jobs. STAS manager then schedules shared-queue jobs into heterogeneous MapReduce containers and generates an output into storage media of the cluster. The experimental evaluation shows that STAS optimizes the consumption of computing capacity and memory usage efficiently than available schedulers in a Hadoop cluster.
+C1 [Quresh, Nawab Muhammad Faseeh; Shin, Dong Ryeol] Sungkyunkwan Univ, Dept Elect & Comp Engn, Suwon 440746, South Korea.
+   [Siddiqui, Isma Farah] Mehran Univ Engn & Technol, Dept Software Engn, Jamshoro 76062, Pakistan.
+   [Chowdhry, Bhawani Shankar] Mehran Univ Engn & Technol, Fac Elect Elect & Comp Engn, Jamshoro 76062, Pakistan.
+RP Shin, DR (reprint author), Sungkyunkwan Univ, Dept Elect & Comp Engn, Suwon 440746, South Korea.
+EM drshin@skku.edu
+RI Siddiqui, Isma F/Q-9976-2018
+OI Siddiqui, Isma F/0000-0002-2058-4336; Qureshi, Nawab Muhammad
+   Faseeh/0000-0002-5035-2640
+FU National Research Foundation of Korea through the Ministry of Education
+   [NRF-2017R1D1A1B03032855]
+FX This work was supported by Basic Science Research Program through the
+   National Research Foundation of Korea through the Ministry of Education
+   under Grant NRF-2017R1D1A1B03032855.
+CR Ahmad F., 2012, ACM SIGARCH COMPUT A, V40, P61, DOI [10.1145/2189750.2150984, DOI 10.1145/2189750.2150984]
+   [Anonymous], 2011, IN PLACE MEMORY RAM
+   [Anonymous], 2016, APACHE HADOOP 2 7 3
+   [Anonymous], 2015, APACHE HADOOP 2 71 P
+   [Anonymous], 2016, APACHE HADOOP 2 7 2
+   [Anonymous], 2014, WELCOME APACHE HADOO
+   Bajaber F, 2016, J GRID COMPUT, V14, P379, DOI 10.1007/s10723-016-9371-1
+   Chaiken R, 2008, PROC VLDB ENDOW, V1, P1265
+   Cheng DZ, 2017, IEEE T COMPUT, V66, P1341, DOI 10.1109/TC.2017.2669964
+   Cheng DZ, 2017, IEEE T PARALL DISTR, V28, P774, DOI 10.1109/TPDS.2016.2594765
+   Cloudera, 2016, MOD PLATF DAT MAN AN
+   Dean J, 2004, USENIX Association Proceedings of the Sixth Symposium on Operating Systems Design and Implementation (OSDE '04), P137
+   Gu R, 2014, J PARALLEL DISTR COM, V74, P2166, DOI 10.1016/j.jpdc.2013.10.003
+   Hashem IAT, 2016, SCIENTOMETRICS, V109, P389, DOI 10.1007/s11192-016-1945-y
+   He C, 2011, INT CONF ACOUST SPEE, P3540
+   Islam N. S., 2016, P IEEE INT C BIG DAT, P223
+   Islam NS, 2015, IEEE ACM INT SYMP, P101, DOI 10.1109/CCGrid.2015.161
+   Jiahui Jin, 2011, 2011 Proceedings of 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid 2011), P295, DOI 10.1109/CCGrid.2011.55
+   Krish KR, 2014, IEEE INT CONF BIG DA, P207, DOI 10.1109/BigData.2014.7004234
+   Krish KR, 2014, IEEE ACM INT SYMP, P502, DOI 10.1109/CCGrid.2014.51
+   Lokeswari Y. V., 2016, P 2 INT C INF COMM T, P143
+   M. Technologies, 2016, FEAT CUST
+   Mace Jonathan, 2015, NSDI, P589
+   Mathiya B. J., 2015, SOFT COMP NETW SEC I, P1, DOI DOI 10.1109/ICSNS.2015.7292373
+   Park D, 2016, P 31 ANN ACM S APPL, P2182
+   Patel D, 2012, PROC INT CONF DATA, P1001, DOI 10.1109/ICDE.2012.63
+   Polo J, 2014, IEEE ACM INT SYMP, P61, DOI 10.1109/CCGrid.2014.65
+   Qureshi NMF, 2016, KSII T INTERNET INF, V10, P4063, DOI 10.3837/tiis.2016.09.003
+   Sanaei Z, 2014, IEEE COMMUN SURV TUT, V16, P369, DOI 10.1109/SURV.2013.050113.00090
+   Senthilkumar M, 2016, CYBERN INF TECHNOL, V16, P35, DOI 10.1515/cait-2016-0033
+   Seyed R. P., 2014, INT J COMPUTER NETWO, P308
+   Shaikh S, 2016, PROCEEDINGS OF THE 10TH INDIACOM - 2016 3RD INTERNATIONAL CONFERENCE ON COMPUTING FOR SUSTAINABLE GLOBAL DEVELOPMENT, P1294
+   Singh S., 2017, REV APRIORI BASED AL
+   Wasi-ur-Rahman M, 2015, INT PARALL DISTRIB P, P291, DOI 10.1109/IPDPS.2015.83
+   Weisong Hu, 2010, Proceedings 2010 Sixth International Conference on Semantics Knowledge and Grid (SKG 2010), P135, DOI 10.1109/SKG.2010.23
+   Xiaoli Wang, 2012, Mathematical Problems in Engineering, DOI 10.1155/2012/589243
+   Yan F, 2017, IEEE T CLOUD COMPUT, V5, P317, DOI 10.1109/TCC.2015.2415772
+   Zaharia M., 2008, P OSDI, V8, P4
+   Zaharia M, 2010, EUROSYS'10: PROCEEDINGS OF THE EUROSYS 2010 CONFERENCE, P265
+NR 39
+TC 7
+Z9 7
+U1 0
+U2 15
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+J9 IEEE ACCESS
+JI IEEE Access
+PY 2017
+VL 5
+BP 13742
+EP 13755
+DI 10.1109/ACCESS.2017.2725318
+PG 14
+WC Computer Science, Information Systems; Engineering, Electrical &
+   Electronic; Telecommunications
+SC Computer Science; Engineering; Telecommunications
+GA FI2GW
+UT WOS:000411757800033
+OA DOAJ Gold
+DA 2020-05-26
+ER
+
+PT J
+AU Mandli, KT
+   Ahmadia, AJ
+   Berger, M
+   Calhoun, D
+   George, DL
+   Hadjimichael, Y
+   Ketcheson, DI
+   Lemoine, GI
+   LeVeque, RJ
+AF Mandli, Kyle T.
+   Ahmadia, Aron J.
+   Berger, Marsha
+   Calhoun, Donna
+   George, David L.
+   Hadjimichael, Yiannis
+   Ketcheson, David, I
+   Lemoine, Grady, I
+   LeVeque, Randall J.
+TI Clawpack: building an open source ecosystem for solving hyperbolic PDEs
+SO PEERJ COMPUTER SCIENCE
+LA English
+DT Article
+DE Partial differential equations; Finite volume methods; Parallel
+   computing; Open source software; Conservation laws; Balance laws
+AB Clawpack is a software package designed to solve nonlinear hyperbolic partial differential equations using high-resolution finite volume methods based on Riemann solvers and limiters. The package includes a number of variants aimed at different applications and user communities. Clawpack has been actively developed as an open source project for over 20 years. The latest major release, Clawpack 5, introduces a number of new features and changes to the code base and a new development model based on GitHub and Git submodules. This article provides a summary of the most significant changes, the rationale behind some of these changes, and a description of our current development model.
+C1 [Mandli, Kyle T.] Columbia Univ, Dept Appl Phys & Appl Math, New York, NY 10027 USA.
+   [Ahmadia, Aron J.] Continuum Analyt, Austin, TX USA.
+   [Berger, Marsha] NYU, Courant Inst, New York, NY USA.
+   [Calhoun, Donna] Boise State Univ, Dept Math, Boise, ID 83725 USA.
+   [George, David L.] US Geol Survey, Cascade Volcano Observ, Vancouver, WA USA.
+   [Hadjimichael, Yiannis; Ketcheson, David, I] King Abdullah Univ Sci & Technol, Appl Math & Computat Sci, Thuwal, Saudi Arabia.
+   [Lemoine, Grady, I] CD Adapco, Bellevue, WA USA.
+   [LeVeque, Randall J.] Univ Washington, Dept Appl Math, Seattle, WA 98195 USA.
+RP Mandli, KT (reprint author), Columbia Univ, Dept Appl Phys & Appl Math, New York, NY 10027 USA.
+EM kyle.mandli@columbia.edu
+RI ; Ketcheson, David/K-5949-2013
+OI Hadjimichael, Yiannis/0000-0003-3517-8557; Mandli,
+   Kyle/0000-0002-8267-5989; Ketcheson, David/0000-0002-1212-126X
+FU NSFNational Science Foundation (NSF) [DMS-1216732, DMS-1419108,
+   EAR-1331412]; DOE Office of Advanced Scientific Computing grant
+   [DE-FG02-88ER25053]; KAUST OCRF [2156 CRG3]; University of Washington
+   Department of Applied Mathematics
+FX Funding sources that have contributed to the developments outlined in
+   this paper include: NSF grants DMS-1216732, DMS-1419108, and
+   EAR-1331412, DOE Office of Advanced Scientific Computing grant
+   DE-FG02-88ER25053, KAUST OCRF grant 2156 CRG3, and the University of
+   Washington Department of Applied Mathematics. The funders had no role in
+   study design, data collection and analysis, decision to publish, or
+   preparation of the manuscript.
+CR Adams M. F., 2014, LBNL6616E
+   Allstadt K, 2013, J GEOPHYS RES-EARTH, V118, P1472, DOI 10.1002/jgrf.20110
+   Anderson RW, 2013, TECHNICAL REPORT
+   Balay S, 2010, AN69511
+   Bale DS, 2002, SIAM J SCI COMPUT, V24, P955, DOI 10.1137/S106482750139738X
+   BERGER M, 1991, IEEE T SYST MAN CYB, V21, P1278, DOI 10.1109/21.120081
+   Berger MJ, 2011, ADV WATER RESOUR, V34, P1195, DOI 10.1016/j.advwatres.2011.02.016
+   BERGER MJ, 1989, J COMPUT PHYS, V82, P64, DOI 10.1016/0021-9991(89)90035-1
+   BERGER MJ, 1984, J COMPUT PHYS, V53, P484, DOI 10.1016/0021-9991(84)90073-1
+   Berger MJ, 1998, SIAM J NUMER ANAL, V35, P2298, DOI 10.1137/S0036142997315974
+   Brown J, 2015, COMPUT SCI ENG, V17, P38, DOI 10.1109/MCSE.2014.95
+   Burstedde C, 2014, ADV PARALLEL COMPUT, V25, P253, DOI 10.3233/978-1-61499-381-0-253
+   Davis BN, 2015, ADJOINT METHODS GUID
+   Deiterding Ralf, 2012, ESAIM Proceedings, V34, P97, DOI 10.1051/proc/201134002
+   Faria LM, 2015, P COMBUST INST, V35, P2015, DOI 10.1016/j.proci.2014.07.006
+   George DL, 2011, INT J NUMER METH FL, V66, P1000, DOI 10.1002/fld.2298
+   George D.L., 2004, THESIS
+   George D. L., 2006, THESIS
+   George DL, 2008, J COMPUT PHYS, V227, P3089, DOI 10.1016/j.jcp.2007.10.027
+   George DL, 2014, P ROY SOC A-MATH PHY, V470, DOI 10.1098/rspa.2013.0820
+   Gonzalez F, 2013, TECHNICAL REPORT
+   Gonzalez F., 2011, GEOCLAW RESULTS NTHM
+   Gonzalez F.I., 2014, PROBABILISTIC TSUNAM
+   Hadjimichael Y, 2016, ARXIV150404107
+   Hunter JD, 2007, COMPUT SCI ENG, V9, P90, DOI 10.1109/MCSE.2007.55
+   Iverson RM, 2015, EARTH PLANET SC LETT, V412, P197, DOI 10.1016/j.epsl.2014.12.020
+   Iverson RM, 2014, P ROY SOC A-MATH PHY, V470, DOI 10.1098/rspa.2013.0819
+   Jones E, 2001, SCIPY OPEN SOURCE SC
+   Ketcheson DI, 2015, MULTISCALE MODEL SIM, V13, P440, DOI 10.1137/130946526
+   Ketcheson DI, 2013, SIAM J SCI COMPUT, V35, pA351, DOI 10.1137/110830320
+   Ketcheson DI, 2012, SIAM J SCI COMPUT, V34, pC210, DOI 10.1137/110856976
+   Kim J. S., 2014, THESIS
+   Langseth JO, 2000, J COMPUT PHYS, V165, P126, DOI 10.1006/jcph.2000.6606
+   Langseth JO., 1996, THESIS
+   LeVeque R. J., 2002, FINITE VOLUME METHOD
+   LeVeque RJ, 2011, ACTA NUMER, V20, P211, DOI 10.1017/S0962492911000043
+   LeVeque RJ, 2011, J SCI COMPUT, V48, P209, DOI 10.1007/s10915-010-9411-0
+   LeVeque RJ, 1997, J COMPUT PHYS, V131, P327, DOI 10.1006/jcph.1996.5603
+   LeVeque RJ., 1994, CLAWPACK V1 0 ANNOUN
+   Mandli KT, 2011, THESIS
+   Mandli KT, 2014, OCEAN MODEL, V75, P36, DOI 10.1016/j.ocemod.2014.01.002
+   Mandli KT, 2013, OCEAN MODEL, V72, P80, DOI 10.1016/j.ocemod.2013.08.001
+   MathWorks, 2015, MATLAB V8 5 0
+   Perez F, 2007, COMPUT SCI ENG, V9, P21, DOI 10.1109/MCSE.2007.53
+   Peterson P., 2009, INT J COMPUTATIONAL, V4
+   Piwowar HA, 2007, PLOS ONE, V2, DOI 10.1371/journal.pone.0000308
+   Popinet S., 2001, GERRIS FLOW SOLVER
+   San Roman Alerigi D., 2015, THESIS
+   The OpenFOAM Foundation, 2016, OPENFOAM
+   Turk M.J., 2013, P C EXTR SCI ENG DIS, P69, DOI 10.1145/2484762.2484782
+   Vandewalle P, 2012, COMPUT SCI ENG, V14, P42, DOI 10.1109/MCSE.2012.63
+NR 51
+TC 24
+Z9 23
+U1 0
+U2 0
+PU PEERJ INC
+PI LONDON
+PA 341-345 OLD ST, THIRD FLR, LONDON, EC1V 9LL, ENGLAND
+SN 2376-5992
+J9 PEERJ COMPUT SCI
+JI PeerJ Comput. Sci.
+PD AUG
+PY 2016
+AR e68
+DI 10.7717/peerj-cs.68
+PG 27
+WC Computer Science, Artificial Intelligence; Computer Science, Information
+   Systems; Computer Science, Theory & Methods
+SC Computer Science
+GA VD6TJ
+UT WOS:000437458900002
+OA DOAJ Gold, Green Published
+DA 2020-05-26
+ER
+
+PT S
+AU Linaker, J
+   Rempel, P
+   Regnell, B
+   Mader, P
+AF Linaker, Johan
+   Rempel, Patrick
+   Regnell, Bjorn
+   Maeder, Patrick
+BE Daneva, M
+   Pastor, O
+TI How Firms Adapt and Interact in Open Source Ecosystems: Analyzing
+   Stakeholder Influence and Collaboration Patterns
+SO REQUIREMENTS ENGINEERING: FOUNDATION FOR SOFTWARE QUALITY, REFSQ 2016
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 22nd International Working Conference on Requirements Engineering -
+   Foundation for Software Quality
+CY MAR 14-17, 2016
+CL Gothenburg, SWEDEN
+SP Chalmers Univ Technol, Adesso, Transport, Software Ctr, Int Requirements Engn Board, Systemite, Prompt, Volvo, Informat & Commun Technol
+DE Requirements engineering; Stakeholder collaboration; Stakeholder
+   influence; Open source; Software ecosystem; Inter-organizational
+   collaboration; Open innovation; Co-opetition
+ID OPEN INNOVATION; REQUIREMENTS; COMMUNITY; IMPACT
+AB [Context and motivation] Ecosystems developed as Open Source Software (OSS) are considered to be highly innovative and reactive to new market trends due to their openness and wide-ranging contributor base. Participation in OSS often implies opening up of the software development process and exposure towards new stakeholders. [Question/Problem] Firms considering to engage in such an environment should carefully consider potential opportunities and challenges upfront. The openness may lead to higher innovation potential but also to frictional losses for engaged firms. Further, as an ecosystem progresses, power structures and influence on feature selection may fluctuate accordingly. [Principal ideas/results] We analyze the Apache Hadoop ecosystem in a quantitative longitudinal case study to investigate changing stakeholder influence and collaboration patterns. Further, we investigate how its innovation and time-to-market evolve at the same time. [Contribution] Findings show collaborations between and influence shifting among rivaling and non-competing firms. Network analysis proves valuable on how an awareness of past, present and emerging stakeholders, in regards to power structure and collaborations may be created. Furthermore, the ecosystem's innovation and time-to-market show strong variations among the release history. Indications were also found that these characteristics are influenced by the way how stakeholders collaborate with each other.
+C1 [Linaker, Johan; Regnell, Bjorn] Lund Univ, Lund, Sweden.
+   [Rempel, Patrick; Maeder, Patrick] Tech Univ Ilmenau, Ilmenau, Germany.
+RP Linaker, J (reprint author), Lund Univ, Lund, Sweden.
+EM johan.linaker@cs.lth.se; patrick.rempel@tu-ilmenau.de;
+   bjorn.regnell@cs.lth.se; patrick.maeder@tu-ilmenau.de
+RI Mader, Patrick/A-1848-2018
+CR Duc AN, 2011, IFIP ADV INF COMM TE, V365, P1
+   Chesbrough H.W., 2006, OPEN INNOVATION NEW
+   Crowston K, 2005, 1 MONDAY, V10, DOI [10.5210/fm.v10i2.1207, DOI 10.5210/FM.V10I2.1207]
+   Dahlander L, 2008, LONG RANGE PLANN, V41, P629, DOI 10.1016/j.lrp.2008.09.003
+   Damian D, 2007, INT REQUIR ENG CONF, P59, DOI 10.1109/RE.2007.51
+   Enkel E, 2009, R&D MANAGE, V39, P311, DOI 10.1111/j.1467-9310.2009.00570.x
+   Ernst N. A., 2012, Proceedings of the 2012 IEEE Second International Workshop on Empirical Requirements Engineering (EmpiRE), P25, DOI 10.1109/EmpiRE.2012.6347678
+   Fricker S, 2010, LECT NOTES COMPUT SC, V6182, P60, DOI 10.1007/978-3-642-14192-8_7
+   Glinz M, 2007, IEEE SOFTWARE, V24, P18, DOI 10.1109/MS.2007.42
+   Gonzalez-Barahona JM, 2013, IEEE SOFTWARE, V30, P38, DOI 10.1109/MS.2013.95
+   GRIFFIN A, 1993, J PROD INNOVAT MANAG, V10, P112
+   Henkel J, 2014, RES POLICY, V43, P879, DOI 10.1016/j.respol.2013.08.014
+   Jansen S., 2009, P 1 INT WORKSH SOFTW, P34
+   Jansen S, 2012, J SYST SOFTWARE, V85, P1495, DOI 10.1016/j.jss.2011.12.007
+   Jansen S, 2009, PROC INT CONF SOFTW, P187, DOI 10.1109/ICSE-COMPANION.2009.5070978
+   Knauss E, 2014, INT REQUIR ENG CONF, P213, DOI 10.1109/RE.2014.6912263
+   Lim S. L., 2010, P 32 ACM IEEE INT C, P295, DOI DOI 10.1145/1806799.1806844
+   Linaker J., 2015, P 2015 INT C SOFTW S, P208, DOI DOI 10.1145/2785592.2795370.ACM
+   Manikas K, 2013, J SYST SOFTWARE, V86, P1294, DOI 10.1016/j.jss.2012.12.026
+   Martinez-Romo J, 2008, INT FED INFO PROC, V275, P171
+   Muller A., 2005, STRATEGY LEADERSHIP, V33, P37, DOI DOI 10.1108/10878570510572590
+   Nakakoji K., 2002, P INT WORKSH PRINC S, P76, DOI DOI 10.1145/512035.512055
+   Nalebuff B.J., 1997, STRATEGY LEADERSHIP, V25, P28, DOI DOI 10.1108/EB054655
+   ORUCEVICALAGIC A, 2014, 40 EUROMICRO C SOFTW, P25, DOI DOI 10.1109/SEAA.2014.50
+   Pacheco C, 2012, J SYST SOFTWARE, V85, P2171, DOI 10.1016/j.jss.2012.04.075
+   Runeson P, 2009, EMPIR SOFTW ENG, V14, P131, DOI 10.1007/s10664-008-9102-8
+   Scacchi W., 2002, IEE Proceedings-Software, V149, P24, DOI 10.1049/ip-sen:20020202
+   Teixeira J, 2015, J INTERNET SERV APPL, V6, DOI 10.1186/s13174-015-0028-2
+   West J, 2006, R&D MANAGE, V36, P319, DOI 10.1111/j.1467-9310.2006.00436.x
+   Wnuk K, 2012, INT SYMP EMP SOFTWAR, P271, DOI 10.1145/2372251.2372301
+NR 30
+TC 10
+Z9 10
+U1 0
+U2 5
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+BN 978-3-319-30282-9; 978-3-319-30281-2
+J9 LECT NOTES COMPUT SC
+PY 2016
+VL 9619
+BP 63
+EP 81
+DI 10.1007/978-3-319-30282-9_5
+PG 19
+WC Computer Science, Software Engineering; Computer Science, Theory &
+   Methods
+SC Computer Science
+GA BF5CK
+UT WOS:000381857800005
+DA 2020-05-26
+ER
+
+PT J
+AU Teixeira, J
+   Robles, G
+   Gonzalez-Barahona, JM
+AF Teixeira, Jose
+   Robles, Gregorio
+   Gonzalez-Barahona, Jesus M.
+TI Lessons learned from applying social network analysis on an industrial
+   Free/Libre/Open Source Software ecosystem
+SO JOURNAL OF INTERNET SERVICES AND APPLICATIONS
+LA English
+DT Article
+DE Social network analysis; Open source; Open-coopetition; Software
+   ecosystems; Business models; Homophily; Cloud computing; OpenStack
+ID COMMUNITY STRUCTURE; CO-OPETITION; COOPETITION; VISUALIZATION;
+   COOPERATION; COMPETITION; CONSTRUCTS; INNOVATION; CONFLICT; STORIES
+AB Many software projects are no longer done in-house by a single organization. Instead, we are in a new age where software is developed by a networked community of individuals and organizations, which base their relations to each other on mutual interest. Paradoxically, recent research suggests that software development can actually be jointly-developed by rival firms. For instance, it is known that the mobile-device makers Apple and Samsung kept collaborating in open source projects while running expensive patent wars in the court. Taking a case study approach, we explore how rival firms collaborate in the open source arena by employing a multi-method approach that combines qualitative analysis of archival data (QA) withmining software repositories (MSR) and Social Network Analysis (SNA). While exploring collaborative processes within the OpenStack ecosystem, our research contributes to Software Engineering research by exploring the role of groups, sub-communities and business models within a high-networked open source ecosystem. Surprising results point out that competition for the same revenue model (i.e., operating conflicting business models) does not necessary affect collaboration within the ecosystem. Moreover, while detecting the different sub-communities of the OpenStack community, we found out that the expected social tendency of developers to work with developers from same firm (i.e., homophony) did not hold within the OpenStack ecosystem. Furthermore, while addressing a novel, complex and unexplored open source case, this research also contributes to the management literature in coopetition strategy and high-tech entrepreneurship with a rich description on how heterogeneous actors within a high-networked ecosystem (involving individuals, startups, established firms and public organizations) joint-develop a complex infrastructure for big-data in the open source arena.
+C1 [Teixeira, Jose] Univ Turku, Sch Econ TSE, Turku, Finland.
+   [Robles, Gregorio; Gonzalez-Barahona, Jesus M.] Univ Rey Juan Carlos, Madrid 28943, Spain.
+   [Robles, Gregorio; Gonzalez-Barahona, Jesus M.] Bitergia SL, Madrid 28918, Spain.
+RP Teixeira, J (reprint author), Univ Turku, Sch Econ TSE, Turku, Finland.
+EM jose.teixeira@utu.fi
+RI Robles, Gregorio/I-2507-2012; Gonzalez-Barahona, Jesus M./L-5646-2017
+OI Gonzalez-Barahona, Jesus M./0000-0001-9682-460X
+CR 451Research, 2014, 451 RES NEW OPENSTAC
+   Acker J, 2006, GENDER SOC, V20, P441, DOI 10.1177/0891243206289499
+   Adamcsek B, 2006, BIOINFORMATICS, V22, P1021, DOI 10.1093/bioinformatics/btl039
+   Albert R, 2002, REV MOD PHYS, V74, P47, DOI 10.1103/RevModPhys.74.47
+   Aldrich HE, 2007, STRATEG ENTREP J, V1, P147, DOI 10.1002/sej.8
+   Apple, 2014, APPL OP SOURC
+   Arnold J, 2011, CLOUDSCALING
+   Basili VR, 1999, IEEE T SOFTWARE ENG, V25, P456, DOI 10.1109/32.799939
+   Basole RC, 2009, J INF TECHNOL, V24, P144, DOI 10.1057/jit.2008.34
+   Bastian M., 2009, P INT AAAI C WEBL SO, V8, P361, DOI DOI 10.1136/QSHC.2004.010033
+   BENBASAT I, 1987, MIS QUART, V11, P369, DOI 10.2307/248684
+   Bengtsson M, 2000, IND MARKET MANAG, V29, P411, DOI 10.1016/S0019-8501(99)00067-X
+   Bengtsson M, 2014, IND MARKET MANAG, V43, P180, DOI 10.1016/j.indmarman.2014.02.015
+   Bertin J., 2011, SEMIOLOGY GRAPHICS D
+   Bhattacharya D, 2012, 2012 IEEE/ACM INTERNATIONAL CONFERENCE ON ADVANCES IN SOCIAL NETWORKS ANALYSIS AND MINING (ASONAM), P966, DOI 10.1109/ASONAM.2012.170
+   Bird C., 2008, P 16 ACM SIGSOFT INT, P24, DOI DOI 10.1145/1453101.1453107
+   Bitergia, 2014, OPENSTACK REL REP
+   Bitergia Oa, 2014, DASH DEV ACT DAT SOU
+   Blondel VD, 2008, J STAT MECH-THEORY E, DOI 10.1088/1742-5468/2008/10/P10008
+   Bonacich P, 2007, SOC NETWORKS, V29, P555, DOI 10.1016/j.socnet.2007.04.002
+   Bosch J., 2009, P 13 INT SOFTW PROD, P111, DOI DOI 10.1145/1753235.1753251
+   Brandenburger AM, 1996, J ECON MANAGE STRAT, V5, P5, DOI 10.1111/j.1430-9134.1996.00005.x
+   Brandes U, 2004, MATH VIS, P321
+   Brandes U., 2013, NETW SCI, V1, P1, DOI DOI 10.1017/NWS.2013.2
+   Brass D. J, 1995, RES PERSONNEL HUMAN, V13, P39, DOI DOI 10.1287/0RSC.2.1.40
+   Brohee S, 2006, BMC BIOINFORMATICS, V7, DOI 10.1186/1471-2105-7-488
+   Butts CT, 2010, TOOLS SOCIAL NETWORK
+   Cambrosio A, 2004, SOC STUD SCI, V34, P325, DOI 10.1177/0306312704043767
+   Crosby S, 2014, CITRIX BLOGS
+   Crowston K, 2005, 1 MONDAY, V10, DOI [10.5210/fm.v10i2.1207, DOI 10.5210/FM.V10I2.1207]
+   Cureton L, 2012, IT REFORM NATL AERON
+   Curry J, 2010, THE OPENSTACK BLOG
+   Dagnino G. B., 2002, INNOVATIVE RES MANAG, V9
+   Darrow B, 2012, OPENSTACK DEV LEAVE
+   Deeds DL, 1996, J BUS VENTURING, V11, P41, DOI 10.1016/0883-9026(95)00087-9
+   Diaz A, 2012, OPENSTACK POISED LEA
+   Dyba T., 2000, Empirical Software Engineering, V5, P357, DOI 10.1023/A:1009800404137
+   DYER WG, 1991, ACAD MANAGE REV, V16, P613, DOI 10.2307/258920
+   EISENHARDT KM, 1991, ACAD MANAGE REV, V16, P620, DOI 10.2307/258921
+   EISENHARDT KM, 1989, ACAD MANAGE REV, V14, P532, DOI 10.2307/258557
+   Elias N., 1978, WHAT IS SOCIOLOGY
+   Ericsson, 2014, OP SOURC ER
+   Etzkowitz H., 2000, ATHENA UNBOUND ADV W
+   Fernandez AS, 2014, IND MARKET MANAG, V43, P222, DOI 10.1016/j.indmarman.2013.11.004
+   Flynn B. B., 1990, J OPERATIONS MANAGEM, V9, P250, DOI DOI 10.1016/0272-6963(90)90098-X
+   Flyvbjerg B, 2006, QUAL INQ, V12, P219, DOI 10.1177/1077800405284363
+   Fortunato S, 2010, PHYS REP, V486, P75, DOI 10.1016/j.physrep.2009.11.002
+   Fratto M, 2012, AMAZON APIS ARE FINE
+   FREEMAN LC, 2005, [No title captured], P248, DOI DOI 10.1017/CBO9780511811395.012
+   GARUD R, 1994, RES POLICY, V23, P385, DOI 10.1016/0048-7333(94)90003-5
+   Geipel MM, 2012, IEEE T SOFTWARE ENG, V38, P1432, DOI 10.1109/TSE.2011.91
+   Gfaller GR, 1993, GROUP ANAL, V26, P341
+   Gibbert M, 2008, STRATEGIC MANAGE J, V29, P1465, DOI 10.1002/smj.722
+   Girvan M, 2002, P NATL ACAD SCI USA, V99, P7821, DOI 10.1073/pnas.122653799
+   Glanzel W, 2004, HANDBOOK OF QUANTITATIVE SCIENCE AND TECHNOLOGY RESEARCH: THE USE OF PUBLICATION AND PATENT STATISTICS IN STUDIES OF S&T SYSTEMS, P257
+   Gnyawali DR, 2009, J SMALL BUS MANAGE, V47, P308, DOI 10.1111/j.1540-627X.2009.00273.x
+   Gnyawali DR, 2001, ACAD MANAGE REV, V26, P431, DOI 10.2307/259186
+   GOMESCASSERES B, 1994, HARVARD BUS REV, V72, P62
+   GRANOVETTER MS, 1973, AM J SOCIOL, V78, P1360, DOI 10.1086/225469
+   Gulati R, 1999, AM J SOCIOL, V104, P1439, DOI 10.1086/210179
+   Hahn J, 2008, INFORM SYST RES, V19, P369, DOI 10.1287/isre.1080.0192
+   Handcock M.S., 2003, STATNET SOFTWARE TOO
+   Hannay JE, 2007, IEEE T SOFTWARE ENG, V33, P87, DOI 10.1109/TSE.2007.12
+   Hanssen GK, 2012, CEUR WORKSHOP P, P6
+   Hippel E. von, 2005, DEMOCRATIZING INNOVA
+   Hovorka DS, 2006, EUR J INFORM SYST, V15, P159, DOI 10.1057/palgrave.ejis.3000606
+   Howison J, 2011, J ASSOC INF SYST, V12, P767
+   HP, 2011, HP VID GALL OPENSTAC
+   HP, 2013, CISC VIS NETW IND GL
+   Huang KF, 2011, J TECHNOL TRANSFER, V36, P383, DOI 10.1007/s10961-010-9155-x
+   Iansiti M, 2004, HARVARD BUS REV, V82, P68
+   Iansiti M., 2004, KEYSTONE ADVANTAGE W
+   Izquierdo-Cortazar D, 2010, IFIP ADV INF COMM TE, V319, P336
+   Jansen S, 2014, INFORM SOFTWARE TECH, V56, P1508, DOI 10.1016/j.infsof.2014.04.006
+   Jansen S, 2009, PROC INT CONF SOFTW, P187, DOI 10.1109/ICSE-COMPANION.2009.5070978
+   Jiang YX, 2013, AM NAT, V181, pE125, DOI 10.1086/670160
+   Jick TD, ADM SCI Q, P602
+   Johnson P., 2012, IEEE Software, V29, P94, DOI 10.1109/MS.2012.127
+   Johnson RB, 2007, J MIX METHOD RES, V1, P112, DOI 10.1177/1558689806298224
+   Kagdi H, 2007, J SOFTW MAINT EVOL-R, V19, P77, DOI 10.1002/smr.344
+   Kleinberg J, 2002, P NIPS, V15, P463
+   Kock S., 1991, STRATEGIC PROCESS GA
+   Kozinets R. V., 2009, NETNOGRAPHY DOING ET
+   Kozinets RV, 2002, J MARKETING RES, V39, P61, DOI 10.1509/jmkr.39.1.61.18935
+   Krempel L, 2009, HDB SOCIAL NETWORK A
+   Lado AA, 1997, ACAD MANAGE REV, V22, P110, DOI 10.2307/259226
+   LEE AS, 1989, MIS QUART, V13, P33, DOI 10.2307/248698
+   Lopez-Fernandez L., 2004, "International Workshop on Mining Software Repositories (MSR 2004)" W17S Workshop - 26th International Conference on Software Engineering, P101, DOI 10.1049/ic:20040485
+   Lundvall BA, 1922, NATL SYSTEMS INNOVAT, P45
+   Lvov M, 2011, OPENSTACK DEPLOYEMNT
+   Lynn G. S., 1998, ENG MANAGEMENT J, V10, P11, DOI DOI 10.1080/10429247.1998.11414991
+   Madey G, 2002, AM C INF SYST AMCIS2, P1806
+   Madhavan R, 2004, ACAD MANAGE J, V47, P918, DOI 10.2307/20159631
+   Masmoudi H, 2009, INT FED INFO PROC, V299, P284
+   McPherson M, 2001, ANNU REV SOCIOL, V27, P415, DOI 10.1146/annurev.soc.27.1.415
+   Messerschmitt DG, 2003, SOFTWARE ECOSYSTEM: UNDERSTANDING AN INDISPENSABLE TECHNOLOGY AND INDUSTRY, P1
+   Michlmayr M, 2015, IEEE SOFTWARE, V32, P54
+   Miles M., 1997, NEW HDB ORG COMMUNIC
+   Mirantis, 2013, MIR REC 10 MILL INT
+   Mirantis, 2013, ER RED HAT SAP VENT
+   Mockus A, 2002, ACM T SOFTW ENG METH, V11, P309, DOI 10.1145/567793.567795
+   Mockus A., 2000, Proceedings of the 2000 International Conference on Software Engineering. ICSE 2000 the New Millennium, P263, DOI 10.1109/ICSE.2000.870417
+   Nalebuff B. J., 1996, COOPETITION
+   Newman MEJ, 2004, PHYS REV E, V69, DOI 10.1103/PhysRevE.69.026113
+   Newton T, 2001, ORGANIZATION, V8, P467, DOI 10.1177/135050840183002
+   Nick Bobo, 2013, 2013 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), P525
+   Nohria  N., 1994, NETWORKS ORG STRUCTU
+   O'Luanaigh C, 2014, IMPORTANCE OPENSTACK
+   OpenStack, 2015, OPENSTACK SPEC
+   OpenStack, 2014, ROADM OPENSTACK OP S
+   OpenStack, 2015, DEV TRAIN GUID OPENS
+   OpenStack, 2015, OPENSTACK DEV GUID
+   OpenStack Mirantis, 2014, OP COMM CONTR JUN RE
+   Osarenkhoe Aihie, 2010, Business Strategy Series, V11, P343, DOI 10.1108/17515631011093052
+   Park BJ, 2014, IND MARKET MANAG, V43, P210, DOI 10.1016/j.indmarman.2013.11.003
+   Piekkari R, 2008, CASE STUDY DISCIPLIN
+   Porter K., 2005, CLUSTER NETWORK INNO, V261, P296
+   R Core Team, 2014, R LANG ENV STAT COMP
+   Rackspace, 2010, RACKSP OP SOURC CLOU
+   Robles G, 2006, MINING LARGE SOFTWAR
+   Rogers E. M., 2010, DIFFUSION INNOVATION
+   Rossi B, 2009, INT FED INFO PROC, V299, P83
+   Ruhnau B, 2000, SOC NETWORKS, V22, P357, DOI 10.1016/S0378-8733(00)00031-9
+   Runeson P., 2012, CASE STUDY RES SOFTW
+   Runeson P, 2009, EMPIR SOFTW ENG, V14, P131, DOI 10.1007/s10664-008-9102-8
+   Scacchi W., 2006, Software Process Improvement and Practice, V11, P95, DOI 10.1002/spip.255
+   Scott J, 2012, SERIES
+   Scott J., 2012, SOCIAL NETWORK ANAL
+   Shihab E, 2012, INT SYMP EMP SOFTWAR, P301, DOI 10.1145/2372251.2372305
+   Shuttleworth M, 2014, UBUNTU IS LEADING OP
+   SjOberg DI, 2008, GUIDE ADV EMPIRICAL, P312, DOI DOI 10.1007/978-1-84800-044-5_12
+   Sjoberg DIK, 2002, 2002 INTERNATIONAL SYMPOSIUM ON EMPIRICAL SOFTWARE ENGINEERING, PROCEEDINGS, P17, DOI 10.1109/ISESE.2002.1166921
+   Stol KJ, 2015, SCI COMPUT PROGRAM, V101, P79, DOI 10.1016/j.scico.2014.11.010
+   Storey M-AD, 2005, P 2005 ACM S SOFTW V, P193, DOI DOI 10.1145/1056018.1056045
+   Teixeira J., 2014, P 52 ACM SIGMIS C CO
+   Teixeira J, 2014, SIGMIS-CPR'14: PROCEEDINGS OF THE 2014 CONFERENCE ON COMPUTERS AND PEOPLE RESEARCH, P121, DOI 10.1145/2599990.2600009
+   Tidstrom A, 2009, J BUS IND MARK, V24, P506, DOI 10.1108/08858620910986749
+   Vasilescu B, 2014, EMPIR SOFTW ENG, V19, P955, DOI 10.1007/s10664-013-9244-1
+   VMware, 2013, CAN VMWARE COLL EN O
+   Wasserman S., 1994, SOCIAL NETWORK ANAL, V8
+   Yilmaz M, 2011, ACM SIGSOFT SOFTW EN, V36, P1
+   Yin R. K., 2011, APPL CASE STUDY RES
+   ZACHARY WW, 1977, J ANTHROPOL RES, V33, P452, DOI 10.1086/jar.33.4.3629752
+   Zanetti MS, 2013, PROCEEDINGS OF THE 35TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING (ICSE 2013), P1032, DOI 10.1109/ICSE.2013.6606653
+NR 144
+TC 19
+Z9 19
+U1 4
+U2 43
+PU SPRINGERNATURE
+PI LONDON
+PA CAMPUS, 4 CRINAN ST, LONDON, N1 9XW, ENGLAND
+SN 1867-4828
+EI 1869-0238
+J9 J INTERNET SERV APPL
+JI J. Internet Serv. Applications
+PD JUL 24
+PY 2015
+VL 6
+AR 14
+DI 10.1186/s13174-015-0028-2
+PG 27
+WC Computer Science, Information Systems
+SC Computer Science
+GA CZ0LS
+UT WOS:000366797200001
+OA DOAJ Gold
+DA 2020-05-26
+ER
+
+PT J
+AU Loulloudes, N
+   Sofokleous, C
+   Trihinas, D
+   Dikaiakos, MD
+   Pallis, G
+AF Loulloudes, Nicholas
+   Sofokleous, Chrystalla
+   Trihinas, Demetris
+   Dikaiakos, Marios D.
+   Pallis, George
+TI Enabling Interoperable Cloud Application Management through an Open
+   Source Ecosystem
+SO IEEE INTERNET COMPUTING
+LA English
+DT Article
+AB Cloud computing enables on-demand provisioning of computing resources to IT solutions following a utility-based approach. In traditional public utilities, technology and standardization developments enable customers to seamlessly migrate across utility providers without being required to make changes to their home appliances. However, this is not the case with cloud computing, the so-called "fifth utility." Currently, cloud computing customers do not have at their disposal user-friendly tools and mechanisms that can preserve application deployments across different resource providers. Here, the authors present current efforts to develop an open source Cloud Application Management Framework (CAMF) based on the Eclipse Rich Client Platform. This framework facilitates cloud application lifecycle management in a vendor-neutral way.
+C1 [Loulloudes, Nicholas; Sofokleous, Chrystalla; Trihinas, Demetris] Univ Cyprus, CY-1678 Nicosia, Cyprus.
+   [Dikaiakos, Marios D.; Pallis, George] Univ Cyprus, Comp Sci, CY-1678 Nicosia, Cyprus.
+   [Dikaiakos, Marios D.] Univ Cyprus, Ctr Entrepreneurship, CY-1678 Nicosia, Cyprus.
+RP Loulloudes, N (reprint author), Univ Cyprus, CY-1678 Nicosia, Cyprus.
+EM loulloudes.n@cs.ucy.ac.cy; stalosof@cs.ucy.ac.cy; trihinas@cs.ucy.ac.cy;
+   mdd@cs.ucy.ac.cy; gpallis@cs.ucy.ac.cy
+OI Pallis, George/0000-0003-1815-5468
+FU European CommissionEuropean Commission Joint Research Centre [317790]
+FX This work was partially funded by the European Commission through the
+   CELAR FP7 project (contract number 317790). The authors would like to
+   acknowledge Athanasios Foudoulis and Demetris Antoniades for their
+   contributions to CAMF, and all members of the CELAR consortium for their
+   helpful feedback on this work.
+CR Binz T, 2013, LECT NOTES COMPUT SC, V8274, P692, DOI 10.1007/978-3-642-45005-1_62
+   Colville R.J., 2012, CLOUD MANAGEMENT PLA
+   Copil G, 2013, IEEE ACM INT SYMP, P112, DOI 10.1109/CCGrid.2013.42
+   Fehling C, 2014, IEEE INTERNET COMPUT, V18, P52, DOI 10.1109/MIC.2014.101
+   OASIS, 2013, OASIS TOSCA SPEC VER
+   Sofokleous C, 2014, LECT NOTES COMPUT SC, V8632, P38, DOI 10.1007/978-3-319-09873-9_4
+   Trihinas D, 2014, IEEE ACM INT SYMP, P226, DOI 10.1109/CCGrid.2014.41
+NR 7
+TC 8
+Z9 8
+U1 0
+U2 5
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA
+SN 1089-7801
+EI 1941-0131
+J9 IEEE INTERNET COMPUT
+JI IEEE Internet Comput.
+PD MAY-JUN
+PY 2015
+VL 19
+IS 3
+BP 54
+EP 59
+DI 10.1109/MIC.2015.60
+PG 6
+WC Computer Science, Software Engineering
+SC Computer Science
+GA CJ0ZG
+UT WOS:000355209600009
+OA Green Published
+DA 2020-05-26
+ER
+
+PT J
+AU Jansen, S
+AF Jansen, Slinger
+TI Measuring the health of open source software ecosystems: Beyond the
+   scope of project health
+SO INFORMATION AND SOFTWARE TECHNOLOGY
+LA English
+DT Article
+DE Software ecosystem health; Open source ecosystems; Software repository
+   mining
+AB Background: The livelihood of an open source ecosystem is important to different ecosystem participants: software developers, end-users, investors, and participants want to know whether their ecosystem is healthy and performing well. Currently, there exists no working operationalization available that can be used to determine the health of open source ecosystems. Health is typically looked at from a project scope, not from an ecosystem scope.
+   Objectives: With such an operationalization, stakeholders can make better decisions on whether to invest in an ecosystem: developers can select the healthiest ecosystem to join, keystone organizers can establish which governance techniques are effective, and end-users can select ecosystems that are robust, will live long, and prosper.
+   Method: Design research is used to create the health operationalization. The evaluation step is done using four ecosystem health projects from literature.
+   Results: The Open Source Ecosystem Health Operationalization is provided, which establishes the health of a complete software ecosystem, using the data from collections of open source projects that belong to the ecosystem.
+   Conclusion: The groundwork is done, by providing a summary of research challenges, for more research in ecosystem health. With the operationalization in hand, researchers no longer need to start from scratch when researching open source ecosystems' health. (C) 2014 Elsevier B.V. All rights reserved.
+C1 Univ Utrecht, Dept Informat & Comp Sci, NL-3508 TC Utrecht, Netherlands.
+RP Jansen, S (reprint author), Univ Utrecht, Dept Informat & Comp Sci, NL-3508 TC Utrecht, Netherlands.
+EM slinger.jansen@uu.nl
+RI Roijackers, Slinger/Y-4244-2019
+OI Roijackers, Slinger/0000-0003-3752-2868
+CR Baars A, 2012, LECT NOTES BUS INF P, V114, P168
+   Barbosa O, 2013, SOFTWARE ECOSYSTEMS: ANALYZING AND MANAGING BUSINESS NETWORKS IN THE SOFTWARE INDUSTRY, P59
+   Crowston K., 2006, Software Process Improvement and Practice, V11, P123, DOI 10.1002/spip.259
+   Crowston K., 2002, IEE Proceedings-Software, V149, P3, DOI 10.1049/ip-sen:20020197
+   Cusumano M., 2012, STAYING POWER 6 ENDU
+   den Hartigh E, 2013, SOFTWARE ECOSYSTEMS: ANALYZING AND MANAGING BUSINESS NETWORKS IN THE SOFTWARE INDUSTRY, P221
+   Dhungana D, 2013, SOFTWARE ECOSYSTEMS: ANALYZING AND MANAGING BUSINESS NETWORKS IN THE SOFTWARE INDUSTRY, P43
+   Gamalielsson J., 2010, P 2 INT WORKSH BUILD, P1
+   Gamalielsson J, 2010, IFIP ADV INF COMM TE, V319, P85
+   Goeminne M, 2013, SOFTWARE ECOSYSTEMS: ANALYZING AND MANAGING BUSINESS NETWORKS IN THE SOFTWARE INDUSTRY, P247
+   Gousios Georgios, 2013, 2013 10th IEEE Working Conference on Mining Software Repositories (MSR 2013), P233, DOI 10.1109/MSR.2013.6624034
+   Haenni N., 2013, P 1 WORKSH EC ARCH, P1
+   Hoving R, 2013, I C DIGIT ECOSYST TE, P13, DOI 10.1109/DEST.2013.6611322
+   Iansiti M, 2004, HARVARD BUS REV, V82, P68
+   Iansiti M., 2004, KEYSTONE ADVANTAGE W
+   Jansen S, 2013, SOFTWARE ECOSYSTEMS: ANALYZING AND MANAGING BUSINESS NETWORKS IN THE SOFTWARE INDUSTRY, P1, DOI 10.4337/9781781955635
+   Jansen S., 2009, 31 INT C SOFTW ENG N
+   Jansen S, 2012, J SYST SOFTWARE, V85, P1495, DOI 10.1016/j.jss.2011.12.007
+   Lakhani K., 2005, WHY HACKERS DO WHAT
+   Lingen S. van, 2013, P 5 WORKSH SOFTW EC
+   Lucassen G., 2013, P INT C SOFTW BUS
+   Lundell B., 2009, P 1 INT WORKSH BUILD
+   Lungu M., 2010, ASE, P309, DOI DOI 10.1145/1858996.1859058
+   Manikas K., 2013, P INT WORKSH SOFTW E
+   Manikas K., 2012, J SYST SOFTWARE, V85
+   Mens T, 2014, EVOLVING SOFTWARE SY, P297, DOI DOI 10.1007/978-3-642-45398-4_10
+   Syed S., 2013, P INT WORKSH SOFTW E
+   Waltl J, 2012, LECT NOTES BUS INF P, V114, P94
+   West J, 2013, ADV STRATEG MANAGE, V30, P27, DOI 10.1108/S0742-3322(2013)0000030005
+   Wiggins A, 2009, INT FED INFO PROC, V299, P94
+   Wynn D., 2007, EMERGING FREE OPEN S
+NR 31
+TC 41
+Z9 41
+U1 3
+U2 31
+PU ELSEVIER SCIENCE BV
+PI AMSTERDAM
+PA PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN 0950-5849
+EI 1873-6025
+J9 INFORM SOFTWARE TECH
+JI Inf. Softw. Technol.
+PD NOV
+PY 2014
+VL 56
+IS 11
+SI SI
+BP 1508
+EP 1519
+DI 10.1016/j.infsof.2014.04.006
+PG 12
+WC Computer Science, Information Systems; Computer Science, Software
+   Engineering
+SC Computer Science
+GA AO4ZD
+UT WOS:000341349000007
+DA 2020-05-26
+ER
+
+PT B
+AU Goeminne, M
+AF Goeminne, Mathieu
+BE Demeyer, S
+   Binkley, D
+   Ricca, F
+TI Understanding the Evolution of Socio-technical Aspects in Open Source
+   Ecosystems
+SO 2014 SOFTWARE EVOLUTION WEEK - IEEE CONFERENCE ON SOFTWARE MAINTENANCE,
+   REENGINEERING, AND REVERSE ENGINEERING (CSMR-WCRE)
+LA English
+DT Proceedings Paper
+CT Software Evolution Week / IEEE Conference on Software Maintenance,
+   Reengineering, and Reverse Engineering (CSMR-WCRE)
+CY FEB 03-06, 2014
+CL Antwerp, BELGIUM
+SP IEEE, IEEE Comp Soc, Tech Council Software Engn, Fnrs, FWO, Univ Antwerpen, Reengineering Forum
+AB Open source systems being related to each other may be grouped in bigger systems called software ecosystems. The goal of our PhD dissertation [4] was to understand the evolution of the social aspects in such ecosystems. More precisely, we studied how contributors to these ecosystems can be grouped in different communities that evolve and collaborate in different ways. In doing so, we provided evidence that contributors have specificities that are not taken into account by today's analysis tools. Becoming aware of these specificities opens up new research and practically relevant questions on how new automated tools can be designed and used to offer better support to the ecosystem's contributors in their activities.
+C1 Univ Mons, Dept Informat, B-7000 Mons, Belgium.
+RP Goeminne, M (reprint author), Univ Mons, Dept Informat, B-7000 Mons, Belgium.
+EM mathieu.goeminne@umons.ac.be
+CR Basili VR, 1994, ENCY SOFTWARE ENG
+   Brown BM, 2002, AUST NZ J STAT, V44, P427, DOI 10.1111/1467-842X.00244
+   German D. M., 2003, Software Process Improvement and Practice, V8, P201, DOI 10.1002/spip.189
+   Goeminne M, 2013, THESIS
+   Goeminne M., 2011, CSMR 2011 WORKSHOP O
+   Goeminne M., 2011, SCI COMPUT PROGRAM, V78, P971
+   Goeminne M., 2010, P JOINT ERCIM WORKSH, P42, DOI DOI 10.1145/1862372.1862384
+   Izquierdo-Cortazar D., OPEN SOURCE ECOSYSTE
+   Konietschke F, 2012, ELECTRON J STAT, V6, P738, DOI 10.1214/12-EJS691
+   Lungu M, 2010, SCI COMPUT PROGRAM, V75, P264, DOI 10.1016/j.scico.2009.09.004
+   Nakakoji K., 2002, P INT WORKSH PRINC S, P76, DOI DOI 10.1145/512035.512055
+   Robles G., 2004, "Second International Workshop on Remote Analysis and Measurement of Software Systems (RAMSS 04)" - W15S Workshop - 26th International Conference on Software Engineering, P51, DOI 10.1049/ic:20040351
+   Robles G, 2006, J SYST SOFTWARE, V79, P1233, DOI 10.1016/j.jss.2006.02.048
+   van Solingen R., 1999, GOAL QUESTION METRIC
+   Vasilescu B., 2013, EMPIR SOFTW ENG, P1
+NR 15
+TC 4
+Z9 4
+U1 0
+U2 2
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-1-4799-3752-3
+PY 2014
+BP 473
+EP +
+PG 2
+WC Computer Science, Software Engineering; Computer Science, Theory &
+   Methods
+SC Computer Science
+GA BC0NL
+UT WOS:000349240500068
+DA 2020-05-26
+ER
+
+PT B
+AU Fagerholm, F
+   Johnson, P
+   Guinea, AS
+   Borenstein, J
+   Munch, J
+AF Fagerholm, Fabian
+   Johnson, Patrik
+   Guinea, Alejandro Sanchez
+   Borenstein, Jay
+   Muench, Juergen
+GP IEEE
+TI Onboarding in Open Source Software Projects: A Preliminary Analysis
+SO 2013 IEEE 8TH INTERNATIONAL CONFERENCE ON GLOBAL SOFTWARE ENGINEERING
+   WORKSHOPS (ICGSEW 2013)
+LA English
+DT Proceedings Paper
+CT 8th IEEE International Conference on Global Software Engineering (ICGSE)
+CY AUG 26-29, 2013
+CL Univ Bari, Bari, ITALY
+SP IEEE, ADP, HP, AMT Serrv, IEEE Comp Soc, Exprivia, Siemens, Olivetti, Software Engn & Res & Practices
+HO Univ Bari
+DE onboarding; open source software projects; virtual teams; mentoring;
+   global software development; distributed software development; case
+   study
+ID ORGANIZATION; INNOVATION; TEAMS
+AB Nowadays, many software projects are partially or completely open-source based. There is an increasing need for companies to participate in open-source software (OSS) projects, e. g., in order to benefit from open source ecosystems. OSS projects introduce particular challenges that have to be understood in order to gain the benefits. One such challenge is getting newcomers onboard into the projects effectively. Similar challenges may be present in other self-organised, virtual team environments. In this paper we present preliminary observations and results of in-progress research that studies the process of onboarding into virtual OSS teams. The study is based on a program created and conceived at Stanford University in conjunction with Facebook's Education Modernization program. It involves the collaboration of more than a dozen international universities and nine open source projects. More than 120 students participated in 2013. The students have been introduced to and supported by mentors experienced in the participating OSS projects. Our findings indicate that mentoring is an important factor for effective onboarding in OSS projects, promoting cohesion within distributed teams and maintaining an appropriate pace.
+C1 [Fagerholm, Fabian; Johnson, Patrik; Guinea, Alejandro Sanchez; Muench, Juergen] Univ Helsinki, Dept Comp Sci, POB 68 Gustaf Hallstromin Katu 2b, FI-00014 Helsinki, Finland.
+   [Borenstein, Jay] Stanford Univ, Dept Comp Sci, Stanford, CA 94305 USA.
+   [Borenstein, Jay] Facebook, Menlo Pk, CA 94025 USA.
+RP Fagerholm, F (reprint author), Univ Helsinki, Dept Comp Sci, POB 68 Gustaf Hallstromin Katu 2b, FI-00014 Helsinki, Finland.
+EM fabian.fagerholm@cs.helsinki.fi; patrik.johnson@cs.helsinki.fi;
+   alejandro.guinea@cs.helsinki.fi; borenstein@cs.stanford.edu;
+   jurgen.munch@cs.helsinki.fi
+RI Fagerholm, Fabian/B-1952-2015
+OI Fagerholm, Fabian/0000-0002-7298-3021; Munch, Jurgen/0000-0003-0327-8094
+CR Abrahamsson P., 2010, P 11 INT C PROD FOC, P112
+   BASILI VR, 1984, IEEE T SOFTWARE ENG, V10, P728, DOI 10.1109/TSE.1984.5010301
+   Bauer T. N., 2011, ORG SOCIALIZATION EF
+   Begel A, 2008, SIGCSE'08: PROCEEDINGS OF THE 39TH ACM TECHNICAL SYMPOSIUM ON COMPUTER SCIENCE EDUCATION, P226, DOI 10.1145/1352322.1352218
+   BRIAND LC, 1996, [No title captured], V2, P253
+   Camara G, 2007, J AM SOC INF SCI TEC, V58, P121, DOI 10.1002/asi.20444
+   Crowston K., 2008, ACM COMPUTING SURVEY, V44, P7
+   Crowston K, 2007, INFORM SOFTWARE TECH, V49, P564, DOI 10.1016/j.infsof.2007.02.004
+   Fagerholm F., 2013, COLLABORATIVE TEACHI
+   FRITZ T, 2010, [No title captured], V1, P385, DOI DOI 10.1145/1806799.1806856
+   Github Inc., US PULL REQ
+   Hemphill L., NOT SEEN NOT HEARD O
+   Li M., 2004, INFORM TECHNOLOGIES, V2, P45, DOI [10.1162/1544752044193470, DOI 10.1162/1544752044193470]
+   Martins LL, 2004, J MANAGE, V30, P805, DOI 10.1016/j.jm.2004.05.002
+   MATUSOW J, 2005, P 1 INT C OP SOURC S, P263
+   meihua Zhou, 2010, P 18 ACM SIGSOFT INT, P137
+   Sim SE, 1998, PROC INT CONF SOFTW, P361, DOI 10.1109/ICSE.1998.671389
+   von Hippel E, 2003, ORGAN SCI, V14, P209, DOI 10.1287/orsc.14.2.209.14992
+   von Krogh G, 2003, RES POLICY, V32, P1217, DOI 10.1016/S0048-7333(03)00050-7
+   Wang JG, 2011, PROCEEDINGS OF THE 4TH INTERNATIONAL WORKSHOP ON COOPERATIVE AND HUMAN ASPECTS OF SOFTWARE ENGINEERING (CHASE'11), P76
+   Watson RT, 2008, COMMUN ACM, V51, P41, DOI 10.1145/1330311.1330321
+   Yin R., 2009, CASE STUDY RES DESIG
+NR 22
+TC 10
+Z9 10
+U1 0
+U2 3
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-0-7695-5055-8
+PY 2013
+BP 5
+EP 10
+DI 10.1109/ICGSEW.2013.8
+PG 6
+WC Computer Science, Software Engineering; Engineering, Electrical &
+   Electronic
+SC Computer Science; Engineering
+GA BA2OV
+UT WOS:000333745200002
+DA 2020-05-26
+ER
+
+PT J
+AU Kilamo, T
+   Hammouda, I
+   Mikkonen, T
+   Aaltonen, T
+AF Kilamo, Terhi
+   Hammouda, Imed
+   Mikkonen, Tommi
+   Aaltonen, Timo
+TI From proprietary to open source-Growing an open source ecosystem
+SO JOURNAL OF SYSTEMS AND SOFTWARE
+LA English
+DT Article
+DE Open source; Software ecosystem; Opening proprietary software; Open
+   source engineering
+ID SOFTWARE
+AB In today's business and software arena. Free/Libre/Open Source Software has emerged as a promising platform for software ecosystems. Following this trend, more and more companies are releasing their proprietary software as open source, forming a software ecosystem of related development projects complemented with a social ecosystem of community members. Since the trend is relatively recent, there are few guidelines on how to create and maintain a sustainable open source ecosystem for a proprietary software. This paper studies the problem of building open source communities for industrial software that was originally developed as closed source. Supporting processes, guidelines and best practices are discussed and illustrated through an industrial case study. The research is paving the road for new directions in growing a thriving open source ecosystem. (c) 2011 Elsevier Inc. All rights reserved.
+C1 [Kilamo, Terhi; Hammouda, Imed; Mikkonen, Tommi; Aaltonen, Timo] Fac Comp & Elect Engn, Dept Software Syst, FI-33101 Tampere, Finland.
+RP Kilamo, T (reprint author), Fac Comp & Elect Engn, Dept Software Syst, Tietotalo Bldg,Korkeakoulunkatu 1, FI-33101 Tampere, Finland.
+EM Terhi.Kilamo@tut.fi; Imed.Hammouda@tut.fi; Tommi.Mikkonen@tut.fi;
+   timo.ta.aaltonen@nokia.com
+CR Avison D, 1999, COMMUN ACM, V42, P94, DOI 10.1145/291469.291479
+   Bosch J., 2009, P 13 INT SOFTW PROD, P111, DOI DOI 10.1145/1753235.1753251
+   Capiluppi A, 2007, INT FED INFO PROC, V234, P31
+   den Hartigh E., 2006, ECCON 2006 ANN M ORG
+   FOGEL KF, 2005, [No title captured]
+   Gloor P.A., 2006, SWARM CREATIVITY COM
+   Golden B., 2004, SUCCEEDING OPEN SOUR
+   Gronroos M., 2009, BOOK VAADIN VAADIN 6
+   Iansiti M., 2002, KEYSTONES DOMINATORS
+   Jansen S, 2009, PROC INT CONF SOFTW, P187, DOI 10.1109/ICSE-COMPANION.2009.5070978
+   Kilamo T., 2010, IFIP ADV INFORM COMM
+   Kilamo T, 2010, IFIP ADV INF COMM TE, V319, P143
+   Lundell B., 2009, P OSCOMM 2009 SWED
+   Messerschmitt D.G., 2003, SOFTWARE ECOSYSTEM U
+   Nakakoji K., 2002, P INT WORKSH PRINC S, P76, DOI DOI 10.1145/512035.512055
+   Preece J., 2000, ONLINE COMMUNITIES D
+   RAYMOND ES, 1999, [No title captured]
+   Senyard A, 2004, 11TH ASIA-PACIFIC SOFTWARE ENGINEERING CONFERENCE, PROCEEDINGS, P84, DOI 10.1109/APSEC.2004.58
+   Shah F. R., 2009, P OSCOMM 2009 WORKSH
+   Sirkkala P., 2008, P SOSEA 2008, P25
+   Sirkkala P, 2009, INT FED INFO PROC, V299, P57
+   Sturmer M., 2005, OPEN SOURCE COMMUNIT
+   van den Berk I., 2010, ECSA 10 P 4 EUR C SO
+   Walton C., 2002, IIIA COMMUNICATIONS
+NR 24
+TC 27
+Z9 27
+U1 0
+U2 22
+PU ELSEVIER SCIENCE INC
+PI NEW YORK
+PA 360 PARK AVE SOUTH, NEW YORK, NY 10010-1710 USA
+SN 0164-1212
+EI 1873-1228
+J9 J SYST SOFTWARE
+JI J. Syst. Softw.
+PD JUL
+PY 2012
+VL 85
+IS 7
+BP 1467
+EP 1478
+DI 10.1016/j.jss.2011.06.071
+PG 12
+WC Computer Science, Software Engineering; Computer Science, Theory &
+   Methods
+SC Computer Science
+GA 951LO
+UT WOS:000304722300003
+DA 2020-05-26
+ER
+
+PT S
+AU Gamalielsson, J
+   Lundell, B
+   Lings, B
+AF Gamalielsson, Jonas
+   Lundell, Bjorn
+   Lings, Brian
+BE Agerfalk, P
+   Boldyreff, C
+   GonzalezBarahona, JM
+   Madey, GR
+   Noll, J
+TI The Nagios Community: An Extended Quantitative Analysis
+SO OPEN SOURCE SOFTWARE: NEW HORIZONS
+SE IFIP Advances in Information and Communication Technology
+LA English
+DT Proceedings Paper
+CT 6th International Conference on Open Source Systems (OSS 2010)
+CY MAY 30-JUN 02, 2010
+CL Notre Dame, IN
+SP Int Federat Informat Proc Work Grp 2 13
+ID SOFTWARE
+AB The health of an Open Source ecosystem is an important decision factor when considering the adoption of an Open Source software or when monitoring a seeded Open Source project. In this paper we assess the ecosystem health using approaches involving domain analysis and social network analysis of mailing lists for the Nagios project. We elaborate approaches for how involvement of different roles can be analysed through quantitative analysis, specifically focusing on core developers and professional providers. Our contribution is a step towards a deeper understanding of professional involvement in professional Open Source ecosystems.
+C1 [Gamalielsson, Jonas; Lundell, Bjorn; Lings, Brian] Univ Skovde, Skovde, Sweden.
+RP Gamalielsson, J (reprint author), Univ Skovde, Skovde, Sweden.
+EM jonas.gamalielsson@his.se; bjorn.lundell@his.se; brian.lings@his.se
+CR Capra E, 2009, INT FED INFO PROC, V299, P225
+   Crowston K, 2006, COMPUTER, V39, P89, DOI 10.1109/MC.2006.152
+   Crowston K., 2005, 1 MONDAY, V10
+   Crowston K., 2006, P 39 HAW INT C SYST
+   FITZGERALD B, 2006, [No title captured], V30
+   Gamalielsson J., 2009, OP SOURC WORKSH OSW
+   German D., 2004, SOFTWARE PROCESS IMP, V8, P201
+   Ghosh R.A, 2006, STUDY EC IMPACT OPEN
+   Kamei Y, 2008, INT FED INFO PROC, V275, P81
+   Lopez-Fernandez L, 2006, INT J INF TECHNOL WE, V1, P27, DOI 10.4018/jitwe.2006070103
+   Lundell B., 2009, OPENMIND 2009 TAMP F
+   Lundell B., 2009, 1 INT WORKSH BUILD S
+   Martinez-Romo J, 2008, INT FED INFO PROC, V275, P171
+   Mockus A, 2002, ACM T SOFTW ENG METH, V11, P309, DOI 10.1145/567793.567795
+   Moon Y.J., 2000, 1 MONDAY, V5
+   O'Reilly T, 1999, 10 MYTHS OPEN SOURCE
+   Toland C, 2007, J DIGIT IMAGING, V20, P119, DOI 10.1007/s10278-007-9063-2
+   van der Hinden F, 2009, IEEE SOFTWARE, V26, P77, DOI 10.1109/MS.2009.88
+   WATSON RT, 2005, [No title captured], V4, P329
+NR 19
+TC 9
+Z9 9
+U1 0
+U2 2
+PU SPRINGER-VERLAG BERLIN
+PI BERLIN
+PA HEIDELBERGER PLATZ 3, D-14197 BERLIN, GERMANY
+SN 1868-4238
+EI 1868-422X
+BN 978-3-642-13243-8
+J9 IFIP ADV INF COMM TE
+PY 2010
+VL 319
+BP 85
+EP 96
+PG 12
+WC Computer Science, Information Systems; Computer Science, Software
+   Engineering
+SC Computer Science
+GA BBA57
+UT WOS:000306295800007
+DA 2020-05-26
+ER
+
+PT J
+AU Thomas, D
+   Hunt, A
+AF Thomas, D
+   Hunt, A
+TI Open source ecosystems
+SO IEEE SOFTWARE
+LA English
+DT Article
+NR 0
+TC 14
+Z9 14
+U1 0
+U2 0
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA
+SN 0740-7459
+J9 IEEE SOFTWARE
+JI IEEE Softw.
+PD JUL-AUG
+PY 2004
+VL 21
+IS 4
+BP 89
+EP 91
+DI 10.1109/MS.2004.24
+PG 3
+WC Computer Science, Software Engineering
+SC Computer Science
+GA 832RB
+UT WOS:000222283500019
+DA 2020-05-26
+ER
+
+EF
